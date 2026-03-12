@@ -1,0 +1,284 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <CubeBlocks>
+
+        <Definition xsi:type="MyObjectBuilder_RadioAntennaDefinition">
+            <Id>
+                <TypeId>RadioAntenna</TypeId>
+                <SubtypeId>LargeBlockCompactRadioAntenna</SubtypeId>
+            </Id>
+        <Components>
+                <Component Subtype="SteelPlate" Count="60">
+                    <DeconstructId>                
+                        <TypeId>Ore</TypeId>
+                        <SubtypeId>SteelPlateScrap</SubtypeId>
+                    </DeconstructId>
+                </Component>
+                <Component Subtype="LargeTube" Count="30">
+                    <DeconstructId>                
+                        <TypeId>Ore</TypeId>
+                        <SubtypeId>LargeTubeScrap</SubtypeId>
+                    </DeconstructId>
+                </Component>  
+                <Component Subtype="Construction" Count="30">
+                    <DeconstructId>                
+                        <TypeId>Ore</TypeId>
+                        <SubtypeId>ConstructionScrap</SubtypeId>
+                    </DeconstructId>
+                </Component>
+                <Component Subtype="CopperWire" Count="20">
+                    <DeconstructId>                
+                        <TypeId>Ore</TypeId>
+                        <SubtypeId>CopperWireScrap</SubtypeId>
+                    </DeconstructId>
+                </Component>                  
+                <Component Subtype="Computer" Count="10">
+                    <DeconstructId>                
+                        <TypeId>Ore</TypeId>
+                        <SubtypeId>ComputerScrap</SubtypeId>
+                    </DeconstructId>
+                </Component>  
+                <Component Subtype="AdvancedComputer" Count="20">
+                    <DeconstructId>                
+                        <TypeId>Ore</TypeId>
+                        <SubtypeId>AdvancedComputerScrap</SubtypeId>
+                    </DeconstructId>
+                </Component>
+                <Component Subtype="RadioCommunication" Count="40">
+                    <DeconstructId>                
+                        <TypeId>Ore</TypeId>
+                        <SubtypeId>RadioCommunicationScrap</SubtypeId>
+                    </DeconstructId>
+                </Component>                 
+                <Component Subtype="SteelPlate" Count="20">
+                    <DeconstructId>                
+                        <TypeId>Ore</TypeId>
+                        <SubtypeId>SteelPlateScrap</SubtypeId>
+                    </DeconstructId>
+                </Component>                                  
+            </Components>
+                <CriticalComponent Subtype="RadioCommunication" Index="0" />      
+        </Definition>
+
+        <Definition xsi:type="MyObjectBuilder_RadioAntennaDefinition">
+            <Id>
+                <TypeId>RadioAntenna</TypeId>
+                <SubtypeId>LargeBlockRadioAntenna</SubtypeId>
+            </Id>
+            <Components>
+                <Component Subtype="SteelPlate" Count="60">
+                    <DeconstructId>                
+                        <TypeId>Ore</TypeId>
+                        <SubtypeId>SteelPlateScrap</SubtypeId>
+                    </DeconstructId>
+                </Component>
+                <Component Subtype="LargeTube" Count="30">
+                    <DeconstructId>                
+                        <TypeId>Ore</TypeId>
+                        <SubtypeId>LargeTubeScrap</SubtypeId>
+                    </DeconstructId>
+                </Component>
+                <Component Subtype="Construction" Count="30">
+                    <DeconstructId>                
+                        <TypeId>Ore</TypeId>
+                        <SubtypeId>ConstructionScrap</SubtypeId>
+                    </DeconstructId>
+                </Component>
+                <Component Subtype="CopperWire" Count="20">
+                    <DeconstructId>                
+                        <TypeId>Ore</TypeId>
+                        <SubtypeId>CopperWireScrap</SubtypeId>
+                    </DeconstructId>
+                </Component>
+	            <Component Subtype="Computer" Count="10">
+                    <DeconstructId>                
+                        <TypeId>Ore</TypeId>
+                        <SubtypeId>ComputerScrap</SubtypeId>
+                    </DeconstructId>
+                </Component>
+                <Component Subtype="AdvancedComputer" Count="20">
+                    <DeconstructId>                
+                        <TypeId>Ore</TypeId>
+                        <SubtypeId>AdvancedComputerScrap</SubtypeId>
+                    </DeconstructId>
+                </Component>
+                <Component Subtype="RadioCommunication" Count="40">
+                    <DeconstructId>                
+                        <TypeId>Ore</TypeId>
+                        <SubtypeId>RadioCommunicationScrap</SubtypeId>
+                    </DeconstructId>
+                </Component>
+                <Component Subtype="SteelPlate" Count="20">
+                    <DeconstructId>                
+                        <TypeId>Ore</TypeId>
+                        <SubtypeId>SteelPlateScrap</SubtypeId>
+                    </DeconstructId>
+                </Component>
+            </Components>
+            <CriticalComponent Subtype="RadioCommunication" Index="0" />
+        </Definition>
+
+        <Definition xsi:type="MyObjectBuilder_BeaconDefinition">
+            <Id>
+                <TypeId>Beacon</TypeId>
+                <SubtypeId>LargeBlockBeacon</SubtypeId>
+            </Id>
+            <Components>
+                <Component Subtype="SteelPlate" Count="60">
+                    <DeconstructId>                
+                        <TypeId>Ore</TypeId>
+                        <SubtypeId>SteelPlateScrap</SubtypeId>
+                    </DeconstructId>
+                </Component>
+                <Component Subtype="LargeTube" Count="30">
+                    <DeconstructId>                
+                        <TypeId>Ore</TypeId>
+                        <SubtypeId>LargeTubeScrap</SubtypeId>
+                    </DeconstructId>
+                </Component>
+                <Component Subtype="Construction" Count="30">
+                    <DeconstructId>                
+                        <TypeId>Ore</TypeId>
+                        <SubtypeId>ConstructionScrap</SubtypeId>
+                    </DeconstructId>
+                </Component>
+                <Component Subtype="CopperWire" Count="20">
+                    <DeconstructId>                
+                        <TypeId>Ore</TypeId>
+                        <SubtypeId>CopperWireScrap</SubtypeId>
+                    </DeconstructId>
+                </Component>
+	            <Component Subtype="Computer" Count="10">
+                    <DeconstructId>                
+                        <TypeId>Ore</TypeId>
+                        <SubtypeId>ComputerScrap</SubtypeId>
+                    </DeconstructId>
+                </Component>
+                <Component Subtype="AdvancedComputer" Count="20">
+                    <DeconstructId>                
+                        <TypeId>Ore</TypeId>
+                        <SubtypeId>AdvancedComputerScrap</SubtypeId>
+                    </DeconstructId>
+                </Component>
+                <Component Subtype="RadioCommunication" Count="8">
+                    <DeconstructId>                
+                        <TypeId>Ore</TypeId>
+                        <SubtypeId>RadioCommunicationScrap</SubtypeId>
+                    </DeconstructId>
+                </Component>              
+                <Component Subtype="Lightbulb" Count="40">
+                    <DeconstructId>                
+                        <TypeId>Ore</TypeId>
+                        <SubtypeId>LightbulbScrap</SubtypeId>
+                    </DeconstructId>
+                </Component>
+                <Component Subtype="SteelPlate" Count="20">
+                    <DeconstructId>                
+                        <TypeId>Ore</TypeId>
+                        <SubtypeId>SteelPlateScrap</SubtypeId>
+                    </DeconstructId>
+                </Component>
+            </Components>
+            <CriticalComponent Subtype="Lightbulb" Index="0" />
+        </Definition>
+
+        <Definition xsi:type="MyObjectBuilder_BeaconDefinition">
+            <Id>
+                <TypeId>Beacon</TypeId>
+                <SubtypeId>SmallBlockBeacon</SubtypeId>
+            </Id>
+            <Components>
+                <Component Subtype="SteelPlate" Count="1">
+                    <DeconstructId>                
+                        <TypeId>Ore</TypeId>
+                        <SubtypeId>SteelPlateScrap</SubtypeId>
+                    </DeconstructId>
+                </Component>
+                <Component Subtype="Construction" Count="1">
+                    <DeconstructId>                
+                        <TypeId>Ore</TypeId>
+                        <SubtypeId>ConstructionScrap</SubtypeId>
+                    </DeconstructId>
+                </Component>
+                <Component Subtype="CopperWire" Count="4">
+                    <DeconstructId>                
+                        <TypeId>Ore</TypeId>
+                        <SubtypeId>CopperWireScrap</SubtypeId>
+                    </DeconstructId>
+                </Component>
+	            <Component Subtype="Computer" Count="2">
+                    <DeconstructId>                
+                        <TypeId>Ore</TypeId>
+                        <SubtypeId>ComputerScrap</SubtypeId>
+                    </DeconstructId>
+                </Component>
+                <Component Subtype="RadioCommunication" Count="1">
+                    <DeconstructId>                
+                        <TypeId>Ore</TypeId>
+                        <SubtypeId>RadioCommunicationScrap</SubtypeId>
+                    </DeconstructId>
+                </Component>               
+                <Component Subtype="Lightbulb" Count="2">
+                    <DeconstructId>                
+                        <TypeId>Ore</TypeId>
+                        <SubtypeId>LightbulbScrap</SubtypeId>
+                    </DeconstructId>
+                </Component>
+                <Component Subtype="SteelPlate" Count="1">
+                    <DeconstructId>                
+                        <TypeId>Ore</TypeId>
+                        <SubtypeId>SteelPlateScrap</SubtypeId>
+                    </DeconstructId>
+                </Component>
+            </Components>
+            <CriticalComponent Subtype="Lightbulb" Index="0" />
+        </Definition>
+
+        <Definition xsi:type="MyObjectBuilder_RadioAntennaDefinition">
+            <Id>
+                <TypeId>RadioAntenna</TypeId>
+                <SubtypeId>SmallBlockRadioAntenna</SubtypeId>
+            </Id>
+            <Components>
+                <Component Subtype="SteelPlate" Count="1">
+                    <DeconstructId>                
+                        <TypeId>Ore</TypeId>
+                        <SubtypeId>SteelPlateScrap</SubtypeId>
+                    </DeconstructId>
+                </Component>
+                <Component Subtype="Construction" Count="1">
+                    <DeconstructId>                
+                        <TypeId>Ore</TypeId>
+                        <SubtypeId>ConstructionScrap</SubtypeId>
+                    </DeconstructId>
+                </Component>
+                <Component Subtype="CopperWire" Count="4">
+                    <DeconstructId>                
+                        <TypeId>Ore</TypeId>
+                        <SubtypeId>CopperWireScrap</SubtypeId>
+                    </DeconstructId>
+                </Component>
+	            <Component Subtype="Computer" Count="2">
+                    <DeconstructId>                
+                        <TypeId>Ore</TypeId>
+                        <SubtypeId>ComputerScrap</SubtypeId>
+                    </DeconstructId>
+                </Component>
+                <Component Subtype="RadioCommunication" Count="1">
+                    <DeconstructId>                
+                        <TypeId>Ore</TypeId>
+                        <SubtypeId>RadioCommunicationScrap</SubtypeId>
+                    </DeconstructId>
+                </Component>
+                <Component Subtype="SteelPlate" Count="1">
+                    <DeconstructId>                
+                        <TypeId>Ore</TypeId>
+                        <SubtypeId>SteelPlateScrap</SubtypeId>
+                    </DeconstructId>
+                </Component>
+            </Components>
+            <CriticalComponent Subtype="RadioCommunication" Index="0" />
+        </Definition>            
+            
+    </CubeBlocks> 
+</Definitions>

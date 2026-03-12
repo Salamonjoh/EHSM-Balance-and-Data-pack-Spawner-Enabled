@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <CubeBlocks>
+
+    <Definition>
+        <Id>
+            <TypeId>Ladder2</TypeId>
+            <SubtypeId />
+        </Id>
+        <Components>
+            <Component Subtype="SteelPlate" Count="10">
+                <DeconstructId>                
+                    <TypeId>Ore</TypeId>
+                    <SubtypeId>SteelPlateScrap</SubtypeId>
+                </DeconstructId>
+            </Component>
+            <Component Subtype="Construction" Count="10">
+                <DeconstructId>                
+                    <TypeId>Ore</TypeId>
+                    <SubtypeId>ConstructionScrap</SubtypeId>
+                </DeconstructId>
+            </Component>
+            <Component Subtype="SmallTube" Count="10">
+                <DeconstructId>                
+                    <TypeId>Ore</TypeId>
+                    <SubtypeId>SmallTubeScrap</SubtypeId>
+                </DeconstructId>
+            </Component>
+            <Component Subtype="Construction" Count="10">
+                <DeconstructId>                
+                    <TypeId>Ore</TypeId>
+                    <SubtypeId>ConstructionScrap</SubtypeId>
+                </DeconstructId>
+            </Component>
+        </Components>
+        <CriticalComponent Subtype="SmallTube" Index="0" />
+    </Definition>
+
+    <Definition>
+        <Id>
+            <TypeId>Ladder2</TypeId>
+            <SubtypeId>LadderShaft</SubtypeId>
+        </Id>
+        <Components>
+            <Component Subtype="InteriorPlate" Count="80">
+                <DeconstructId>                
+                    <TypeId>Ore</TypeId>
+                    <SubtypeId>InteriorPlateScrap</SubtypeId>
+                </DeconstructId>
+            </Component>
+            <Component Subtype="SteelPlate" Count="10">
+                <DeconstructId>                
+                    <TypeId>Ore</TypeId>
+                    <SubtypeId>SteelPlateScrap</SubtypeId>
+                </DeconstructId>
+            </Component>
+            <Component Subtype="Construction" Count="30">
+                <DeconstructId>                
+                    <TypeId>Ore</TypeId>
+                    <SubtypeId>ConstructionScrap</SubtypeId>
+                </DeconstructId>
+            </Component>
+            <Component Subtype="SmallTube" Count="50">
+                <DeconstructId>                
+                    <TypeId>Ore</TypeId>
+                    <SubtypeId>SmallTubeScrap</SubtypeId>
+                </DeconstructId>
+            </Component>
+            <Component Subtype="Construction" Count="10">
+                <DeconstructId>                
+                    <TypeId>Ore</TypeId>
+                    <SubtypeId>ConstructionScrap</SubtypeId>
+                </DeconstructId>
+            </Component>
+        </Components>
+        <CriticalComponent Subtype="SmallTube" Index="0" />
+    </Definition>
+
+    <Definition>
+        <Id>
+            <TypeId>Ladder2</TypeId>
+            <SubtypeId>LadderSmall</SubtypeId>
+        </Id>
+        <Components>
+            <Component Subtype="SteelPlate" Count="10">
+                <DeconstructId>                
+                    <TypeId>Ore</TypeId>
+                    <SubtypeId>SteelPlateScrap</SubtypeId>
+                </DeconstructId>
+            </Component>
+            <Component Subtype="Construction" Count="10">
+                <DeconstructId>                
+                    <TypeId>Ore</TypeId>
+                    <SubtypeId>ConstructionScrap</SubtypeId>
+                </DeconstructId>
+            </Component>
+            <Component Subtype="SmallTube" Count="10">
+                <DeconstructId>                
+                    <TypeId>Ore</TypeId>
+                    <SubtypeId>SmallTubeScrap</SubtypeId>
+                </DeconstructId>
+            </Component>
+            <Component Subtype="Construction" Count="10">
+                <DeconstructId>                
+                    <TypeId>Ore</TypeId>
+                    <SubtypeId>ConstructionScrap</SubtypeId>
+                </DeconstructId>
+            </Component>
+        </Components>
+        <CriticalComponent Subtype="SmallTube" Index="0" />
+    </Definition>
+
+    </CubeBlocks>
+</Definitions>

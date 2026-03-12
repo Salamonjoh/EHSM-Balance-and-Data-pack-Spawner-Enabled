@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <CubeBlocks>
+
+    <Definition xsi:type="MyObjectBuilder_AssemblerDefinition">
+      <Id>
+        <TypeId>Assembler</TypeId>
+        <SubtypeId>LaserAssembler</SubtypeId>
+      </Id>
+      <DisplayName>Laser Assembler</DisplayName>
+      <Description>Assembles basic components together to produce more complex items.
+	  Produces Medical and Radiaion Kits, Comms and Medical Components, Acid Power Cells, Motors, Thrust Catalysts, Solar Cells, Capacitors, and Cryocoolers. Uses Ruby Laser technology to run 3x faster.
+	  Power Usage: 3MW</Description>
+    </Definition>
+
+    <Definition xsi:type="MyObjectBuilder_AssemblerDefinition">
+      <Id>
+        <TypeId>Assembler</TypeId>
+        <SubtypeId>LaserAdvancedAssembler</SubtypeId>
+      </Id>
+      <DisplayName>Laser Advanced Assembler</DisplayName>
+      <Description>Advanced assembling machinery, capable of producing more intricate and compact components.
+	  Produces Laser Emitters, Lithium Power Cells, Nucleators, Advanced Motors, Reactor Components, Superconducting Magnets, Tokamak Blanket Plates, and Vacuum Cells. Uses Ruby Laser technology to run 3x faster.
+	  Power Usage: 8MW</Description>
+    </Definition>
+
+    <Definition xsi:type="MyObjectBuilder_AssemblerDefinition">
+      <Id>
+        <TypeId>Assembler</TypeId>
+        <SubtypeId>SiliconFuser2</SubtypeId>
+      </Id>
+      <DisplayName>Mk2 Ceramics Furnace</DisplayName>
+      <Description>Melts materials together to make Glass, Ceramics, and runs hot enough to make Carbon Fiber Strands. Uses Topaz technology to run 3x faster.
+	  Power Usage: 7MW</Description>
+    </Definition>   
+
+    <Definition xsi:type="MyObjectBuilder_AssemblerDefinition">
+      <Id>
+        <TypeId>Assembler</TypeId>
+        <SubtypeId>LaserMicroelectronicsFactory</SubtypeId>
+      </Id>
+      <DisplayName>Laser Microelectronics Factory</DisplayName>
+      <Description>Advanced production machinery for delicate electronic components.
+	  Produces Basic and Advanced Computers, Thermocouples, Sensor Clusters, Hacking Chips, and Displays. Uses Garnet Microlaser technology to run 3x faster.
+	  Power Usage: 4MW</Description>
+    </Definition>	
+
+    <Definition xsi:type="MyObjectBuilder_AssemblerDefinition">
+      <Id>
+        <TypeId>Assembler</TypeId>
+        <SubtypeId>LaserFabricator</SubtypeId>
+      </Id>
+      <DisplayName>Laser Fabricator</DisplayName>
+      <Description>Automated production of basic components.
+	  Produces Basic Computers, Construction Components, Metal Grids, Electromagnets, Heating Elements, Lightbulbs, Powerkits, and Alkaline Power Cells. Uses Ruby Laser technology to run 3x faster.
+	  Power Usage: 2MW</Description>
+    </Definition>	
+
+    <Definition xsi:type="MyObjectBuilder_AssemblerDefinition">
+      <Id>
+        <TypeId>Assembler</TypeId>
+        <SubtypeId>HeavyPlateStamp</SubtypeId>
+      </Id>
+      <DisplayName>Heavy Plate Stamp</DisplayName>
+      <Description>Presses materials into Plates. Uses Sapphire tech and a Titanium ram to run 3x faster
+	  Power Usage: 3MW</Description>
+    </Definition>	
+
+    <Definition xsi:type="MyObjectBuilder_AssemblerDefinition">
+      <Id>
+        <TypeId>Assembler</TypeId>
+        <SubtypeId>PolymerFactory2</SubtypeId>
+      </Id>
+      <DisplayName>Mk2 Synthetics Factory</DisplayName>
+      <Description>Produces Epoxy, PAN, Synthetic Polymer, processes Polymers into useful forms, and mixes Asphalt. Uses Topaz technology to run 3x faster.
+	  Power Usage: 10MW</Description>
+    </Definition>
+
+    <Definition xsi:type="MyObjectBuilder_AssemblerDefinition">
+      <Id>
+        <TypeId>Assembler</TypeId>
+        <SubtypeId>LaserWireDrawer</SubtypeId>
+      </Id>
+      <DisplayName>Laser Wire Drawer</DisplayName>
+      <Description>Draws and insulates Wire of various types. Uses Ruby Laser technology and inductive cooling to run 3x faster
+	  Power Usage: 3MW</Description>
+    </Definition>
+
+    <Definition xsi:type="MyObjectBuilder_AssemblerDefinition">
+      <Id>
+        <TypeId>Assembler</TypeId>
+        <SubtypeId>LaserExtruder</SubtypeId>
+      </Id>
+      <DisplayName>Laser Extruder</DisplayName>
+      <Description>Forms Tubes and Girders using high-power direct lasers to melt metals and forcefully form them to shapes. Uses Ruby Laser technology to run 3x faster.
+	  Power Usage: 3MW</Description>
+    </Definition>    
+
+    <Definition xsi:type="MyObjectBuilder_AssemblerDefinition">
+      <Id>
+        <TypeId>Assembler</TypeId>
+        <SubtypeId>HeavyMunitionsFactory</SubtypeId>
+      </Id>
+      <DisplayName>Heavy Munitions Factory</DisplayName>
+      <Description>Mixes Gunpowder, and produces various types of Ammunition and Explosives. Can produce "Heavy" class munitions, and produces simple munitions 3x faster
+	  
+	  Power Usage: 2MW</Description>
+    </Definition>
+
+    <Definition xsi:type="MyObjectBuilder_AssemblerDefinition">
+      <Id>
+        <TypeId>Assembler</TypeId>
+        <SubtypeId>NanoBotAssembler</SubtypeId>
+      </Id>
+      <DisplayName>NanoBot Assembler</DisplayName>
+      <Description>Uses NanoBot Technology to craft any component at high speeds. The most expensive machine in the game, requiring materials from almost every planet
+	  Power Usage: 30MW</Description>
+    </Definition>		
+
+    <!--Upgraded Refineries-->
+    <Definition xsi:type="MyObjectBuilder_RefineryDefinition">
+      <Id>
+        <TypeId>Refinery</TypeId>
+        <SubtypeId>HeavyRockCrusher</SubtypeId>
+      </Id>
+      <DisplayName>Heavy Rock Crusher</DisplayName>
+      <Description>Crushes Stone and Ores. Crushed Ore can be refined more efficiently. Uses Diamond crushing blades to run 3x faster than steel tech
+	  Power Usage: 5MW</Description>  
+    </Definition>	
+
+    <Definition xsi:type="MyObjectBuilder_RefineryDefinition">
+      <Id>
+        <TypeId>Refinery</TypeId>
+        <SubtypeId>HeavyOrePurifier</SubtypeId>
+      </Id>
+      <DisplayName>Heavy Ore Purifier</DisplayName>
+      <Description>Filters impurites from Crushed Ore to further increase refining yield. Uses Diamond-studded mills to run 3x faster than steel tech
+	  Power Usage: 10MW</Description>
+    </Definition>
+
+		<Definition xsi:type="MyObjectBuilder_RefineryDefinition">
+			<Id>
+				<TypeId>Refinery</TypeId>
+				<SubtypeId>LargeHeavyRefinery</SubtypeId>
+			</Id>
+			<DisplayName>Heavy Refinery</DisplayName>
+			<Description>The Heavy Refinery can smelt all ores, and at 3x speed. Extracts slightly more materials from ore
+	  Power Usage: 6MW</Description>
+		</Definition>
+
+		<Definition xsi:type="MyObjectBuilder_RefineryDefinition">
+			<Id>
+				<TypeId>Refinery</TypeId>
+				<SubtypeId>LargeHeavyRefineryIndustrial</SubtypeId>
+			</Id>
+			<DisplayName>Heavy Industrial Refinery</DisplayName>
+			<Description>The Heavy Refinery can smelt all ores, and at 3x speed. Extracts slightly more materials from ore
+	  Power Usage: 6MW</Description>
+		</Definition>
+
+    <Definition xsi:type="MyObjectBuilder_RefineryDefinition">
+      <Id>
+        <TypeId>Refinery</TypeId>
+        <SubtypeId>HeavyChemicalPlant</SubtypeId>
+      </Id>
+      <DisplayName>Heavy Chemical Refinery</DisplayName>
+      <Description>Refines Lithium, Niter, Sulfur, Pollucite, Potash, and extracts pure Carbon from Coal. Uses Ion Refining technology to run 3x faster and extract slightly more material.
+	  Power Usage: 7MW</Description> 
+    </Definition>
+
+    </CubeBlocks>
+</Definitions>    

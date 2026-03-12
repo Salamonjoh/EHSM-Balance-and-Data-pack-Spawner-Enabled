@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <CubeBlocks>
+		<!--Engines-->
+		<Definition xsi:type="MyObjectBuilder_HydrogenEngineDefinition">
+			<Id>
+				<TypeId>HydrogenEngine</TypeId>
+				<SubtypeId>LargeHydrogenEngine</SubtypeId>
+			</Id>
+			<Description>Description_PowerGenerator
+Max Output: 5MW
+Fuel Consumption: 40L/s</Description>
+			<MaxPowerOutput>5</MaxPowerOutput>
+			<FuelCapacity>100</FuelCapacity>
+			<FuelInfos>
+				<FuelInfo>
+					<Id>
+						<TypeId>GasProperties</TypeId>
+						<SubtypeId>Hydrogen</SubtypeId>
+					</Id>
+				</FuelInfo>
+			</FuelInfos>
+			<FuelProductionToCapacityMultiplier>0.125</FuelProductionToCapacityMultiplier>
+		</Definition>
+
+		<Definition xsi:type="MyObjectBuilder_HydrogenEngineDefinition">
+			<Id>
+				<TypeId>HydrogenEngine</TypeId>
+				<SubtypeId>SmallHydrogenEngine</SubtypeId>
+			</Id>
+			<Description>Description_PowerGenerator
+Max Output: 500kW
+Fuel Consumption: 4L/s</Description>
+			<MaxPowerOutput>0.5</MaxPowerOutput>
+			<FuelCapacity>100</FuelCapacity>
+			<FuelInfos>
+				<FuelInfo>
+					<Id>
+						<TypeId>GasProperties</TypeId>
+						<SubtypeId>Hydrogen</SubtypeId>
+					</Id>
+				</FuelInfo>
+			</FuelInfos>
+			<FuelProductionToCapacityMultiplier>0.125</FuelProductionToCapacityMultiplier>
+		</Definition>
+
+		<Definition xsi:type="MyObjectBuilder_HydrogenEngineDefinition">
+			<Id>
+				<TypeId>HydrogenEngine</TypeId>
+				<SubtypeId>LargeHydrogenEngineReskin</SubtypeId>
+			</Id>
+			<Description>Description_PowerGenerator
+Max Output: 5MW
+Fuel Consumption: 40L/s</Description>
+			<MaxPowerOutput>5</MaxPowerOutput>
+			<FuelCapacity>100</FuelCapacity>
+			<FuelInfos>
+				<FuelInfo>
+					<Id>
+						<TypeId>GasProperties</TypeId>
+						<SubtypeId>Hydrogen</SubtypeId>
+					</Id>
+				</FuelInfo>
+			</FuelInfos>
+			<FuelProductionToCapacityMultiplier>0.125</FuelProductionToCapacityMultiplier>
+		</Definition>
+		
+		<Definition xsi:type="MyObjectBuilder_HydrogenEngineDefinition">
+			<Id>
+				<TypeId>HydrogenEngine</TypeId>
+				<SubtypeId>SmallHydrogenEngineReskin</SubtypeId>
+			</Id>
+			<Description>Description_PowerGenerator
+Max Output: 500kW
+Fuel Consumption: 4L/s</Description>
+			<MaxPowerOutput>0.5</MaxPowerOutput>
+			<FuelCapacity>100</FuelCapacity>
+			<FuelInfos>
+				<FuelInfo>
+					<Id>
+						<TypeId>GasProperties</TypeId>
+						<SubtypeId>Hydrogen</SubtypeId>
+					</Id>
+				</FuelInfo>
+			</FuelInfos>
+			<FuelProductionToCapacityMultiplier>0.125</FuelProductionToCapacityMultiplier>
+		</Definition>
+
+		<!--Generators-->
+		<Definition xsi:type="MyObjectBuilder_OxygenGeneratorDefinition">
+			<Id>
+				<TypeId>OxygenGenerator</TypeId>
+				<SubtypeId></SubtypeId>
+			</Id>
+			<DisplayName>DisplayName_Block_OxygenGenerator</DisplayName>
+			<Description>Melts and electroyzes water ice into Oxygen and Hydrogen.
+Power Usage: 2MW</Description>
+			<IceConsumptionPerSecond>1.408</IceConsumptionPerSecond>
+			<OperationalPowerConsumption>2</OperationalPowerConsumption>
+			<ProducedGases>
+				<GasInfo>
+					<Id>
+						<TypeId>GasProperties</TypeId>
+						<SubtypeId>Oxygen</SubtypeId>
+					</Id>
+					<IceToGasRatio>5</IceToGasRatio>
+				</GasInfo>
+				<GasInfo>
+					<Id>
+						<TypeId>GasProperties</TypeId>
+						<SubtypeId>Hydrogen</SubtypeId>
+					</Id>
+					<IceToGasRatio>10</IceToGasRatio>
+				</GasInfo>
+			</ProducedGases>
+		</Definition>
+
+		<Definition xsi:type="MyObjectBuilder_OxygenGeneratorDefinition">
+			<Id>
+				<TypeId>OxygenGenerator</TypeId>
+				<SubtypeId>OxygenGeneratorSmall</SubtypeId>
+			</Id>
+			<DisplayName>DisplayName_Block_OxygenGenerator</DisplayName>
+			<Description>Melts and electroyzes water ice into Oxygen and Hydrogen.
+Power Usage: 500kW</Description>
+			<IceConsumptionPerSecond>0.352</IceConsumptionPerSecond>
+			<OperationalPowerConsumption>0.5</OperationalPowerConsumption>
+			<ProducedGases>
+				<GasInfo>
+					<Id>
+						<TypeId>GasProperties</TypeId>
+						<SubtypeId>Oxygen</SubtypeId>
+					</Id>
+					<IceToGasRatio>5</IceToGasRatio>
+				</GasInfo>
+				<GasInfo>
+					<Id>
+						<TypeId>GasProperties</TypeId>
+						<SubtypeId>Hydrogen</SubtypeId>
+					</Id>
+					<IceToGasRatio>10</IceToGasRatio>
+				</GasInfo>
+			</ProducedGases>
+		</Definition>
+
+        <Definition xsi:type="MyObjectBuilder_OxygenGeneratorDefinition">
+            <Id>
+                <TypeId>OxygenGenerator</TypeId>
+                <SubtypeId>LargeBlockOxygenGeneratorLab</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_OxygenGeneratorLab</DisplayName>
+			<Description>Melts and electroyzes water ice into Oxygen and Hydrogen.
+Power Usage: 2MW</Description>
+			<IceConsumptionPerSecond>1.408</IceConsumptionPerSecond>
+            <OperationalPowerConsumption>2</OperationalPowerConsumption>
+			<ProducedGases>
+				<GasInfo>
+					<Id>
+						<TypeId>GasProperties</TypeId>
+						<SubtypeId>Oxygen</SubtypeId>
+					</Id>
+					<IceToGasRatio>5</IceToGasRatio>
+				</GasInfo>
+				<GasInfo>
+					<Id>
+						<TypeId>GasProperties</TypeId>
+						<SubtypeId>Hydrogen</SubtypeId>
+					</Id>
+					<IceToGasRatio>10</IceToGasRatio>
+				</GasInfo>
+			</ProducedGases>
+        </Definition>
+
+        <Definition xsi:type="MyObjectBuilder_OxygenGeneratorDefinition">
+            <Id>
+                <TypeId>OxygenGenerator</TypeId>
+                <SubtypeId>SmallBlockOxygenGeneratorLab</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_OxygenGeneratorLab</DisplayName>
+			<Description>Melts and electroyzes water ice into Oxygen and Hydrogen.
+Power Usage: 500kW</Description>
+            <IceConsumptionPerSecond>0.352</IceConsumptionPerSecond>
+            <OperationalPowerConsumption>0.5</OperationalPowerConsumption>
+			<ProducedGases>
+				<GasInfo>
+					<Id>
+						<TypeId>GasProperties</TypeId>
+						<SubtypeId>Oxygen</SubtypeId>
+					</Id>
+					<IceToGasRatio>5</IceToGasRatio>
+				</GasInfo>
+				<GasInfo>
+					<Id>
+						<TypeId>GasProperties</TypeId>
+						<SubtypeId>Hydrogen</SubtypeId>
+					</Id>
+					<IceToGasRatio>10</IceToGasRatio>
+				</GasInfo>
+			</ProducedGases>
+        </Definition>
+
+  </CubeBlocks>
+</Definitions>

@@ -1,0 +1,49 @@
+<?xml version="1.0"  encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+   <PhysicalItems>
+   
+         <PhysicalItem xsi:type="MyObjectBuilder_OxygenContainerDefinition">
+            <Id>
+                <TypeId>OxygenContainerObject</TypeId>
+                <SubtypeId>SuitPowerbank</SubtypeId>
+            </Id>
+            <DisplayName>Suit Alkaline Battery</DisplayName>
+            <Mass>30</Mass>
+            <Volume>80</Volume>
+            <Capacity>100</Capacity>
+         </PhysicalItem>
+         
+         <PhysicalItem xsi:type="MyObjectBuilder_OxygenContainerDefinition">
+            <Id>
+                <TypeId>OxygenContainerObject</TypeId>
+                <SubtypeId>SuitPowerbank_1</SubtypeId>
+            </Id>
+            <DisplayName>Suit Acid Battery</DisplayName>
+            <Mass>30</Mass>
+            <Volume>80</Volume>
+            <Capacity>300</Capacity>
+         </PhysicalItem> 
+
+         <PhysicalItem xsi:type="MyObjectBuilder_OxygenContainerDefinition">
+            <Id>
+                <TypeId>OxygenContainerObject</TypeId>
+                <SubtypeId>SuitPowerbank_2</SubtypeId>
+            </Id>
+            <DisplayName>Suit Lithium Battery</DisplayName>
+            <Mass>20</Mass>
+            <Volume>60</Volume>
+            <Capacity>600</Capacity>
+         </PhysicalItem>  
+         
+         <PhysicalItem xsi:type="MyObjectBuilder_OxygenContainerDefinition">
+            <Id>
+                <TypeId>OxygenContainerObject</TypeId>
+                <SubtypeId>SuitPowerbank_3</SubtypeId>
+            </Id>
+            <DisplayName>Suit Matrix Battery</DisplayName>
+            <Mass>20</Mass>
+            <Volume>60</Volume>
+            <Capacity>1200</Capacity>
+         </PhysicalItem>
+   </PhysicalItems>
+</Definitions>

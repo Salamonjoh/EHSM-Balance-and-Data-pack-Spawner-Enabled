@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CubeBlocks>
+
+    <!--2-->
+    <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
+      <Id>
+        <TypeId>Thrust</TypeId>
+        <SubtypeId>propeller_2_blade_forward_silver_15x_Small</SubtypeId>
+      </Id>
+      <DisplayName>Large 2-Blade Silver Propeller</DisplayName>
+      <ForceMagnitude>108000</ForceMagnitude>
+      <MaxPowerConsumption>0.9</MaxPowerConsumption>
+    </Definition>
+    <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
+      <Id>
+        <TypeId>Thrust</TypeId>
+        <SubtypeId>propeller_2_blade_forward_black_15x_Small</SubtypeId>
+      </Id>
+      <DisplayName>Large 2-Blade Black Propeller</DisplayName>
+      <ForceMagnitude>108000</ForceMagnitude>
+      <MaxPowerConsumption>0.9</MaxPowerConsumption>
+    </Definition>
+    <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
+      <Id>
+        <TypeId>Thrust</TypeId>
+        <SubtypeId>propeller_2_blade_backward_silver_15x_Small</SubtypeId>
+      </Id>
+      <DisplayName>Large 2-Blade Silver Reverse Propeller</DisplayName>
+      <ForceMagnitude>108000</ForceMagnitude>
+      <MaxPowerConsumption>0.9</MaxPowerConsumption>
+    </Definition>
+    <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
+      <Id>
+        <TypeId>Thrust</TypeId>
+        <SubtypeId>propeller_2_blade_backward_black_15x_Small</SubtypeId>
+      </Id>
+      <DisplayName>Large 2-Blade Black Reverse Propeller</DisplayName>
+      <ForceMagnitude>108000</ForceMagnitude>
+      <MaxPowerConsumption>0.9</MaxPowerConsumption>
+    </Definition>
+
+    <!--3-->
+    <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
+      <Id>
+        <TypeId>Thrust</TypeId>
+        <SubtypeId>propeller_3_blade_forward_silver_15x_Small</SubtypeId>
+      </Id>
+      <DisplayName>Large 3-Blade Silver Propeller</DisplayName>
+      <ForceMagnitude>162000</ForceMagnitude>
+      <MaxPowerConsumption>1.35</MaxPowerConsumption>
+    </Definition>
+    <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
+      <Id>
+        <TypeId>Thrust</TypeId>
+        <SubtypeId>propeller_3_blade_forward_black_15x_Small</SubtypeId>
+      </Id>
+      <DisplayName>Large 3-Blade Black Propeller</DisplayName> 
+      <ForceMagnitude>162000</ForceMagnitude>
+      <MaxPowerConsumption>1.35</MaxPowerConsumption>
+    </Definition>
+    <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
+      <Id>
+        <TypeId>Thrust</TypeId>
+        <SubtypeId>propeller_3_blade_backward_silver_15x_Small</SubtypeId>
+      </Id>
+      <DisplayName>Large 3-Blade Silver Reverse Propeller</DisplayName>
+      <ForceMagnitude>162000</ForceMagnitude>
+      <MaxPowerConsumption>1.35</MaxPowerConsumption>
+    </Definition>
+    <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
+      <Id>
+        <TypeId>Thrust</TypeId>
+        <SubtypeId>propeller_3_blade_backward_black_15x_Small</SubtypeId>
+      </Id>
+      <DisplayName>Large 3-Blade Black Reverse Propeller</DisplayName>
+      <ForceMagnitude>162000</ForceMagnitude>
+      <MaxPowerConsumption>1.35</MaxPowerConsumption>
+    </Definition>
+
+    <!--4-->
+    <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
+      <Id>
+        <TypeId>Thrust</TypeId>
+        <SubtypeId>propeller_4_blade_forward_silver_15x_Small</SubtypeId>
+      </Id>
+      <DisplayName>Large 4-Blade Silver Propeller</DisplayName> 
+      <ForceMagnitude>216000</ForceMagnitude>
+      <MaxPowerConsumption>1.8</MaxPowerConsumption>
+    </Definition>
+    <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
+      <Id>
+        <TypeId>Thrust</TypeId>
+        <SubtypeId>propeller_4_blade_forward_black_15x_Small</SubtypeId>
+      </Id>
+      <DisplayName>Large 4-Blade Black Propeller</DisplayName>
+      <ForceMagnitude>216000</ForceMagnitude>
+      <MaxPowerConsumption>1.8</MaxPowerConsumption>
+    </Definition>
+    <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
+      <Id>
+        <TypeId>Thrust</TypeId>
+        <SubtypeId>propeller_4_blade_backward_silver_15x_Small</SubtypeId>
+      </Id>
+      <DisplayName>Large 4-Blade Silver Reverse Propeller</DisplayName>
+      <ForceMagnitude>216000</ForceMagnitude>
+      <MaxPowerConsumption>1.8</MaxPowerConsumption>
+    </Definition>
+    <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
+      <Id>
+        <TypeId>Thrust</TypeId>
+        <SubtypeId>propeller_4_blade_backward_black_15x_Small</SubtypeId>
+      </Id>
+      <DisplayName>Large 4-Blade Black Reverse Propeller</DisplayName>
+      <ForceMagnitude>216000</ForceMagnitude>
+      <MaxPowerConsumption>1.8</MaxPowerConsumption>
+    </Definition>
+
+    <!--8-->
+    <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
+      <Id>
+        <TypeId>Thrust</TypeId>
+        <SubtypeId>propeller_8_blade_forward_silver_15x_Small</SubtypeId>
+      </Id> 
+      <DisplayName>Large 8-Blade Silver Propeller</DisplayName>
+      <ForceMagnitude>432000</ForceMagnitude>
+      <MaxPowerConsumption>3.6</MaxPowerConsumption>
+    </Definition>
+    <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
+      <Id>
+        <TypeId>Thrust</TypeId>
+        <SubtypeId>propeller_8_blade_forward_black_15x_Small</SubtypeId>
+      </Id>
+      <DisplayName>Large 8-Blade Black Propeller</DisplayName>
+      <ForceMagnitude>432000</ForceMagnitude>
+      <MaxPowerConsumption>3.6</MaxPowerConsumption>
+    </Definition>
+    <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
+      <Id>
+        <TypeId>Thrust</TypeId>
+        <SubtypeId>propeller_8_blade_backward_silver_15x_Small</SubtypeId>
+      </Id>
+      <DisplayName>Large 8-Blade Silver Reverse Propeller</DisplayName>
+      <ForceMagnitude>432000</ForceMagnitude>
+      <MaxPowerConsumption>3.6</MaxPowerConsumption>
+    </Definition>
+    <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
+      <Id>
+        <TypeId>Thrust</TypeId>
+        <SubtypeId>propeller_8_blade_backward_black_15x_Small</SubtypeId>
+      </Id>
+      <DisplayName>Large 8-Blade Black Reverse Propeller</DisplayName>
+      <ForceMagnitude>432000</ForceMagnitude>
+      <MaxPowerConsumption>3.6</MaxPowerConsumption>
+    </Definition>
+
+
+  </CubeBlocks>
+</Definitions>

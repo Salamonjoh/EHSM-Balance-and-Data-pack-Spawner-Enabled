@@ -1,0 +1,64 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Characters>
+
+    <Character>
+      <Id>
+        <TypeId>MyObjectBuilder_Character</TypeId>
+        <SubtypeId>Default_Astronaut</SubtypeId>
+      </Id>
+      <OxygenConsumption>0.5</OxygenConsumption>
+      <OxygenConsumptionMultiplier>1</OxygenConsumptionMultiplier>
+      <SuitResourceStorage>
+        <Resource>
+          <Id>
+            <TypeId>GasProperties</TypeId>
+            <SubtypeId>Hydrogen</SubtypeId>
+          </Id>
+          <MaxCapacity>80</MaxCapacity>
+          <Throughput>1000</Throughput>
+          <ReducedOnSpawn>0.2</ReducedOnSpawn>
+        </Resource>
+        <Resource>
+          <Id>
+            <TypeId>GasProperties</TypeId>
+            <SubtypeId>Oxygen</SubtypeId>
+          </Id>
+          <Throughput>1000</Throughput>
+          <MaxCapacity>80</MaxCapacity>
+          <ReducedOnSpawn>0.2</ReducedOnSpawn>
+        </Resource>
+      </SuitResourceStorage>
+    </Character>
+
+    <Character>
+      <Id>
+        <TypeId>MyObjectBuilder_Character</TypeId>
+        <SubtypeId>Default_Astronaut_Female</SubtypeId>
+      </Id>
+      <OxygenConsumption>0.5</OxygenConsumption>
+      <OxygenConsumptionMultiplier>1</OxygenConsumptionMultiplier>
+      <SuitResourceStorage>
+        <Resource>
+          <Id>
+            <TypeId>GasProperties</TypeId>
+            <SubtypeId>Hydrogen</SubtypeId>
+          </Id>
+          <MaxCapacity>80</MaxCapacity>
+          <Throughput>1000</Throughput>
+          <ReducedOnSpawn>0.2</ReducedOnSpawn>
+        </Resource>
+        <Resource>
+          <Id>
+            <TypeId>GasProperties</TypeId>
+            <SubtypeId>Oxygen</SubtypeId>
+          </Id>
+          <Throughput>1000</Throughput>
+          <MaxCapacity>80</MaxCapacity>
+          <ReducedOnSpawn>0.2</ReducedOnSpawn>
+        </Resource>
+      </SuitResourceStorage>
+    </Character>
+
+  </Characters>
+</Definitions>

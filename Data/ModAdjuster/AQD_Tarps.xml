@@ -1,0 +1,249 @@
+<?xml version="1.0" ?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  	<CubeBlocks>
+
+		<Definition>
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>AQD_LG_Tarp_3x3</SubtypeId>
+			</Id>
+			<Components>
+				<Component Subtype="Fabric" Count="45">
+                    <DeconstructId>                
+                      <TypeId>Ore</TypeId>
+                      <SubtypeId>FabricScrap</SubtypeId>
+                    </DeconstructId>
+                  </Component> 
+				<Component Subtype="Construction" Count="20">
+                    <DeconstructId>                
+                      <TypeId>Ore</TypeId>
+                      <SubtypeId>ConstructionScrap</SubtypeId>
+                    </DeconstructId>
+                  </Component> 
+			</Components>
+			<CriticalComponent Subtype="Fabric" Index="0"/>
+		</Definition>
+
+		<Definition>
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>AQD_LG_Tarp_3x3_Offset</SubtypeId>
+			</Id>
+			<Components>
+				<Component Subtype="Fabric" Count="45">
+                    <DeconstructId>                
+                      <TypeId>Ore</TypeId>
+                      <SubtypeId>FabricScrap</SubtypeId>
+                    </DeconstructId>
+                  </Component> 
+				<Component Subtype="Construction" Count="20">
+                    <DeconstructId>                
+                      <TypeId>Ore</TypeId>
+                      <SubtypeId>ConstructionScrap</SubtypeId>
+                    </DeconstructId>
+                  </Component> 
+			</Components>
+			<CriticalComponent Subtype="Fabric" Index="0"/>
+		</Definition>
+
+		<Definition>
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>AQD_LG_Tarp_Hanging</SubtypeId>
+			</Id>
+			<Components>
+				<Component Subtype="Fabric" Count="20">
+                    <DeconstructId>                
+                      <TypeId>Ore</TypeId>
+                      <SubtypeId>FabricScrap</SubtypeId>
+                    </DeconstructId>
+                  </Component> 
+				<Component Subtype="Construction" Count="5">
+                    <DeconstructId>                
+                      <TypeId>Ore</TypeId>
+                      <SubtypeId>ConstructionScrap</SubtypeId>
+                    </DeconstructId>
+                  </Component> 
+			</Components>
+			<CriticalComponent Subtype="Fabric" Index="0"/>
+		</Definition>
+
+		<Definition>
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>AQD_LG_Tarp_3x3_Triangle</SubtypeId>
+			</Id>
+			<Components>
+				<Component Subtype="Fabric" Count="25">
+                    <DeconstructId>                
+                      <TypeId>Ore</TypeId>
+                      <SubtypeId>FabricScrap</SubtypeId>
+                    </DeconstructId>
+                  </Component> 
+				<Component Subtype="Construction" Count="10">
+                    <DeconstructId>                
+                      <TypeId>Ore</TypeId>
+                      <SubtypeId>ConstructionScrap</SubtypeId>
+                    </DeconstructId>
+                  </Component> 
+			</Components>
+			<CriticalComponent Subtype="Fabric" Index="0"/>
+		</Definition>
+
+		<Definition>
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>AQD_LG_Tarp_3x3_Triangle_Offset</SubtypeId>
+			</Id>
+			<Components>
+				<Component Subtype="Fabric" Count="25">
+                    <DeconstructId>                
+                      <TypeId>Ore</TypeId>
+                      <SubtypeId>FabricScrap</SubtypeId>
+                    </DeconstructId>
+                  </Component> 
+				<Component Subtype="Construction" Count="10">
+                    <DeconstructId>                
+                      <TypeId>Ore</TypeId>
+                      <SubtypeId>ConstructionScrap</SubtypeId>
+                    </DeconstructId>
+                  </Component> 
+			</Components>
+			<CriticalComponent Subtype="Fabric" Index="0"/>
+		</Definition>
+
+		<Definition>
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>AQD_LG_Tarp_3x3_Net</SubtypeId>
+			</Id>
+			<Components>
+				<Component Subtype="Fabric" Count="45">
+                    <DeconstructId>                
+                      <TypeId>Ore</TypeId>
+                      <SubtypeId>FabricScrap</SubtypeId>
+                    </DeconstructId>
+                  </Component> 
+				<Component Subtype="Construction" Count="20">
+                    <DeconstructId>                
+                      <TypeId>Ore</TypeId>
+                      <SubtypeId>ConstructionScrap</SubtypeId>
+                    </DeconstructId>
+                  </Component> 
+			</Components>
+			<CriticalComponent Subtype="Fabric" Index="0"/>
+		</Definition>
+
+		<Definition>
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>AQD_LG_Tarp_3x3_Net_Offset</SubtypeId>
+			</Id>
+			<Components>
+				<Component Subtype="Fabric" Count="45">
+                    <DeconstructId>                
+                      <TypeId>Ore</TypeId>
+                      <SubtypeId>FabricScrap</SubtypeId>
+                    </DeconstructId>
+                  </Component> 
+				<Component Subtype="Construction" Count="20">
+                    <DeconstructId>                
+                      <TypeId>Ore</TypeId>
+                      <SubtypeId>ConstructionScrap</SubtypeId>
+                    </DeconstructId>
+                  </Component> 
+			</Components>
+			<CriticalComponent Subtype="Fabric" Index="0"/>
+		</Definition>
+
+		<Definition>
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>AQD_LG_Tarp_3x3_Net_Slope</SubtypeId>
+			</Id>
+			<Components>
+				<Component Subtype="Fabric" Count="45">
+                    <DeconstructId>                
+                      <TypeId>Ore</TypeId>
+                      <SubtypeId>FabricScrap</SubtypeId>
+                    </DeconstructId>
+                  </Component> 
+				<Component Subtype="Construction" Count="20">
+                    <DeconstructId>                
+                      <TypeId>Ore</TypeId>
+                      <SubtypeId>ConstructionScrap</SubtypeId>
+                    </DeconstructId>
+                  </Component> 
+			</Components>
+			<CriticalComponent Subtype="Fabric" Index="0"/>
+      		<PCU>1</PCU>
+		</Definition>
+
+		<Definition>
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>AQD_LG_Tarp_3x3_Net_Triangle</SubtypeId>
+			</Id>
+			<Components>
+				<Component Subtype="Fabric" Count="25">
+                    <DeconstructId>                
+                      <TypeId>Ore</TypeId>
+                      <SubtypeId>FabricScrap</SubtypeId>
+                    </DeconstructId>
+                  </Component> 
+				<Component Subtype="Construction" Count="10">
+                    <DeconstructId>                
+                      <TypeId>Ore</TypeId>
+                      <SubtypeId>ConstructionScrap</SubtypeId>
+                    </DeconstructId>
+                  </Component> 
+			</Components>
+			<CriticalComponent Subtype="Fabric" Index="0"/>
+		</Definition>
+
+		<Definition>
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>AQD_LG_Tarp_3x3_Net_Triangle_Offset</SubtypeId>
+			</Id>
+			<Components>
+				<Component Subtype="Fabric" Count="25">
+                    <DeconstructId>                
+                      <TypeId>Ore</TypeId>
+                      <SubtypeId>FabricScrap</SubtypeId>
+                    </DeconstructId>
+                  </Component> 
+				<Component Subtype="Construction" Count="10">
+                    <DeconstructId>                
+                      <TypeId>Ore</TypeId>
+                      <SubtypeId>ConstructionScrap</SubtypeId>
+                    </DeconstructId>
+                  </Component> 
+			</Components>
+			<CriticalComponent Subtype="Fabric" Index="0"/>
+		</Definition>
+
+		<Definition>
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>AQD_LG_Tarp_3x3_Slope</SubtypeId>
+			</Id>
+			<Components>
+				<Component Subtype="Fabric" Count="45">
+                    <DeconstructId>                
+                      <TypeId>Ore</TypeId>
+                      <SubtypeId>FabricScrap</SubtypeId>
+                    </DeconstructId>
+                  </Component> 
+				<Component Subtype="Construction" Count="20">
+                    <DeconstructId>                
+                      <TypeId>Ore</TypeId>
+                      <SubtypeId>ConstructionScrap</SubtypeId>
+                    </DeconstructId>
+                  </Component> 
+			</Components>
+			<CriticalComponent Subtype="Fabric" Index="0"/>
+		</Definition>
+
+  	</CubeBlocks>
+</Definitions>

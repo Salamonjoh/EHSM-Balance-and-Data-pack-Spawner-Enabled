@@ -1,0 +1,74 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Sounds>
+
+        <Sound>
+            <Id>
+                <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+                <SubtypeId>RealPlayVocBreath1L</SubtypeId>
+            </Id>
+            <Category>PLAYER_R</Category>
+            <MaxDistance>0</MaxDistance>
+            <Volume>0.15</Volume>
+            <Loopable>true</Loopable>
+            <ModifiableByHelmetFilters>false</ModifiableByHelmetFilters>
+            <Waves>
+                <Wave Type="D2">
+                    <Loop>Real\PLAYER\RealPlayVocBreath1L2d</Loop>
+                </Wave>
+            </Waves>
+        </Sound>
+
+        <Sound>
+            <Id>
+                <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+                <SubtypeId>RealPlayVocBreath2L</SubtypeId>
+            </Id>
+            <Category>PLAYER_R</Category>
+            <MaxDistance>0</MaxDistance>
+            <Volume>0.225</Volume>
+            <Loopable>true</Loopable>
+            <ModifiableByHelmetFilters>false</ModifiableByHelmetFilters>
+            <Waves>
+                <Wave Type="D2">
+                    <Loop>Real\PLAYER\RealPlayVocBreath2L2d</Loop>
+                </Wave>
+            </Waves>
+        </Sound>
+
+        <Sound>
+            <Id>
+                <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+                <SubtypeId>RealFemPlayVocBreath1L</SubtypeId>
+            </Id>
+            <Category>PLAYER_R</Category>
+            <MaxDistance>0</MaxDistance>
+            <Volume>0.0375</Volume>
+            <Loopable>true</Loopable>
+            <ModifiableByHelmetFilters>false</ModifiableByHelmetFilters>
+            <Waves>
+                <Wave Type="D2">
+                    <Loop>Real\PLAYER\RealFemPlayVocBreath1L2d</Loop>
+                </Wave>
+            </Waves>
+        </Sound>
+
+        <Sound>
+            <Id>
+                <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+                <SubtypeId>RealFemPlayVocBreath2L</SubtypeId>
+            </Id>
+            <Category>PLAYER_R</Category>
+            <MaxDistance>0</MaxDistance>
+            <Volume>0.6</Volume>
+            <Loopable>true</Loopable>
+            <ModifiableByHelmetFilters>false</ModifiableByHelmetFilters>
+            <Waves>
+                <Wave Type="D2">
+                    <Loop>Real\PLAYER\RealFemPlayVocBreath2L2d</Loop>
+                </Wave>
+            </Waves>
+        </Sound>
+		
+    </Sounds>
+</Definitions>

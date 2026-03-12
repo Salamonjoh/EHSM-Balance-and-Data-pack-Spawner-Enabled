@@ -1,0 +1,104 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <BlueprintClassEntries>
+
+    <Entry Class="RefineryIngots" BlueprintSubtypeId="ScrapToIronIngot" />
+    <Entry Class="RefineryIngots" BlueprintSubtypeId="ScrapIngotToIronIngot" />
+    <Entry Class="RefineryIngots" BlueprintSubtypeId="IronOreToIngot" />
+    <Entry Class="RefineryIngots" BlueprintSubtypeId="CopperOreToIngot" />
+    <Entry Class="RefineryIngots" BlueprintSubtypeId="SiliconOreToIngot" />
+    <Entry Class="RefineryIngots" BlueprintSubtypeId="NickelOreToIngot" />
+    <Entry Class="RefineryIngots" BlueprintSubtypeId="CobaltOreToIngot" />
+    <Entry Class="RefineryIngots" BlueprintSubtypeId="CrushedIronOreToIngot" />
+    <Entry Class="RefineryIngots" BlueprintSubtypeId="CrushedCopperOreToIngot" />
+    <Entry Class="RefineryIngots" BlueprintSubtypeId="CrushedSiliconOreToIngot" />
+    <Entry Class="RefineryIngots" BlueprintSubtypeId="CrushedNickelOreToIngot" />
+    <Entry Class="RefineryIngots" BlueprintSubtypeId="CrushedCobaltOreToIngot" />
+    <Entry Class="RefineryIngots" BlueprintSubtypeId="PurifiedIronOreToIngot" />
+    <Entry Class="RefineryIngots" BlueprintSubtypeId="PurifiedCopperOreToIngot" />
+    <Entry Class="RefineryIngots" BlueprintSubtypeId="PurifiedSiliconOreToIngot" />
+    <Entry Class="RefineryIngots" BlueprintSubtypeId="PurifiedNickelOreToIngot" />
+    <Entry Class="RefineryIngots" BlueprintSubtypeId="PurifiedCobaltOreToIngot" />	
+
+    <Entry Class="HeavyRefineryIngots" BlueprintSubtypeId="ScrapToIronIngot" />
+    <Entry Class="HeavyRefineryIngots" BlueprintSubtypeId="ScrapIngotToIronIngot" />
+    <Entry Class="HeavyRefineryIngots" BlueprintSubtypeId="IronOreToIngot" />
+    <Entry Class="HeavyRefineryIngots" BlueprintSubtypeId="CopperOreToIngot" />
+    <Entry Class="HeavyRefineryIngots" BlueprintSubtypeId="SiliconOreToIngot" />
+    <Entry Class="HeavyRefineryIngots" BlueprintSubtypeId="NickelOreToIngot" />
+    <Entry Class="HeavyRefineryIngots" BlueprintSubtypeId="CobaltOreToIngot" />
+    <Entry Class="HeavyRefineryIngots" BlueprintSubtypeId="CrushedIronOreToIngot" />
+    <Entry Class="HeavyRefineryIngots" BlueprintSubtypeId="CrushedCopperOreToIngot" />
+    <Entry Class="HeavyRefineryIngots" BlueprintSubtypeId="CrushedSiliconOreToIngot" />
+    <Entry Class="HeavyRefineryIngots" BlueprintSubtypeId="CrushedNickelOreToIngot" />
+    <Entry Class="HeavyRefineryIngots" BlueprintSubtypeId="CrushedCobaltOreToIngot" />
+    <Entry Class="HeavyRefineryIngots" BlueprintSubtypeId="PurifiedIronOreToIngot" />
+    <Entry Class="HeavyRefineryIngots" BlueprintSubtypeId="PurifiedCopperOreToIngot" />
+    <Entry Class="HeavyRefineryIngots" BlueprintSubtypeId="PurifiedSiliconOreToIngot" />
+    <Entry Class="HeavyRefineryIngots" BlueprintSubtypeId="PurifiedNickelOreToIngot" />
+    <Entry Class="HeavyRefineryIngots" BlueprintSubtypeId="PurifiedCobaltOreToIngot" />	
+    
+    <Entry Class="ProtoRefineryIngots" BlueprintSubtypeId="ScrapToIronIngot" />
+    <Entry Class="ProtoRefineryIngots" BlueprintSubtypeId="ScrapIngotToIronIngot" />
+    <Entry Class="ProtoRefineryIngots" BlueprintSubtypeId="IronOreToIngot" />
+    <Entry Class="ProtoRefineryIngots" BlueprintSubtypeId="CopperOreToIngot" />
+    <Entry Class="ProtoRefineryIngots" BlueprintSubtypeId="SiliconOreToIngot" />
+    <Entry Class="ProtoRefineryIngots" BlueprintSubtypeId="NickelOreToIngot" />
+    <Entry Class="ProtoRefineryIngots" BlueprintSubtypeId="CobaltOreToIngot" />
+    <Entry Class="ProtoRefineryIngots" BlueprintSubtypeId="CrushedIronOreToIngot" />
+    <Entry Class="ProtoRefineryIngots" BlueprintSubtypeId="CrushedCopperOreToIngot" />
+    <Entry Class="ProtoRefineryIngots" BlueprintSubtypeId="CrushedSiliconOreToIngot" />
+    <Entry Class="ProtoRefineryIngots" BlueprintSubtypeId="CrushedNickelOreToIngot" />
+    <Entry Class="ProtoRefineryIngots" BlueprintSubtypeId="CrushedCobaltOreToIngot" />
+    <Entry Class="ProtoRefineryIngots" BlueprintSubtypeId="PurifiedIronOreToIngot" />
+    <Entry Class="ProtoRefineryIngots" BlueprintSubtypeId="PurifiedCopperOreToIngot" />
+    <Entry Class="ProtoRefineryIngots" BlueprintSubtypeId="PurifiedSiliconOreToIngot" />
+    <Entry Class="ProtoRefineryIngots" BlueprintSubtypeId="PurifiedNickelOreToIngot" />
+    <Entry Class="ProtoRefineryIngots" BlueprintSubtypeId="PurifiedCobaltOreToIngot" />	
+
+    <Entry Class="FoodProcessorRations" BlueprintSubtypeId="AlgaeContainerToAlgae" />
+    <Entry Class="FoodProcessorRations" BlueprintSubtypeId="AlgaeMeat" />
+
+    <Entry Class="BasicFoodProcessorRations" BlueprintSubtypeId="Position0010_CookMammalMeat" />
+
+    <Entry Class="AssemblingBenchComponents" BlueprintSubtypeId="LakeToIce" />
+    <Entry Class="AssemblingBenchComponents" BlueprintSubtypeId="FireWood" />
+
+    <Entry Class="StartingComponents" BlueprintSubtypeId="FireWood" />
+    <Entry Class="FabricatorComponents" BlueprintSubtypeId="FireWood" />
+
+    <Entry Class="Incinerator" BlueprintSubtypeId="WoodLogDisposal" />
+    <Entry Class="Incinerator" BlueprintSubtypeId="FireWoodDisposal" />
+    <Entry Class="Incinerator" BlueprintSubtypeId="WoodPlankDisposal" />  
+
+    <!--Placeable Concrete Mix-->
+    <Entry Class="CementKilnComponents" BlueprintSubtypeId="Blueprint_ConcreteMix_EHSM" />
+    <Entry Class="T2Tools" BlueprintSubtypeId="Blueprint_ConcreteTool_EHSM" />
+
+    <!--AiEnabled Chips-->
+    <Entry Class="NanoAssemblerComponents" BlueprintSubtypeId="AiEnabled_BP_CombatBotMaterial_EHSM" />
+    <Entry Class="NanoAssemblerComponents" BlueprintSubtypeId="AiEnabled_BP_CrewBotMaterial_EHSM" />
+    <Entry Class="NanoAssemblerComponents" BlueprintSubtypeId="AiEnabled_BP_RepairBotMaterial_EHSM" />
+    <Entry Class="NanoAssemblerComponents" BlueprintSubtypeId="AiEnabled_BP_ScavengerBotMaterial_EHSM" />
+    <Entry Class="NanoAssemblerComponents" BlueprintSubtypeId="GravelFake" />
+    <Entry Class="NanoAssemblerComponents" BlueprintSubtypeId="NickelFake" />
+    <Entry Class="NanoAssemblerComponents" BlueprintSubtypeId="CarbonFake" />
+    <Entry Class="NanoAssemblerComponents" BlueprintSubtypeId="CopperFake" />
+    <Entry Class="NanoAssemblerComponents" BlueprintSubtypeId="AluminumFake" />
+    <Entry Class="NanoAssemblerComponents" BlueprintSubtypeId="LithiumFake" />
+
+    <!--Shield Components-->
+    <Entry Class="NanoAssemblerComponents" BlueprintSubtypeId="ShieldComponentEHSM" />
+    <Entry Class="NanobotAssembler2" BlueprintSubtypeId="ShieldComponentEHSM" />
+
+    <!--Suit Batteries-->
+    <Entry Class="T1Tools" BlueprintSubtypeId="SuitPowerbankEE" />
+    <Entry Class="T2Tools" BlueprintSubtypeId="SuitPowerbankEE_1" />
+    <Entry Class="T3Tools" BlueprintSubtypeId="SuitPowerbankEE_2" />
+    <Entry Class="T4Tools" BlueprintSubtypeId="SuitPowerbank_3" />
+
+    <!--Vacuum Balloons-->
+		<Entry Class="AdvancedAssemblerComponents" BlueprintSubtypeId="VacCellEHSM" />
+
+  </BlueprintClassEntries>
+</Definitions>

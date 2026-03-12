@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <PhysicalItems>
+    
+        <PhysicalItem>
+            <Id>
+                <TypeId>Ore</TypeId>
+                <SubtypeId>CrudeOil</SubtypeId>
+            </Id>
+            <Mass>1</Mass>
+            <Volume>0.3</Volume>
+        </PhysicalItem>
+		
+        <PhysicalItem>
+            <Id>
+                <TypeId>Ingot</TypeId>
+                <SubtypeId>FuelOil</SubtypeId>
+            </Id>
+            <Mass>1.6</Mass>
+            <Volume>0.35</Volume>
+        </PhysicalItem>
+		
+    </PhysicalItems>
+</Definitions>

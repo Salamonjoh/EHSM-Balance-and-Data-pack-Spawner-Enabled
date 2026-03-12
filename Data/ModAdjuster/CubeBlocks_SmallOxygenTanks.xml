@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CubeBlocks>
+  
+    <Definition xsi:type="MyObjectBuilder_GasTankDefinition">
+      <Id>
+        <TypeId>OxygenTank</TypeId>
+        <SubtypeId>SmallOxygenTankSmall</SubtypeId>
+      </Id>
+	  <Description>Stores Oxygen and refills Oxygen Bottles.
+1,200L capacity.</Description>      
+      <Capacity>1200</Capacity>
+      <GasExplosionNeededVolumeToReachMaxRadius>1200</GasExplosionNeededVolumeToReachMaxRadius>
+    </Definition>
+
+<!-- Placeholder for if the original small O2 tank mod is ever updated :(
+
+    <Definition xsi:type="MyObjectBuilder_GasTankDefinition">
+      <Id>
+        <TypeId>OxygenTank</TypeId>
+        <SubtypeId>BrandonSmallOxygenTankSmall</SubtypeId>
+      </Id>
+      <Description>Stores Oxygen and refills Oxygen Bottles.
+2,400L capacity.</Description>      
+      <Capacity>2400</Capacity>
+      <GasExplosionNeededVolumeToReachMaxRadius>2400</GasExplosionNeededVolumeToReachMaxRadius>
+    </Definition>
+-->
+
+  </CubeBlocks>
+</Definitions>

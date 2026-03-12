@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<CubeBlocks>
+
+	<Definition xsi:type="MyObjectBuilder_GasTankDefinition">
+		<Id>
+			<TypeId>OxygenTank</TypeId>
+			<SubtypeId>AKM_Medium_Hydrogen_Tank</SubtypeId>
+		</Id>
+	  <Description>Stores Hydrogen and refills Hydrogen Bottles.
+20,000L capacity.</Description>   		
+		<Capacity>20000 </Capacity>
+      <GasExplosionNeededVolumeToReachMaxRadius>20000</GasExplosionNeededVolumeToReachMaxRadius>
+	</Definition>
+
+	<Definition xsi:type="MyObjectBuilder_GasTankDefinition">
+		<Id>
+			<TypeId>OxygenTank</TypeId>
+			<SubtypeId>AKM_Small_Oxygen_Tank</SubtypeId>
+		</Id>
+	  <Description>Stores Oxygen and refills Oxygen Bottles.
+2400L capacity.</Description>   		
+		<Capacity>2400</Capacity>
+      <GasExplosionNeededVolumeToReachMaxRadius>2400</GasExplosionNeededVolumeToReachMaxRadius>
+	</Definition>
+
+	</CubeBlocks>
+</Definitions>

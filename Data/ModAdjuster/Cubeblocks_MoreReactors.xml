@@ -1,0 +1,267 @@
+<?xml version="1.0" ?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<CubeBlocks>
+    
+       <Definition xsi:type="MyObjectBuilder_ReactorDefinition">
+            <Id>
+                <TypeId>Reactor</TypeId>
+                <SubtypeId>TSONukeLA</SubtypeId>
+            </Id>
+            <Components>
+                <Component Subtype="SteelPlate" Count="15">
+                <DeconstructId>                
+                  <TypeId>Ore</TypeId>
+                  <SubtypeId>SteelPlateScrap</SubtypeId>
+                </DeconstructId>
+              </Component>
+                <Component Subtype="Construction" Count="20">
+                <DeconstructId>                
+                  <TypeId>Ore</TypeId>
+                  <SubtypeId>ConstructionScrap</SubtypeId>
+                </DeconstructId>
+              </Component>
+                <Component Subtype="CopperWire" Count="15">
+                <DeconstructId>                
+                  <TypeId>Ore</TypeId>
+                  <SubtypeId>CopperWireScrap</SubtypeId>
+                </DeconstructId>
+              </Component>
+                <Component Subtype="MetalGrid" Count="20">
+                <DeconstructId>                
+                  <TypeId>Ore</TypeId>
+                  <SubtypeId>MetalGridScrap</SubtypeId>
+                </DeconstructId>
+              </Component>
+                <Component Subtype="LargeTube" Count="5">
+                <DeconstructId>                
+                  <TypeId>Ore</TypeId>
+                  <SubtypeId>LargeTubeScrap</SubtypeId>
+                </DeconstructId>
+              </Component>
+                <Component Subtype="Ceramic" Count="40">
+                <DeconstructId>                
+                  <TypeId>Ore</TypeId>
+                  <SubtypeId>CeramicScrap</SubtypeId>
+                </DeconstructId>
+              </Component>
+                <Component Subtype="Reactor" Count="200">
+                <DeconstructId>                
+                  <TypeId>Ore</TypeId>
+                  <SubtypeId>ReactorScrap</SubtypeId>
+                </DeconstructId>
+              </Component>
+                <Component Subtype="Motor" Count="15">
+                <DeconstructId>                
+                  <TypeId>Ore</TypeId>
+                  <SubtypeId>MotorScrap</SubtypeId>
+                </DeconstructId>
+              </Component>
+                <Component Subtype="DiamondLens" Count="5">
+                <DeconstructId>                
+                  <TypeId>Ore</TypeId>
+                  <SubtypeId>DiamondLensScrap</SubtypeId>
+                </DeconstructId>
+              </Component>					
+                <Component Subtype="Electromagnet" Count="30">
+                <DeconstructId>                
+                  <TypeId>Ore</TypeId>
+                  <SubtypeId>ElectromagnetScrap</SubtypeId>
+                </DeconstructId>
+              </Component>
+                <Component Subtype="TitaniumPlate" Count="20">
+                <DeconstructId>                
+                  <TypeId>Ore</TypeId>
+                  <SubtypeId>TitaniumPlateScrap</SubtypeId>
+                </DeconstructId>
+              </Component>
+                <Component Subtype="Superconductor" Count="50">
+                <DeconstructId>                
+                  <TypeId>Ore</TypeId>
+                  <SubtypeId>SuperconductorScrap</SubtypeId>
+                </DeconstructId>
+              </Component>
+                <Component Subtype="TopazSheet" Count="10">
+                <DeconstructId>                
+                  <TypeId>Ore</TypeId>
+                  <SubtypeId>TopazSheetScrap</SubtypeId>
+                </DeconstructId>
+              </Component>	
+                <Component Subtype="Thermocouple" Count="80">
+                <DeconstructId>                
+                  <TypeId>Ore</TypeId>
+                  <SubtypeId>ThermocoupleScrap</SubtypeId>
+                </DeconstructId>
+              </Component>
+				      <Component Subtype="PotassiumCore" Count="5">
+                <DeconstructId>                
+                  <TypeId>Ore</TypeId>
+                  <SubtypeId>LargeTubeScrap</SubtypeId>
+                </DeconstructId>
+              </Component>				
+				      <Component Subtype="Computer" Count="10">
+                <DeconstructId>                
+                  <TypeId>Ore</TypeId>
+                  <SubtypeId>ComputerScrap</SubtypeId>
+                </DeconstructId>
+              </Component>
+                <Component Subtype="Detector" Count="10">
+                <DeconstructId>                
+                  <TypeId>Ore</TypeId>
+                  <SubtypeId>DetectorScrap</SubtypeId>
+                </DeconstructId>
+              </Component>
+                <Component Subtype="GoldWire" Count="25">
+                <DeconstructId>                
+                  <TypeId>Ore</TypeId>
+                  <SubtypeId>GoldWireScrap</SubtypeId>
+                </DeconstructId>
+              </Component>
+                <Component Subtype="AdvancedComputer" Count="25">
+                <DeconstructId>                
+                  <TypeId>Ore</TypeId>
+                  <SubtypeId>AdvancedComputerScrap</SubtypeId>
+                </DeconstructId>
+              </Component>
+                <Component Subtype="SteelPlate" Count="10">
+                <DeconstructId>                
+                  <TypeId>Ore</TypeId>
+                  <SubtypeId>SteelPlateScrap</SubtypeId>
+                </DeconstructId>
+              </Component>
+            </Components>
+            <CriticalComponent Subtype="AdvancedComputer" Index="0" />
+        </Definition>
+
+
+       <Definition xsi:type="MyObjectBuilder_ReactorDefinition">
+            <Id>
+                <TypeId>Reactor</TypeId>
+                <SubtypeId>TSONukeLB</SubtypeId>
+            </Id>
+            <Components>
+                <Component Subtype="SteelPlate" Count="15">
+                <DeconstructId>                
+                  <TypeId>Ore</TypeId>
+                  <SubtypeId>SteelPlateScrap</SubtypeId>
+                </DeconstructId>
+              </Component>
+                <Component Subtype="Construction" Count="20">
+                <DeconstructId>                
+                  <TypeId>Ore</TypeId>
+                  <SubtypeId>ConstructionScrap</SubtypeId>
+                </DeconstructId>
+              </Component>
+                <Component Subtype="CopperWire" Count="15">
+                <DeconstructId>                
+                  <TypeId>Ore</TypeId>
+                  <SubtypeId>CopperWireScrap</SubtypeId>
+                </DeconstructId>
+              </Component>
+                <Component Subtype="MetalGrid" Count="20">
+                <DeconstructId>                
+                  <TypeId>Ore</TypeId>
+                  <SubtypeId>MetalGridScrap</SubtypeId>
+                </DeconstructId>
+              </Component>
+                <Component Subtype="LargeTube" Count="5">
+                <DeconstructId>                
+                  <TypeId>Ore</TypeId>
+                  <SubtypeId>LargeTubeScrap</SubtypeId>
+                </DeconstructId>
+              </Component>
+                <Component Subtype="Ceramic" Count="40">
+                <DeconstructId>                
+                  <TypeId>Ore</TypeId>
+                  <SubtypeId>CeramicScrap</SubtypeId>
+                </DeconstructId>
+              </Component>
+                <Component Subtype="Reactor" Count="200">
+                <DeconstructId>                
+                  <TypeId>Ore</TypeId>
+                  <SubtypeId>ReactorScrap</SubtypeId>
+                </DeconstructId>
+              </Component>
+                <Component Subtype="Motor" Count="15">
+                <DeconstructId>                
+                  <TypeId>Ore</TypeId>
+                  <SubtypeId>MotorScrap</SubtypeId>
+                </DeconstructId>
+              </Component>
+                <Component Subtype="DiamondLens" Count="5">
+                <DeconstructId>                
+                  <TypeId>Ore</TypeId>
+                  <SubtypeId>DiamondLensScrap</SubtypeId>
+                </DeconstructId>
+              </Component>					
+                <Component Subtype="Electromagnet" Count="30">
+                <DeconstructId>                
+                  <TypeId>Ore</TypeId>
+                  <SubtypeId>ElectromagnetScrap</SubtypeId>
+                </DeconstructId>
+              </Component>
+                <Component Subtype="TitaniumPlate" Count="20">
+                <DeconstructId>                
+                  <TypeId>Ore</TypeId>
+                  <SubtypeId>TitaniumPlateScrap</SubtypeId>
+                </DeconstructId>
+              </Component>
+                <Component Subtype="Superconductor" Count="50">
+                <DeconstructId>                
+                  <TypeId>Ore</TypeId>
+                  <SubtypeId>SuperconductorScrap</SubtypeId>
+                </DeconstructId>
+              </Component>
+                <Component Subtype="TopazSheet" Count="10">
+                <DeconstructId>                
+                  <TypeId>Ore</TypeId>
+                  <SubtypeId>TopazSheetScrap</SubtypeId>
+                </DeconstructId>
+              </Component>	
+                <Component Subtype="Thermocouple" Count="80">
+                <DeconstructId>                
+                  <TypeId>Ore</TypeId>
+                  <SubtypeId>ThermocoupleScrap</SubtypeId>
+                </DeconstructId>
+              </Component>
+				      <Component Subtype="PotassiumCore" Count="5">
+                <DeconstructId>                
+                  <TypeId>Ore</TypeId>
+                  <SubtypeId>LargeTubeScrap</SubtypeId>
+                </DeconstructId>
+              </Component>				
+				      <Component Subtype="Computer" Count="10">
+                <DeconstructId>                
+                  <TypeId>Ore</TypeId>
+                  <SubtypeId>ComputerScrap</SubtypeId>
+                </DeconstructId>
+              </Component>
+                <Component Subtype="Detector" Count="10">
+                <DeconstructId>                
+                  <TypeId>Ore</TypeId>
+                  <SubtypeId>DetectorScrap</SubtypeId>
+                </DeconstructId>
+              </Component>
+                <Component Subtype="GoldWire" Count="25">
+                <DeconstructId>                
+                  <TypeId>Ore</TypeId>
+                  <SubtypeId>GoldWireScrap</SubtypeId>
+                </DeconstructId>
+              </Component>
+                <Component Subtype="AdvancedComputer" Count="25">
+                <DeconstructId>                
+                  <TypeId>Ore</TypeId>
+                  <SubtypeId>AdvancedComputerScrap</SubtypeId>
+                </DeconstructId>
+              </Component>
+                <Component Subtype="SteelPlate" Count="10">
+                <DeconstructId>                
+                  <TypeId>Ore</TypeId>
+                  <SubtypeId>SteelPlateScrap</SubtypeId>
+                </DeconstructId>
+              </Component>
+            </Components>
+            <CriticalComponent Subtype="AdvancedComputer" Index="0" />
+        </Definition>
+
+	</CubeBlocks>
+</Definitions>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <CubeBlocks>
+	
+    <Definition xsi:type="MyObjectBuilder_WindTurbineDefinition">
+      <Id>
+        <TypeId>WindTurbine</TypeId>
+        <SubtypeId>MA_Windmill</SubtypeId>
+      </Id>
+          <Components>
+              <Component Subtype="SteelPlate" Count="10">
+                    <DeconstructId>                
+                      <TypeId>Ore</TypeId>
+                      <SubtypeId>SteelPlateScrap</SubtypeId>
+                    </DeconstructId>
+                  </Component>
+              <Component Subtype="Electromagnet" Count="8">
+                    <DeconstructId>                
+                      <TypeId>Ore</TypeId>
+                      <SubtypeId>ElectromagnetScrap</SubtypeId>
+                    </DeconstructId>
+                  </Component>
+              <Component Subtype="Construction" Count="20">
+                    <DeconstructId>                
+                      <TypeId>Ore</TypeId>
+                      <SubtypeId>ConstructionScrap</SubtypeId>
+                    </DeconstructId>
+                  </Component>
+              <Component Subtype="CopperWire" Count="24">
+                    <DeconstructId>                
+                      <TypeId>Ore</TypeId>
+                      <SubtypeId>CopperWireScrap</SubtypeId>
+                    </DeconstructId>
+                  </Component>
+              <Component Subtype="Computer" Count="2">
+                    <DeconstructId>                
+                      <TypeId>Ore</TypeId>
+                      <SubtypeId>ComputerScrap</SubtypeId>
+                    </DeconstructId>
+                  </Component>
+              <Component Subtype="SteelPlate" Count="30">
+                    <DeconstructId>                
+                      <TypeId>Ore</TypeId>
+                      <SubtypeId>SteelPlateScrap</SubtypeId>
+                    </DeconstructId>
+                  </Component>
+          </Components>
+          <CriticalComponent Subtype="Computer" Index="0" />
+        <MaxPowerOutput>0.3</MaxPowerOutput>
+    </Definition>
+	
+	    <Definition xsi:type="MyObjectBuilder_LightingBlockDefinition">
+      <Id>
+        <TypeId>InteriorLight</TypeId>
+        <SubtypeId>MA_Lantern</SubtypeId>
+      </Id>
+      <Components>
+        <Component Subtype="SteelPlate" Count="15">
+                    <DeconstructId>                
+                      <TypeId>Ore</TypeId>
+                      <SubtypeId>SteelPlateScrap</SubtypeId>
+                    </DeconstructId>
+                  </Component>
+        <Component Subtype="Construction" Count="10">
+                    <DeconstructId>                
+                      <TypeId>Ore</TypeId>
+                      <SubtypeId>ConstructionScrap</SubtypeId>
+                    </DeconstructId>
+                  </Component>
+        <Component Subtype="CopperWire" Count="10">
+                    <DeconstructId>                
+                      <TypeId>Ore</TypeId>
+                      <SubtypeId>CopperWireScrap</SubtypeId>
+                    </DeconstructId>
+                  </Component>               
+        <Component Subtype="Lightbulb" Count="8">
+                    <DeconstructId>                
+                      <TypeId>Ore</TypeId>
+                      <SubtypeId>LightbulbScrap</SubtypeId>
+                    </DeconstructId>
+                  </Component>       
+        <Component Subtype="SteelPlate" Count="10">
+                    <DeconstructId>                
+                      <TypeId>Ore</TypeId>
+                      <SubtypeId>SteelPlateScrap</SubtypeId>
+                    </DeconstructId>
+                  </Component>
+       </Components>
+      <CriticalComponent Subtype="Lightbulb" Index="0" />   
+    </Definition>
+
+    </CubeBlocks>
+</Definitions>

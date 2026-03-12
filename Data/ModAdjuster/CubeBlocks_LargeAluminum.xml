@@ -1,0 +1,397 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+   <CubeBlocks>
+   
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>LargeAluminumCube</SubtypeId>
+      </Id>
+      <Components>
+        <Component Subtype="InteriorPlate" Count="25">
+          <DeconstructId>                
+            <TypeId>Ore</TypeId>
+            <SubtypeId>InteriorPlateScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+      </Components>
+      <CriticalComponent Subtype="InteriorPlate" Index="0" />       
+      <BuildTimeSeconds>5</BuildTimeSeconds>
+    </Definition>
+	
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>LargeAluminumSlope</SubtypeId>
+      </Id>
+      <Components>
+        <Component Subtype="InteriorPlate" Count="13">
+          <DeconstructId>                
+            <TypeId>Ore</TypeId>
+            <SubtypeId>InteriorPlateScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+      </Components>
+      <CriticalComponent Subtype="InteriorPlate" Index="0" />        
+      <BuildTimeSeconds>5</BuildTimeSeconds>
+    </Definition>
+	
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>LargeAluminumCorner</SubtypeId>
+      </Id>
+      <Components>
+        <Component Subtype="InteriorPlate" Count="4">
+          <DeconstructId>                
+            <TypeId>Ore</TypeId>
+            <SubtypeId>InteriorPlateScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+      </Components>
+      <CriticalComponent Subtype="InteriorPlate" Index="0" />        
+      <BuildTimeSeconds>5</BuildTimeSeconds>
+    </Definition>
+	
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>LargeAluminumInvCorner</SubtypeId>
+      </Id>
+      <Components>
+        <Component Subtype="InteriorPlate" Count="21">
+          <DeconstructId>                
+            <TypeId>Ore</TypeId>
+            <SubtypeId>InteriorPlateScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+      </Components>
+      <CriticalComponent Subtype="InteriorPlate" Index="0" />        
+      <BuildTimeSeconds>5</BuildTimeSeconds>
+    </Definition>
+	
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>LargeAluminumCornerSquare</SubtypeId>
+      </Id>
+      <Components>
+        <Component Subtype="InteriorPlate" Count="7">
+          <DeconstructId>                
+            <TypeId>Ore</TypeId>
+            <SubtypeId>InteriorPlateScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+      </Components>
+      <CriticalComponent Subtype="InteriorPlate" Index="0" />        
+      <BuildTimeSeconds>5</BuildTimeSeconds>
+    </Definition>
+	
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>LargeAluminumCornerSquareInv</SubtypeId>
+      </Id>
+      <Components>
+        <Component Subtype="InteriorPlate" Count="19">
+          <DeconstructId>                
+            <TypeId>Ore</TypeId>
+            <SubtypeId>InteriorPlateScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+      </Components>
+      <CriticalComponent Subtype="InteriorPlate" Index="0" />        
+      <BuildTimeSeconds>5</BuildTimeSeconds>
+    </Definition>
+
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>LargeAluminumSlope2x1x1Base</SubtypeId>
+      </Id>
+      <Components>
+        <Component Subtype="InteriorPlate" Count="19">
+          <DeconstructId>                
+            <TypeId>Ore</TypeId>
+            <SubtypeId>InteriorPlateScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+      </Components>
+      <CriticalComponent Subtype="InteriorPlate" Index="0" />        
+      <BuildTimeSeconds>5</BuildTimeSeconds>
+    </Definition>
+	
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>LargeAluminumSlope2x1x1Tip</SubtypeId>
+      </Id>
+      <Components>
+        <Component Subtype="InteriorPlate" Count="6">
+          <DeconstructId>                
+            <TypeId>Ore</TypeId>
+            <SubtypeId>InteriorPlateScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+      </Components>
+      <CriticalComponent Subtype="InteriorPlate" Index="0" />        
+      <BuildTimeSeconds>5</BuildTimeSeconds>
+    </Definition>
+	
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>LargeHalfAluminum</SubtypeId>
+      </Id>
+      <Components>
+        <Component Subtype="InteriorPlate" Count="12">
+          <DeconstructId>                
+            <TypeId>Ore</TypeId>
+            <SubtypeId>InteriorPlateScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+      </Components>
+      <CriticalComponent Subtype="InteriorPlate" Index="0" />        
+      <BuildTimeSeconds>5</BuildTimeSeconds>
+    </Definition>
+	
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>LargeHalfSlopeAluminum</SubtypeId>
+      </Id>
+      <Components>
+        <Component Subtype="InteriorPlate" Count="4">
+          <DeconstructId>                
+            <TypeId>Ore</TypeId>
+            <SubtypeId>InteriorPlateScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+      </Components>
+      <CriticalComponent Subtype="InteriorPlate" Index="0" />        
+      <BuildTimeSeconds>5</BuildTimeSeconds>
+    </Definition>
+
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>LargeHalfSlopeCornerAluminum</SubtypeId>
+      </Id>
+      <Components>
+        <Component Subtype="InteriorPlate" Count="2">
+          <DeconstructId>                
+            <TypeId>Ore</TypeId>
+            <SubtypeId>InteriorPlateScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+      </Components>
+      <CriticalComponent Subtype="InteriorPlate" Index="0" />        
+      <BuildTimeSeconds>5</BuildTimeSeconds>
+    </Definition>
+	
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>LargeAluminumHalfCorner</SubtypeId>
+      </Id>
+      <Components>
+        <Component Subtype="InteriorPlate" Count="6">
+          <DeconstructId>                
+            <TypeId>Ore</TypeId>
+            <SubtypeId>InteriorPlateScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+      </Components>
+      <CriticalComponent Subtype="InteriorPlate" Index="0" />        
+      <BuildTimeSeconds>5</BuildTimeSeconds>
+    </Definition>
+	
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>LargeAluminumHalfSlopedCorner</SubtypeId>
+      </Id>
+      <Components>
+        <Component Subtype="InteriorPlate" Count="11">
+          <DeconstructId>                
+            <TypeId>Ore</TypeId>
+            <SubtypeId>InteriorPlateScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+      </Components>
+      <CriticalComponent Subtype="InteriorPlate" Index="0" />        
+      <BuildTimeSeconds>5</BuildTimeSeconds>
+    </Definition>
+	
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>LargeAluminumCorner2x1x1Base</SubtypeId>
+      </Id>
+      <Components>
+        <Component Subtype="InteriorPlate" Count="10">
+          <DeconstructId>                
+            <TypeId>Ore</TypeId>
+            <SubtypeId>InteriorPlateScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+      </Components>
+      <CriticalComponent Subtype="InteriorPlate" Index="0" />        
+      <BuildTimeSeconds>5</BuildTimeSeconds>
+    </Definition>
+	
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>LargeAluminumCorner2x1x1Tip</SubtypeId>
+      </Id>
+      <Components>
+        <Component Subtype="InteriorPlate" Count="3">
+          <DeconstructId>                
+            <TypeId>Ore</TypeId>
+            <SubtypeId>InteriorPlateScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+      </Components>
+      <CriticalComponent Subtype="InteriorPlate" Index="0" />        
+      <BuildTimeSeconds>5</BuildTimeSeconds>
+    </Definition>
+	
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>LargeAluminumInvCorner2x1x1Base</SubtypeId>
+      </Id>
+      <Components>
+        <Component Subtype="InteriorPlate" Count="22">
+          <DeconstructId>                
+            <TypeId>Ore</TypeId>
+            <SubtypeId>InteriorPlateScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+      </Components>
+      <CriticalComponent Subtype="InteriorPlate" Index="0" />        
+      <BuildTimeSeconds>5</BuildTimeSeconds>
+    </Definition>
+	
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>LargeAluminumInvCorner2x1x1Tip</SubtypeId>
+      </Id>
+      <Components>
+        <Component Subtype="InteriorPlate" Count="16">
+          <DeconstructId>                
+            <TypeId>Ore</TypeId>
+            <SubtypeId>InteriorPlateScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+      </Components>
+      <CriticalComponent Subtype="InteriorPlate" Index="0" />        
+      <BuildTimeSeconds>5</BuildTimeSeconds>
+    </Definition>
+	
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>LargeHalfSlopeCornerInvAluminum</SubtypeId>
+      </Id>
+      <Components>
+        <Component Subtype="InteriorPlate" Count="23">
+          <DeconstructId>                
+            <TypeId>Ore</TypeId>
+            <SubtypeId>InteriorPlateScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+      </Components>
+      <CriticalComponent Subtype="InteriorPlate" Index="0" />        
+      <BuildTimeSeconds>5</BuildTimeSeconds>
+    </Definition>
+	
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>LargeHalfSlopeInvAluminum</SubtypeId>
+      </Id>
+      <Components>
+        <Component Subtype="InteriorPlate" Count="22">
+          <DeconstructId>                
+            <TypeId>Ore</TypeId>
+            <SubtypeId>InteriorPlateScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+      </Components>
+      <CriticalComponent Subtype="InteriorPlate" Index="0" />        
+      <BuildTimeSeconds>5</BuildTimeSeconds>
+    </Definition>
+	
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>LargeSlopedCornerAluminumTip</SubtypeId>
+      </Id>
+      <Components>
+        <Component Subtype="InteriorPlate" Count="5">
+          <DeconstructId>                
+            <TypeId>Ore</TypeId>
+            <SubtypeId>InteriorPlateScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+      </Components>
+      <CriticalComponent Subtype="InteriorPlate" Index="0" />        
+      <BuildTimeSeconds>5</BuildTimeSeconds>
+    </Definition>
+	
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>LargeAluminumSlopedCornerBase</SubtypeId>
+      </Id>
+      <Components>
+        <Component Subtype="InteriorPlate" Count="20">
+          <DeconstructId>                
+            <TypeId>Ore</TypeId>
+            <SubtypeId>InteriorPlateScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+      </Components>
+      <CriticalComponent Subtype="InteriorPlate" Index="0" />        
+      <BuildTimeSeconds>5</BuildTimeSeconds>
+    </Definition>
+	
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>LargeAluminumSlopedCorner</SubtypeId>
+      </Id>
+      <Components>
+        <Component Subtype="InteriorPlate" Count="13">
+          <DeconstructId>                
+            <TypeId>Ore</TypeId>
+            <SubtypeId>InteriorPlateScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+      </Components>
+      <CriticalComponent Subtype="InteriorPlate" Index="0" />        
+      <BuildTimeSeconds>5</BuildTimeSeconds>
+    </Definition>
+	
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>LargeAluminumHalfSlopedCornerBase</SubtypeId>
+      </Id>
+      <Components>
+        <Component Subtype="InteriorPlate" Count="11">
+          <DeconstructId>                
+            <TypeId>Ore</TypeId>
+            <SubtypeId>InteriorPlateScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+      </Components>
+      <CriticalComponent Subtype="InteriorPlate" Index="0" />        
+      <BuildTimeSeconds>5</BuildTimeSeconds>
+    </Definition>
+
+   </CubeBlocks>
+</Definitions>

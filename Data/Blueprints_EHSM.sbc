@@ -1,0 +1,1049 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Blueprints>
+
+<!--Algaetech-->
+      <!--Rebalanced BioLab-->
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Algaesample</SubtypeId>
+      </Id>
+      <DisplayName>Algae Sample from Organic</DisplayName>
+      <Icon>..\2647915310\Textures\GUI\Icons\Items\AlgaeSample.dds</Icon>
+      <Prerequisites>
+        <Item Amount="5" TypeId="Ore" SubtypeId="Organic" />
+        <Item Amount="6" TypeId="Ore" SubtypeId="LakeIce" />
+      </Prerequisites>
+        <Result Amount="1" TypeId="Ingot" SubtypeId="Algaesample" />
+      <BaseProductionTimeInSeconds>200</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>GravelAlgaesample</SubtypeId>
+      </Id>
+      <DisplayName>Algae Sample from Dirt</DisplayName>
+      <Icon>..\2647915310\Textures\GUI\Icons\Items\AlgaeSample.dds</Icon>
+      <Prerequisites>
+        <Item Amount="20" TypeId="Ingot" SubtypeId="Stone" />
+        <Item Amount="18" TypeId="Ore" SubtypeId="LakeIce" />
+      </Prerequisites>
+        <Result Amount="1" TypeId="Ingot" SubtypeId="Algaesample" />
+      <BaseProductionTimeInSeconds>400</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>GravelHydrogenAlgaesample</SubtypeId>
+      </Id>
+      <DisplayName>Researching H2-synthesizing Algae</DisplayName>
+    <Icon>..\2647915310\Textures\GUI\Icons\Items\H2AlgaeSample1.dds</Icon>
+      <Prerequisites>
+        <Item Amount="20" TypeId="Ingot" SubtypeId="Algaesample" />
+        <Item Amount="20" TypeId="Ingot" SubtypeId="Stone" />
+        <Item Amount="8" TypeId="Ore" SubtypeId="AlienLakeIce" />
+      </Prerequisites>
+        <Result Amount="1" TypeId="Ingot" SubtypeId="HydrogenAlgaesample" />
+      <BaseProductionTimeInSeconds>400</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <!--Algae Sample to Vanilla Algae-->
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>AlgaeContainerToAlgae</SubtypeId>
+      </Id>
+			<DisplayName>DisplayName_Item_Algae</DisplayName>
+			<Icon>Textures\GUI\Icons\Items\Algae_item.dds</Icon>
+      <Prerequisites>
+        <Item Amount="10" TypeId="Ingot" SubtypeId="Algaesample" />
+      </Prerequisites>
+        <Result Amount="1" TypeId="PhysicalObject" SubtypeId="Algae" />
+      <BaseProductionTimeInSeconds>8</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <!--Ice Refining Speed Increase-->
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>IcetoIcepAlg</SubtypeId>
+      </Id>
+      <DisplayName>Photosynthesize Algaes</DisplayName>
+      <Icon>..\2647915310\Textures\GUI\Icons\Items\AlgaeContainer1.dds</Icon>
+      <Prerequisites>
+        <Item Amount="25" TypeId="Ore" SubtypeId="LakeIce" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="20" TypeId="Ore" SubtypeId="Ice" />
+        <Item Amount="1" TypeId="Ingot" SubtypeId="Algaesample" />
+      </Results>
+      <BaseProductionTimeInSeconds>5</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>IcetoIcepHydrAlg</SubtypeId>
+      </Id>
+      <DisplayName>Hydrogensynthesize Algaes</DisplayName>
+      <Icon>..\2647915310\Textures\GUI\Icons\Items\AlgaeContainer1.dds</Icon>
+      <Prerequisites>
+        <Item Amount="50" TypeId="Ore" SubtypeId="AlienLakeIce" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="40" TypeId="Ore" SubtypeId="Ice" />
+        <Item Amount="1" TypeId="Ingot" SubtypeId="HydrogenAlgaesample" />
+      </Results>
+      <BaseProductionTimeInSeconds>5</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <!--Rebalanced AlgMeat-->
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>AlgaeMeat</SubtypeId>
+      </Id>
+      <DisplayName>Algae Meat</DisplayName>
+      <Icon>..\2647915310\Textures\GUI\Icons\Items\AlgaeMeat.png</Icon>
+      <Prerequisites>
+        <Item Amount="6" TypeId="PhysicalObject" SubtypeId="Algae" />
+      </Prerequisites>
+        <Result Amount="1" TypeId="ConsumableItem" SubtypeId="AlgaeMeat" />
+      <BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <!--Disabled Direct Ice Gen-->
+    <Blueprint Enabled="false">
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>ALIcetoOxygen</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Item_Oxygen</DisplayName>
+      <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Ore" SubtypeId="AlienLakeIce" />
+      </Prerequisites>
+      <Result Amount="0.9" TypeId="Ingot" SubtypeId="Stone" />
+      <BaseProductionTimeInSeconds>0.1</BaseProductionTimeInSeconds>
+    </Blueprint>
+	  <Blueprint Enabled="false">
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>LIcetoOxygen</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Item_Oxygen</DisplayName>
+      <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Ore" SubtypeId="LakeIce" />
+      </Prerequisites>
+      <Result Amount="0.9" TypeId="Ingot" SubtypeId="Stone" />
+      <BaseProductionTimeInSeconds>0.1</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+<!--Suit Powerbank-->
+    <!--Tier 1 Alkaline-->
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>SuitPowerbankEE</SubtypeId>
+      </Id>
+      <DisplayName>Suit Alkaline Battery</DisplayName>
+      <Icon>..\3365172783\Textures\GUI\Icons\Item\SuitPowerbank.dds</Icon>
+      <Prerequisites>
+        <Item Amount="10" TypeId="Component" SubtypeId="SteelPlate" />
+        <Item Amount="4" TypeId="Component" SubtypeId="AlkalinePowerCell" />
+        <Item Amount="8" TypeId="Component" SubtypeId="CopperWire" />                
+        <Item Amount="20" TypeId="Ingot" SubtypeId="Silicon" />  
+      </Prerequisites>
+        <Result Amount="1" TypeId="OxygenContainerObject" SubtypeId="SuitPowerbank" />
+      <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
+      <IsPrimary>true</IsPrimary>
+    </Blueprint>         
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>SuitPowerbank</SubtypeId>
+      </Id>
+      <DisplayName>Suit Powerbank</DisplayName>
+      <Icon>..\3365172783\Textures\GUI\Icons\Item\SuitPowerbank.dds</Icon>
+      <Prerequisites>
+        <Item Amount="150" TypeId="Ingot" SubtypeId="Iron" />
+        <Item Amount="50" TypeId="Ingot" SubtypeId="Nickel" />
+        <Item Amount="25" TypeId="Ingot" SubtypeId="Silicon" />  
+      </Prerequisites>
+        <Result Amount="1" TypeId="OxygenContainerObject" SubtypeId="SuitPowerbank" />
+      <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
+      <IsPrimary>true</IsPrimary>
+      <Public>false</Public>
+    </Blueprint>    
+    <!--Tier 2 Acid-->
+    <Blueprint>
+      <Id>
+      <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>SuitPowerbankEE_1</SubtypeId>
+      </Id>
+      <DisplayName>Suit Acid Battery</DisplayName>
+      <Icon>..\3365172783\Textures\GUI\Icons\Item\SuitPowerbank_1.dds</Icon>
+      <Prerequisites>
+        <Item Amount="10" TypeId="Component" SubtypeId="SteelPlate" />
+        <Item Amount="4" TypeId="Component" SubtypeId="AcidPowerCell" />
+        <Item Amount="8" TypeId="Component" SubtypeId="CopperWire" />                
+        <Item Amount="20" TypeId="Ingot" SubtypeId="Silicon" />  
+      </Prerequisites>
+        <Result Amount="1" TypeId="OxygenContainerObject" SubtypeId="SuitPowerbank_1" />
+      <BaseProductionTimeInSeconds>45</BaseProductionTimeInSeconds>
+      <IsPrimary>true</IsPrimary>
+    </Blueprint>        
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>SuitPowerbank_1</SubtypeId>
+      </Id>
+      <DisplayName>Enhanced Suit Powerbank</DisplayName>
+      <Icon>..\3365172783\Textures\GUI\Icons\Item\SuitPowerbank_1.dds</Icon>
+      <Prerequisites>
+        <Item Amount="200" TypeId="Ingot" SubtypeId="Iron" />
+        <Item Amount="75" TypeId="Ingot" SubtypeId="Nickel" />
+        <Item Amount="75" TypeId="Ingot" SubtypeId="Silicon" />
+        <Item Amount="25" TypeId="Ingot" SubtypeId="Cobalt" />  
+      </Prerequisites>
+        <Result Amount="1" TypeId="OxygenContainerObject" SubtypeId="SuitPowerbank_1" />
+      <BaseProductionTimeInSeconds>45</BaseProductionTimeInSeconds>
+      <IsPrimary>true</IsPrimary>
+      <Public>false</Public>
+    </Blueprint>        
+    <!--Tier 3 Lithium-->
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>SuitPowerbankEE_2</SubtypeId>
+      </Id>
+      <DisplayName>Suit Lithium Battery</DisplayName>
+      <Icon>..\3365172783\Textures\GUI\Icons\Item\SuitPowerbank_2.dds</Icon>
+      <Prerequisites>
+        <Item Amount="10" TypeId="Component" SubtypeId="SteelPlate" />
+        <Item Amount="4" TypeId="Component" SubtypeId="PowerCell" />
+        <Item Amount="8" TypeId="Component" SubtypeId="CopperWire" />                
+        <Item Amount="20" TypeId="Ingot" SubtypeId="Silicon" />               
+      </Prerequisites>
+        <Result Amount="1" TypeId="OxygenContainerObject" SubtypeId="SuitPowerbank_2" />
+      <BaseProductionTimeInSeconds>60</BaseProductionTimeInSeconds>
+      <IsPrimary>true</IsPrimary>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>SuitPowerbank_2</SubtypeId>
+      </Id>
+      <DisplayName>Proficient Suit Powerbank</DisplayName>
+      <Icon>..\3365172783\Textures\GUI\Icons\Item\SuitPowerbank_2.dds</Icon>
+      <Prerequisites>
+        <Item Amount="250" TypeId="Ingot" SubtypeId="Iron" />
+        <Item Amount="100" TypeId="Ingot" SubtypeId="Nickel" />
+        <Item Amount="75" TypeId="Ingot" SubtypeId="Silicon" />
+        <Item Amount="50" TypeId="Ingot" SubtypeId="Cobalt" />  
+        <Item Amount="50" TypeId="Ingot" SubtypeId="Silver" /> 
+        <Item Amount="25" TypeId="Ingot" SubtypeId="Gold" />                
+      </Prerequisites>
+      <Result Amount="1" TypeId="OxygenContainerObject" SubtypeId="SuitPowerbank_2" />
+      <BaseProductionTimeInSeconds>60</BaseProductionTimeInSeconds>
+      <IsPrimary>true</IsPrimary>
+      <Public>false</Public>            
+    </Blueprint>
+    <!--Tier 4 Matrix-->
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>SuitPowerbankEE_3</SubtypeId>
+      </Id>
+      <DisplayName>Suit Matrix Battery</DisplayName>
+      <Icon>..\3365172783\Textures\GUI\Icons\Item\SuitPowerbank_3.dds</Icon>
+      <Prerequisites>
+        <Item Amount="10" TypeId="Component" SubtypeId="SteelPlate" />
+        <Item Amount="4" TypeId="Component" SubtypeId="ElectronMatrix" />
+        <Item Amount="8" TypeId="Component" SubtypeId="GoldWire" />                
+        <Item Amount="20" TypeId="Ingot" SubtypeId="Silicon" />                  
+      </Prerequisites>
+        <Result Amount="1" TypeId="OxygenContainerObject" SubtypeId="SuitPowerbank_3" />
+      <BaseProductionTimeInSeconds>90</BaseProductionTimeInSeconds>
+      <IsPrimary>true</IsPrimary>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>SuitPowerbank_3</SubtypeId>
+      </Id>
+      <DisplayName>Elite Suit Powerbank</DisplayName>
+      <Icon>..\3365172783\Textures\GUI\Icons\Item\SuitPowerbank_3.dds</Icon>
+      <Prerequisites>
+        <Item Amount="300" TypeId="Ingot" SubtypeId="Iron" />
+        <Item Amount="125" TypeId="Ingot" SubtypeId="Nickel" />
+        <Item Amount="100" TypeId="Ingot" SubtypeId="Silicon" />
+        <Item Amount="75" TypeId="Ingot" SubtypeId="Cobalt" />  
+        <Item Amount="100" TypeId="Ingot" SubtypeId="Silver" /> 
+        <Item Amount="100" TypeId="Ingot" SubtypeId="Gold" /> 
+        <Item Amount="50" TypeId="Ingot" SubtypeId="Platinum" />                
+      </Prerequisites>
+        <Result Amount="1" TypeId="OxygenContainerObject" SubtypeId="SuitPowerbank_3" />
+      <BaseProductionTimeInSeconds>90</BaseProductionTimeInSeconds>
+      <IsPrimary>true</IsPrimary>
+      <Public>false</Public>  
+    </Blueprint>
+
+<!--Placeable Concrete-->
+    <!--New Tool-->
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Blueprint_ConcreteTool_EHSM</SubtypeId>
+      </Id>
+      <DisplayName>Concrete Tool</DisplayName>
+      <Icon>..\396679430\Textures\Icons\Tool.dds</Icon>
+      <Prerequisites>
+        <Item Amount="5" TypeId="Component" SubtypeId="SteelPlate" />
+        <Item Amount="2" TypeId="Component" SubtypeId="LargeTube" />
+        <Item Amount="2" TypeId="Component" SubtypeId="Motor" />
+        <Item Amount="2" TypeId="Component" SubtypeId="Plastic" />
+        <Item Amount="3" TypeId="Component" SubtypeId="TitaniumPlate" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="PhysicalGunObject" SubtypeId="PhysicalConcreteTool" />
+      <BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <!--Disabled Tool-->
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Blueprint_ConcreteTool</SubtypeId>
+      </Id>
+      <Public>false</Public>
+      <DisplayName>Concrete Tool</DisplayName>
+      <Icon>..\396679430\Textures\Icons\Tool.dds</Icon>
+      <Prerequisites>
+        <Item Amount="5" TypeId="Component" SubtypeId="SteelPlate" />
+        <Item Amount="2" TypeId="Component" SubtypeId="LargeTube" />
+        <Item Amount="2" TypeId="Component" SubtypeId="Motor" />
+        <Item Amount="2" TypeId="Component" SubtypeId="Plastic" />
+        <Item Amount="3" TypeId="Component" SubtypeId="TitaniumPlate" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="PhysicalGunObject" SubtypeId="PhysicalConcreteTool" />
+      <BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <!--New Mix-->
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Blueprint_ConcreteMix_EHSM</SubtypeId>
+      </Id>
+      <DisplayName>Concrete Mix</DisplayName>
+      <Icon>..\396679430\Textures\Icons\Ammo.dds</Icon>
+      <Prerequisites>
+        <Item Amount="10" TypeId="Ingot" SubtypeId="Stone" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="AmmoMagazine" SubtypeId="ConcreteMix" />
+      <BaseProductionTimeInSeconds>3</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <!--Disabled Mix-->
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Blueprint_ConcreteMix</SubtypeId>
+      </Id>
+      <Public>false</Public>
+      <DisplayName>Concrete Mix</DisplayName>
+      <Icon>..\396679430\Textures\Icons\Ammo.dds</Icon>
+      <Prerequisites>
+        <Item Amount="10" TypeId="Ingot" SubtypeId="Stone" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="AmmoMagazine" SubtypeId="ConcreteMix" />
+      <BaseProductionTimeInSeconds>3</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+<!--AiEnabled Chips-->
+    <!--Disabled Combat-->
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>AiEnabled_BP_CombatBotMaterial</SubtypeId>
+      </Id>
+			<Public>false</Public>
+      <DisplayName>Combat Bot Token</DisplayName>
+      <Icon>..\2596208372\Textures\Icons\Components\AiEnabled_CombatToken.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Ingot" SubtypeId="Uranium" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="1" TypeId="Component" SubtypeId="AiEnabled_Comp_CombatBotMaterial" />
+      </Results>
+      <BaseProductionTimeInSeconds>15</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <!--New Combat-->
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>AiEnabled_BP_CombatBotMaterial_EHSM</SubtypeId>
+      </Id>
+      <DisplayName>Combat Bot Token</DisplayName>
+      <Icon>..\2596208372\Textures\Icons\Components\AiEnabled_CombatToken.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Component" SubtypeId="PotassiumCore" />
+        <Item Amount="10" TypeId="Component" SubtypeId="QuantumComputer" />
+        <Item Amount="5" TypeId="Component" SubtypeId="CompositeArmor" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="1" TypeId="Component" SubtypeId="AiEnabled_Comp_CombatBotMaterial" />
+      </Results>
+      <BaseProductionTimeInSeconds>15</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <!--Disabled Crew-->
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>AiEnabled_BP_CrewBotMaterial</SubtypeId>
+      </Id>
+			<Public>false</Public>
+      <DisplayName>Crew Bot Token</DisplayName>
+      <Icon>..\2596208372\Textures\Icons\Components\AiEnabled_CrewToken.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Ingot" SubtypeId="Uranium" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="1" TypeId="Component" SubtypeId="AiEnabled_Comp_CrewBotMaterial" />
+      </Results>
+      <BaseProductionTimeInSeconds>15</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <!--New Crew-->
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>AiEnabled_BP_CrewBotMaterial_EHSM</SubtypeId>
+      </Id>
+      <DisplayName>Crew Bot Token</DisplayName>
+      <Icon>..\2596208372\Textures\Icons\Components\AiEnabled_CrewToken.dds</Icon>
+      <Prerequisites>
+        <Item Amount="20" TypeId="Ingot" SubtypeId="Uranium" />
+        <Item Amount="5" TypeId="Component" SubtypeId="QuantumComputer" />
+        <Item Amount="5" TypeId="Component" SubtypeId="CompositeArmor" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="1" TypeId="Component" SubtypeId="AiEnabled_Comp_CrewBotMaterial" />
+      </Results>
+      <BaseProductionTimeInSeconds>15</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <!--Disabled Repair-->
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>AiEnabled_BP_RepairBotMaterial</SubtypeId>
+      </Id>
+			<Public>false</Public>
+      <DisplayName>Repair Bot Token</DisplayName>
+      <Icon>..\2596208372\Textures\Icons\Components\AiEnabled_RepairToken.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Ingot" SubtypeId="Uranium" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="1" TypeId="Component" SubtypeId="AiEnabled_Comp_RepairBotMaterial" />
+      </Results>
+      <BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <!--New Repair-->
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>AiEnabled_BP_RepairBotMaterial_EHSM</SubtypeId>
+      </Id>
+      <DisplayName>Repair Bot Token</DisplayName>
+      <Icon>..\2596208372\Textures\Icons\Components\AiEnabled_RepairToken.dds</Icon>
+      <Prerequisites>
+        <Item Amount="20" TypeId="Ingot" SubtypeId="Uranium" />
+        <Item Amount="5" TypeId="Component" SubtypeId="QuantumComputer" />
+        <Item Amount="5" TypeId="Component" SubtypeId="TitaniumPlate" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="1" TypeId="Component" SubtypeId="AiEnabled_Comp_RepairBotMaterial" />
+      </Results>
+      <BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <!--Disabled Scavenger-->
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>AiEnabled_BP_ScavengerBotMaterial</SubtypeId>
+      </Id>
+			<Public>false</Public>
+      <DisplayName>Scavenger Bot Token</DisplayName>
+      <Icon>..\2596208372\Textures\Icons\Components\AiEnabled_ScavengerToken.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Ingot" SubtypeId="Uranium" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="1" TypeId="Component" SubtypeId="AiEnabled_Comp_ScavengerBotMaterial" />
+      </Results>
+      <BaseProductionTimeInSeconds>5</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <!--New Scavenger-->
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>AiEnabled_BP_ScavengerBotMaterial_EHSM</SubtypeId>
+      </Id>
+      <DisplayName>Scavenger Bot Token</DisplayName>
+      <Icon>..\2596208372\Textures\Icons\Components\AiEnabled_ScavengerToken.dds</Icon>
+      <Prerequisites>
+        <Item Amount="15" TypeId="Ingot" SubtypeId="Uranium" />
+        <Item Amount="5" TypeId="Component" SubtypeId="AdvancedComputer" />
+        <Item Amount="5" TypeId="Component" SubtypeId="TitaniumPlate" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="1" TypeId="Component" SubtypeId="AiEnabled_Comp_ScavengerBotMaterial" />
+      </Results>
+      <BaseProductionTimeInSeconds>5</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+<!--Nuclear Weapons IO-->
+    <!--Enriched Uranium-->
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>EnrichedUraniumOre_reprocessor</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Item_UraniumIngot</DisplayName>
+      <Icon>..\2667815590\Textures\Icons\enrichedUraniumCoreIcon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="3" TypeId="Ore" SubtypeId="PurifiedUranium" />
+        <Item Amount="20" TypeId="Ore" SubtypeId="Ice" />
+        <Item Amount="10" TypeId="Ingot" SubtypeId="Sulfur" />
+        <Item Amount="10" TypeId="Ingot" SubtypeId="Niter" />
+      </Prerequisites>
+      <Result Amount="0.3" TypeId="Ore" SubtypeId="EnrichedUraniumOre" />
+      <BaseProductionTimeInSeconds>500</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <!--Demon Core-->
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>EnrichedUraniumCore_Nano</SubtypeId>
+      </Id>
+      <DisplayName>Enriched Uranium Core</DisplayName>
+      <Icon>..\2667815590\Textures\Icons\enrichedUraniumCoreIcon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Ore" SubtypeId="EnrichedUraniumOre" />
+        <Item Amount="3" TypeId="Ingot" SubtypeId="DepletedUranium" />
+		    <Item Amount="5" TypeId="Ingot" SubtypeId="Tantalum" />
+		    <Item Amount="25" TypeId="Ingot" SubtypeId="Cobalt" />
+        <Item Amount="20" TypeId="Ingot" SubtypeId="Silver" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="EnrichedUraniumCore" />
+      <BaseProductionTimeInSeconds>15</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+<!--Vacuum Balloons-->
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>VacCell</SubtypeId>
+      </Id>
+      <DisplayName>USE ADVANCED ASSEMBLER</DisplayName>
+      <Icon>Textures\GUI\Icons\component\PrototechThrusterComponent.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Ingot" SubtypeId="Stone" />
+      </Prerequisites>
+        <Result Amount="1" TypeId="Ingot" SubtypeId="Stone" />
+      <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+      <IsPrimary>false</IsPrimary>
+			<Public>false</Public>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>VacCellEHSM</SubtypeId>
+      </Id>
+      <DisplayName>Vacuum Cell</DisplayName>
+      <Icon>Textures\GUI\Icons\component\PrototechThrusterComponent.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Component" SubtypeId="InteriorPlate" />
+        <Item Amount="5" TypeId="Component" SubtypeId="Plastic" />
+        <Item Amount="5" TypeId="Component" SubtypeId="Rubber" />                
+			  <Item Amount="1" TypeId="Ingot" SubtypeId="Silicon" />
+      </Prerequisites>
+        <Result Amount="1" TypeId="Component" SubtypeId="VacCell" />
+      <BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
+      <IsPrimary>true</IsPrimary>
+      </Blueprint>
+
+<!--Def Shields-->
+    <!--Encabulator-->
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>ShieldComponent</SubtypeId>
+      </Id>
+      <Public>false</Public>      
+      <DisplayName>Encabulator</DisplayName>
+      <Icon>..\3147276777\Textures\Icons\shieldcomponent.png</Icon>
+      <Prerequisites>
+        <Item Amount="25" TypeId="Ingot" SubtypeId="Cobalt" />
+        <Item Amount="25" TypeId="Ingot" SubtypeId="Silver" />
+        <Item Amount="25" TypeId="Ingot" SubtypeId="Gold" />
+	      <Item Amount="25" TypeId="Ingot" SubtypeId="Platinum" />
+      </Prerequisites>
+      <Results>
+      	  <Item Amount="1" TypeId="Component" SubtypeId="Shield" />
+      </Results>      
+      <BaseProductionTimeInSeconds>5000.0</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>ShieldComponentEHSM</SubtypeId>
+      </Id>
+      <DisplayName>Encabulator</DisplayName>
+      <Icon>..\3147276777\Textures\Icons\shieldcomponent.png</Icon>
+      <Prerequisites>
+        <Item Amount="40" TypeId="Ingot" SubtypeId="Iron" />      
+        <Item Amount="20" TypeId="Ingot" SubtypeId="Cesium" />
+        <Item Amount="25" TypeId="Ingot" SubtypeId="Silver" />
+        <Item Amount="25" TypeId="Ingot" SubtypeId="Gold" />
+	      <Item Amount="15" TypeId="Ingot" SubtypeId="Platinum" />
+      </Prerequisites>
+      <Results>
+      	  <Item Amount="1" TypeId="Component" SubtypeId="Shield" />
+      </Results>      
+      <BaseProductionTimeInSeconds>5.0</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+<!--Hacking Computer-->  
+    <!--Overrides "Hacking Computer for IO" recipe-->
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>IOHackingChipComponent</SubtypeId>
+      </Id>
+      <DisplayName>Hacking Chip</DisplayName>
+      <Icon>..\2034225971\Textures\GUI\Icons\HackingChip.dds</Icon>
+      <Prerequisites>
+        <Item Amount="20" TypeId="Ingot" SubtypeId="Silver" />
+        <Item Amount="20" TypeId="Component" SubtypeId="GoldWire" />
+        <Item Amount="20" TypeId="Ingot" SubtypeId="Cesium" />
+        <Item Amount="10" TypeId="Component" SubtypeId="QuantumComputer" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="HackingChip" />
+      <BaseProductionTimeInSeconds>16</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+<!--Nuclear Weapons-->
+    <!--Manual fix of recipe to remove red popup-->
+		<Blueprint>
+			<Id>
+				<TypeId>BlueprintDefinition</TypeId>
+				<SubtypeId>EnrichedUraniumCoreComponent</SubtypeId>
+			</Id>
+			<DisplayName>Enriched Uranium Core</DisplayName>
+			<Icon>Textures\Icons\enrichedUraniumCoreIcon.dds</Icon>
+			<Prerequisites>
+				<Item Amount="1" TypeId="Ingot" SubtypeId="Uranium" />
+			</Prerequisites>
+			<Result Amount="1" TypeId="Ingot" SubtypeId="Uranium" />
+			<BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+			<IsPrimary>false</IsPrimary>
+			<Public>false</Public>
+		</Blueprint>
+
+<!--EHSM-->
+    <!--Assembling Bench Ice Refining-->
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>LakeToIce</SubtypeId>
+      </Id>
+      <DisplayName>100x Lakeice to 75x Ice</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_H2O_ice.dds</Icon>
+      <Prerequisites>
+        <Item Amount="100" TypeId="Ore" SubtypeId="LakeIce" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="75" TypeId="Ore" SubtypeId="Ice" />
+      </Results>
+      <BaseProductionTimeInSeconds>0.25</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <!--Recipe for EHSM Firewood-->
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>FireWood</SubtypeId>
+      </Id>
+      <DisplayName>Prep wood for burning</DisplayName>
+      <Icon>Textures\Icons\FireWood.png</Icon>
+      <Prerequisites>
+        <Item Amount="15" TypeId="Component" SubtypeId="WoodLogs" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="1" TypeId="Ingot" SubtypeId="FireWood" />
+      </Results>
+      <BaseProductionTimeInSeconds>0.1</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+<!--IO Stone Overhaul-->
+    <!--Survival Kit-->
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>StoneOreToIngotStarting</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_BlueprintClass_Ingots</DisplayName>
+      <Icon>Textures\GUI\Icons\ingot\ingot_class.dds</Icon>
+      <Prerequisites>
+        <Item Amount="100" TypeId="Ore" SubtypeId="Stone" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="81" TypeId="Ingot" SubtypeId="Stone" />
+        <Item Amount="12" TypeId="Ingot" SubtypeId="Iron" />
+        <Item Amount="1" TypeId="Ingot" SubtypeId="Nickel" />
+        <Item Amount="2" TypeId="Ingot" SubtypeId="Silicon" />
+        <Item Amount="3" TypeId="Ingot" SubtypeId="Copper" />
+      </Results>
+      <BaseProductionTimeInSeconds>4</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <!--Smelter-->
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>StoneOreToIngotBasic</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_BlueprintClass_Ingots</DisplayName>
+      <Icon>Textures\GUI\Icons\ingot\ingot_class.dds</Icon>
+      <Prerequisites>
+        <Item Amount="100" TypeId="Ore" SubtypeId="Stone" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="74" TypeId="Ingot" SubtypeId="Stone" />
+        <Item Amount="14" TypeId="Ingot" SubtypeId="Iron" />
+        <Item Amount="1.5" TypeId="Ingot" SubtypeId="Nickel" />
+        <Item Amount="2.5" TypeId="Ingot" SubtypeId="Silicon" />
+        <Item Amount="4" TypeId="Ingot" SubtypeId="Copper" />
+      </Results>
+      <BaseProductionTimeInSeconds>4</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <!--Refinery-->
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>StoneOreToIngot</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_BlueprintClass_Ingots</DisplayName>
+      <Icon>Textures\GUI\Icons\ingot\ingot_class.dds</Icon>
+      <Prerequisites>
+        <Item Amount="100" TypeId="Ore" SubtypeId="Stone" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="65" TypeId="Ingot" SubtypeId="Stone" />
+        <Item Amount="15" TypeId="Ingot" SubtypeId="Iron" />
+        <Item Amount="2" TypeId="Ingot" SubtypeId="Nickel" />
+        <Item Amount="3" TypeId="Ingot" SubtypeId="Silicon" />
+        <Item Amount="5" TypeId="Ingot" SubtypeId="Copper" />
+      </Results>
+      <BaseProductionTimeInSeconds>4</BaseProductionTimeInSeconds>
+      <IsPrimary>true</IsPrimary>
+    </Blueprint>
+
+<!--Vanilla-->
+    <!--Welders-->
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>POWelder</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Item_Welder</DisplayName>
+      <Icon>Textures\GUI\Icons\WeaponWelder.dds</Icon>
+      <Prerequisites>
+        <Item Amount="2" TypeId="Component" SubtypeId="CopperWire" />
+        <Item Amount="1" TypeId="Component" SubtypeId="SmallTube" />
+        <Item Amount="2" TypeId="Component" SubtypeId="SteelPlate" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="PhysicalGunObject" SubtypeId="WelderItem" />
+      <BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
+      <IsPrimary>true</IsPrimary>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>POWelder2</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Item_Welder2</DisplayName>
+      <Icon>Textures\GUI\Icons\WeaponWelder_1.dds</Icon>
+      <Prerequisites>
+        <Item Amount="3" TypeId="Component" SubtypeId="CopperWire" />
+        <Item Amount="1" TypeId="Component" SubtypeId="SmallTube" />
+        <Item Amount="2" TypeId="Component" SubtypeId="InteriorPlate" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="PhysicalGunObject" SubtypeId="Welder2Item" />
+      <BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
+      <IsPrimary>true</IsPrimary>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>POWelder3</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Item_Welder3</DisplayName>
+      <Icon>Textures\GUI\Icons\WeaponWelder_2.dds</Icon>
+      <Prerequisites>
+        <Item Amount="2" TypeId="Component" SubtypeId="GoldWire" />
+        <Item Amount="1" TypeId="Component" SubtypeId="SmallTube" />
+        <Item Amount="1" TypeId="Component" SubtypeId="Plastic" />
+        <Item Amount="2" TypeId="Component" SubtypeId="InteriorPlate" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="PhysicalGunObject" SubtypeId="Welder3Item" />
+      <BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
+      <IsPrimary>true</IsPrimary>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>POWelder4</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Item_Welder4</DisplayName>
+      <Icon>Textures\GUI\Icons\WeaponWelder_3.dds</Icon>
+      <Prerequisites>
+        <Item Amount="5" TypeId="Component" SubtypeId="GoldWire" />
+        <Item Amount="10" TypeId="Ingot" SubtypeId="Platinum" />
+        <Item Amount="1" TypeId="Component" SubtypeId="LaserEmitter" />
+        <Item Amount="2" TypeId="Component" SubtypeId="Plastic" />
+        <Item Amount="2" TypeId="Component" SubtypeId="InteriorPlate" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="PhysicalGunObject" SubtypeId="Welder4Item" />
+      <BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
+      <IsPrimary>true</IsPrimary>
+    </Blueprint>
+    <!--Grinders-->
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>POAngleGrinder</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Item_AngleGrinder</DisplayName>
+      <Icon>Textures\GUI\Icons\WeaponGrinder.dds</Icon>
+      <Prerequisites>
+        <Item Amount="3" TypeId="Ingot" SubtypeId="Silicon" />
+        <Item Amount="1" TypeId="Component" SubtypeId="CopperWire" />
+        <Item Amount="2" TypeId="Component" SubtypeId="SteelPlate" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="PhysicalGunObject" SubtypeId="AngleGrinderItem" />
+      <BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
+      <IsPrimary>true</IsPrimary>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>POAngleGrinder2</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Item_AngleGrinder2</DisplayName>
+      <Icon>Textures\GUI\Icons\WeaponGrinder_1.dds</Icon>
+      <Prerequisites>
+        <Item Amount="2" TypeId="Component" SubtypeId="Construction" />
+        <Item Amount="1" TypeId="Component" SubtypeId="Ceramic" />
+        <Item Amount="2" TypeId="Component" SubtypeId="CopperWire" />
+        <Item Amount="1" TypeId="Component" SubtypeId="Motor" />
+        <Item Amount="2" TypeId="Component" SubtypeId="SteelPlate" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="PhysicalGunObject" SubtypeId="AngleGrinder2Item" />
+      <BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
+      <IsPrimary>true</IsPrimary>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>POAngleGrinder3</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Item_AngleGrinder3</DisplayName>
+      <Icon>Textures\GUI\Icons\WeaponGrinder_2.dds</Icon>
+      <Prerequisites>
+        <Item Amount="2" TypeId="Component" SubtypeId="Construction" />
+        <Item Amount="2" TypeId="Component" SubtypeId="Ceramic" />
+        <Item Amount="2" TypeId="Component" SubtypeId="GoldWire" />
+        <Item Amount="1" TypeId="Component" SubtypeId="Motor" />
+        <Item Amount="2" TypeId="Component" SubtypeId="Rubber" />
+        <Item Amount="2" TypeId="Component" SubtypeId="TitaniumPlate" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="PhysicalGunObject" SubtypeId="AngleGrinder3Item" />
+      <BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
+      <IsPrimary>true</IsPrimary>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>POAngleGrinder4</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Item_AngleGrinder4</DisplayName>
+      <Icon>Textures\GUI\Icons\WeaponGrinder_3.dds</Icon>
+      <Prerequisites>
+        <Item Amount="2" TypeId="Component" SubtypeId="Construction" />
+        <Item Amount="1" TypeId="Component" SubtypeId="LaserEmitter" />
+        <Item Amount="15" TypeId="Ingot" SubtypeId="Platinum" />
+        <Item Amount="2" TypeId="Component" SubtypeId="GoldWire" />
+        <Item Amount="1" TypeId="Component" SubtypeId="Motor" />
+        <Item Amount="2" TypeId="Component" SubtypeId="Rubber" />
+        <Item Amount="2" TypeId="Component" SubtypeId="TitaniumPlate" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="PhysicalGunObject" SubtypeId="AngleGrinder4Item" />
+      <BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
+      <IsPrimary>true</IsPrimary>
+    </Blueprint>
+    <!--Drills-->
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>POHandDrill</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Item_HandDrill</DisplayName>
+      <Icon>Textures\GUI\Icons\WeaponDrill.dds</Icon>
+      <Prerequisites>
+        <Item Amount="2" TypeId="Component" SubtypeId="LargeTube" />
+        <Item Amount="2" TypeId="Component" SubtypeId="CopperWire" />
+        <Item Amount="2" TypeId="Component" SubtypeId="SteelPlate" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="PhysicalGunObject" SubtypeId="HandDrillItem" />
+      <BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
+      <IsPrimary>true</IsPrimary>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>POHandDrill2</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Item_HandDrill2</DisplayName>
+      <Icon>Textures\GUI\Icons\WeaponDrill_1.dds</Icon>
+      <Prerequisites>
+        <Item Amount="2" TypeId="Component" SubtypeId="LargeTube" />
+        <Item Amount="3" TypeId="Component" SubtypeId="CopperWire" />
+        <Item Amount="1" TypeId="Component" SubtypeId="Motor" />
+        <Item Amount="3" TypeId="Component" SubtypeId="TitaniumPlate" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="PhysicalGunObject" SubtypeId="HandDrill2Item" />
+      <BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
+      <IsPrimary>true</IsPrimary>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>POHandDrill3</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Item_HandDrill3</DisplayName>
+      <Icon>Textures\GUI\Icons\WeaponDrill_2.dds</Icon>
+      <Prerequisites>
+        <Item Amount="2" TypeId="Component" SubtypeId="Ceramic" />
+        <Item Amount="2" TypeId="Component" SubtypeId="LargeTube" />
+        <Item Amount="3" TypeId="Component" SubtypeId="GoldWire" />
+        <Item Amount="2" TypeId="Component" SubtypeId="Motor" />
+        <Item Amount="2" TypeId="Component" SubtypeId="Plastic" />
+        <Item Amount="3" TypeId="Component" SubtypeId="TitaniumPlate" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="PhysicalGunObject" SubtypeId="HandDrill3Item" />
+      <BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
+      <IsPrimary>true</IsPrimary>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>POHandDrill4</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Item_HandDrill4</DisplayName>
+      <Icon>Textures\GUI\Icons\WeaponDrill_3.dds</Icon>
+      <Prerequisites>
+        <Item Amount="5" TypeId="Component" SubtypeId="SapphireBit" />
+        <Item Amount="4" TypeId="Component" SubtypeId="LargeTube" />
+        <Item Amount="20" TypeId="Ingot" SubtypeId="Platinum" />
+        <Item Amount="3" TypeId="Component" SubtypeId="GoldWire" />
+        <Item Amount="2" TypeId="Component" SubtypeId="Motor" />
+        <Item Amount="2" TypeId="Component" SubtypeId="Rubber" />
+        <Item Amount="3" TypeId="Component" SubtypeId="TitaniumPlate" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="PhysicalGunObject" SubtypeId="HandDrill4Item" />
+      <BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
+      <IsPrimary>true</IsPrimary>
+    </Blueprint>
+
+<!--Fake Recipe for AiE Whitelist-->
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>GravelFake</SubtypeId>
+      </Id>
+      <DisplayName>GravelFake</DisplayName>
+      <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Ingot" SubtypeId="Stone" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Ingot" SubtypeId="Stone" />
+      <BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
+      <Public>false</Public>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>NickelFake</SubtypeId>
+      </Id>
+      <DisplayName>NickelFake</DisplayName>
+      <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Ingot" SubtypeId="Nickel" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Ingot" SubtypeId="Nickel" />
+      <BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
+      <Public>false</Public>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>CarbonFake</SubtypeId>
+      </Id>
+      <DisplayName>CarbonFake</DisplayName>
+      <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Ingot" SubtypeId="Carbon" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Ingot" SubtypeId="Carbon" />
+      <BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
+      <Public>false</Public>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>CopperFake</SubtypeId>
+      </Id>
+      <DisplayName>CopperFake</DisplayName>
+      <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Ingot" SubtypeId="Copper" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Ingot" SubtypeId="Copper" />
+      <BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
+      <Public>false</Public>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>AluminumFake</SubtypeId>
+      </Id>
+      <DisplayName>AluminumFake</DisplayName>
+      <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Ingot" SubtypeId="Aluminum" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Ingot" SubtypeId="Aluminum" />
+      <BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
+      <Public>false</Public>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>LithiumFake</SubtypeId>
+      </Id>
+      <DisplayName>LithiumFake</DisplayName>
+      <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Ingot" SubtypeId="Lithium" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Ingot" SubtypeId="Lithium" />
+      <BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
+      <Public>false</Public>
+    </Blueprint>
+
+  </Blueprints>
+</Definitions>

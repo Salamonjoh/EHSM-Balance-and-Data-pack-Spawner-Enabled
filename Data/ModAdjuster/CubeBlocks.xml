@@ -1,0 +1,1166 @@
+<?xml version="1.0" ?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<CubeBlocks>
+
+<!--Neon Lights Plus-->	
+	
+        <Definition xsi:type="MyObjectBuilder_LightingBlockDefinition">
+            <Id>
+                <TypeId>InteriorLight</TypeId>
+                <SubtypeId>SmallNeonTubesCircle</SubtypeId>
+            </Id>
+            <DisplayName>Neon Light Circle</DisplayName>
+            <Components>
+                <Component Subtype="InteriorPlate" Count="1">
+                    <DeconstructId>                
+                      <TypeId>Ore</TypeId>
+                      <SubtypeId>InteriorPlateScrap</SubtypeId>
+                    </DeconstructId>
+                  </Component>
+                <Component Subtype="SmallTube" Count="1">
+                    <DeconstructId>                
+                      <TypeId>Ore</TypeId>
+                      <SubtypeId>SmallTubeScrap</SubtypeId>
+                    </DeconstructId>
+                  </Component>                
+                <Component Subtype="Lightbulb" Count="1">
+                    <DeconstructId>                
+                      <TypeId>Ore</TypeId>
+                      <SubtypeId>LightbulbScrap</SubtypeId>
+                    </DeconstructId>
+                  </Component>                  
+                <Component Subtype="Construction" Count="1">
+                    <DeconstructId>                
+                      <TypeId>Ore</TypeId>
+                      <SubtypeId>ConstructionScrap</SubtypeId>
+                    </DeconstructId>
+                  </Component>                  
+            </Components>
+            <CriticalComponent Subtype="Construction" Index="0" />
+		</Definition>
+		
+		<Definition xsi:type="MyObjectBuilder_LightingBlockDefinition">
+            <Id>
+                <TypeId>InteriorLight</TypeId>
+                <SubtypeId>SmallNeonTubesStraightDown</SubtypeId>
+            </Id>
+            <DisplayName>Neon Light Down 2</DisplayName>
+            <Components>
+                <Component Subtype="InteriorPlate" Count="1">
+                    <DeconstructId>                
+                      <TypeId>Ore</TypeId>
+                      <SubtypeId>InteriorPlateScrap</SubtypeId>
+                    </DeconstructId>
+                  </Component>
+                <Component Subtype="SmallTube" Count="1">
+                    <DeconstructId>                
+                      <TypeId>Ore</TypeId>
+                      <SubtypeId>SmallTubeScrap</SubtypeId>
+                    </DeconstructId>
+                  </Component>                
+                <Component Subtype="Lightbulb" Count="1">
+                    <DeconstructId>                
+                      <TypeId>Ore</TypeId>
+                      <SubtypeId>LightbulbScrap</SubtypeId>
+                    </DeconstructId>
+                  </Component>                  
+                <Component Subtype="Construction" Count="1">
+                    <DeconstructId>                
+                      <TypeId>Ore</TypeId>
+                      <SubtypeId>ConstructionScrap</SubtypeId>
+                    </DeconstructId>
+                  </Component>                  
+            </Components>
+            <CriticalComponent Subtype="Construction" Index="0" />
+		</Definition>
+		
+		<Definition xsi:type="MyObjectBuilder_LightingBlockDefinition">
+            <Id>
+                <TypeId>InteriorLight</TypeId>
+                <SubtypeId>SmallNeonTubesBendDown</SubtypeId>
+            </Id>
+            <DisplayName>Neon Light Down</DisplayName>
+            <Components>
+                <Component Subtype="InteriorPlate" Count="1">
+                    <DeconstructId>                
+                      <TypeId>Ore</TypeId>
+                      <SubtypeId>InteriorPlateScrap</SubtypeId>
+                    </DeconstructId>
+                  </Component>
+                <Component Subtype="SmallTube" Count="1">
+                    <DeconstructId>                
+                      <TypeId>Ore</TypeId>
+                      <SubtypeId>SmallTubeScrap</SubtypeId>
+                    </DeconstructId>
+                  </Component>                
+                <Component Subtype="Lightbulb" Count="1">
+                    <DeconstructId>                
+                      <TypeId>Ore</TypeId>
+                      <SubtypeId>LightbulbScrap</SubtypeId>
+                    </DeconstructId>
+                  </Component>                  
+                <Component Subtype="Construction" Count="1">
+                    <DeconstructId>                
+                      <TypeId>Ore</TypeId>
+                      <SubtypeId>ConstructionScrap</SubtypeId>
+                    </DeconstructId>
+                  </Component>                  
+            </Components>
+            <CriticalComponent Subtype="Construction" Index="0" />
+		</Definition>
+		
+		<Definition xsi:type="MyObjectBuilder_LightingBlockDefinition">
+            <Id>
+                <TypeId>InteriorLight</TypeId>
+                <SubtypeId>SmallNeonTubesBendUp</SubtypeId>
+            </Id>
+            <DisplayName>Neon Light Up</DisplayName>
+            <Components>
+                <Component Subtype="InteriorPlate" Count="1">
+                    <DeconstructId>                
+                      <TypeId>Ore</TypeId>
+                      <SubtypeId>InteriorPlateScrap</SubtypeId>
+                    </DeconstructId>
+                  </Component>
+                <Component Subtype="SmallTube" Count="1">
+                    <DeconstructId>                
+                      <TypeId>Ore</TypeId>
+                      <SubtypeId>SmallTubeScrap</SubtypeId>
+                    </DeconstructId>
+                  </Component>                
+                <Component Subtype="Lightbulb" Count="1">
+                    <DeconstructId>                
+                      <TypeId>Ore</TypeId>
+                      <SubtypeId>LightbulbScrap</SubtypeId>
+                    </DeconstructId>
+                  </Component>                  
+                <Component Subtype="Construction" Count="1">
+                    <DeconstructId>                
+                      <TypeId>Ore</TypeId>
+                      <SubtypeId>ConstructionScrap</SubtypeId>
+                    </DeconstructId>
+                  </Component>                  
+            </Components>
+            <CriticalComponent Subtype="Construction" Index="0" />
+		</Definition>
+		
+		<Definition xsi:type="MyObjectBuilder_LightingBlockDefinition">
+            <Id>
+                <TypeId>InteriorLight</TypeId>
+                <SubtypeId>SmallNeonTubesStraight1</SubtypeId>
+            </Id>
+            <DisplayName>Neon Light 1</DisplayName>
+            <Components>
+                <Component Subtype="InteriorPlate" Count="1">
+                    <DeconstructId>                
+                      <TypeId>Ore</TypeId>
+                      <SubtypeId>InteriorPlateScrap</SubtypeId>
+                    </DeconstructId>
+                  </Component>
+                <Component Subtype="SmallTube" Count="1">
+                    <DeconstructId>                
+                      <TypeId>Ore</TypeId>
+                      <SubtypeId>SmallTubeScrap</SubtypeId>
+                    </DeconstructId>
+                  </Component>                
+                <Component Subtype="Lightbulb" Count="1">
+                    <DeconstructId>                
+                      <TypeId>Ore</TypeId>
+                      <SubtypeId>LightbulbScrap</SubtypeId>
+                    </DeconstructId>
+                  </Component>                  
+                <Component Subtype="Construction" Count="1">
+                    <DeconstructId>                
+                      <TypeId>Ore</TypeId>
+                      <SubtypeId>ConstructionScrap</SubtypeId>
+                    </DeconstructId>
+                  </Component>                  
+            </Components>
+            <CriticalComponent Subtype="Construction" Index="0" />
+		</Definition>
+		
+		
+		<Definition xsi:type="MyObjectBuilder_LightingBlockDefinition">
+            <Id>
+                <TypeId>InteriorLight</TypeId>
+                <SubtypeId>SmallNeonTubesCorner</SubtypeId>
+            </Id>
+            <DisplayName>Neon Light Corner</DisplayName>
+            <Components>
+                <Component Subtype="InteriorPlate" Count="1">
+                    <DeconstructId>                
+                      <TypeId>Ore</TypeId>
+                      <SubtypeId>InteriorPlateScrap</SubtypeId>
+                    </DeconstructId>
+                  </Component>
+                <Component Subtype="SmallTube" Count="1">
+                    <DeconstructId>                
+                      <TypeId>Ore</TypeId>
+                      <SubtypeId>SmallTubeScrap</SubtypeId>
+                    </DeconstructId>
+                  </Component>                
+                <Component Subtype="Lightbulb" Count="1">
+                    <DeconstructId>                
+                      <TypeId>Ore</TypeId>
+                      <SubtypeId>LightbulbScrap</SubtypeId>
+                    </DeconstructId>
+                  </Component>                  
+                <Component Subtype="Construction" Count="1">
+                    <DeconstructId>                
+                      <TypeId>Ore</TypeId>
+                      <SubtypeId>ConstructionScrap</SubtypeId>
+                    </DeconstructId>
+                  </Component>                  
+            </Components>
+            <CriticalComponent Subtype="Construction" Index="0" />
+		</Definition>
+		
+		<Definition xsi:type="MyObjectBuilder_LightingBlockDefinition">
+            <Id>
+                <TypeId>InteriorLight</TypeId>
+                <SubtypeId>SmallNeonTubesStraightEnd1</SubtypeId>
+            </Id>
+            <DisplayName>Neon Light End 1</DisplayName>
+            <Components>
+                <Component Subtype="InteriorPlate" Count="1">
+                    <DeconstructId>                
+                      <TypeId>Ore</TypeId>
+                      <SubtypeId>InteriorPlateScrap</SubtypeId>
+                    </DeconstructId>
+                  </Component>
+                <Component Subtype="SmallTube" Count="1">
+                    <DeconstructId>                
+                      <TypeId>Ore</TypeId>
+                      <SubtypeId>SmallTubeScrap</SubtypeId>
+                    </DeconstructId>
+                  </Component>                
+                <Component Subtype="Lightbulb" Count="1">
+                    <DeconstructId>                
+                      <TypeId>Ore</TypeId>
+                      <SubtypeId>LightbulbScrap</SubtypeId>
+                    </DeconstructId>
+                  </Component>                  
+                <Component Subtype="Construction" Count="1">
+                    <DeconstructId>                
+                      <TypeId>Ore</TypeId>
+                      <SubtypeId>ConstructionScrap</SubtypeId>
+                    </DeconstructId>
+                  </Component>                  
+            </Components>
+            <CriticalComponent Subtype="Construction" Index="0" />
+		</Definition>
+		
+		<Definition xsi:type="MyObjectBuilder_LightingBlockDefinition">
+            <Id>
+                <TypeId>InteriorLight</TypeId>
+                <SubtypeId>SmallNeonTubesStraight2</SubtypeId>
+            </Id>
+            <DisplayName>Neon Light 2</DisplayName>
+            <Components>
+                <Component Subtype="InteriorPlate" Count="1">
+                    <DeconstructId>                
+                      <TypeId>Ore</TypeId>
+                      <SubtypeId>InteriorPlateScrap</SubtypeId>
+                    </DeconstructId>
+                  </Component>
+                <Component Subtype="SmallTube" Count="1">
+                    <DeconstructId>                
+                      <TypeId>Ore</TypeId>
+                      <SubtypeId>SmallTubeScrap</SubtypeId>
+                    </DeconstructId>
+                  </Component>                
+                <Component Subtype="Lightbulb" Count="1">
+                    <DeconstructId>                
+                      <TypeId>Ore</TypeId>
+                      <SubtypeId>LightbulbScrap</SubtypeId>
+                    </DeconstructId>
+                  </Component>                  
+                <Component Subtype="Construction" Count="1">
+                    <DeconstructId>                
+                      <TypeId>Ore</TypeId>
+                      <SubtypeId>ConstructionScrap</SubtypeId>
+                    </DeconstructId>
+                  </Component>                  
+            </Components>
+            <CriticalComponent Subtype="Construction" Index="0" />
+		</Definition>
+		
+		<Definition xsi:type="MyObjectBuilder_LightingBlockDefinition">
+            <Id>
+                <TypeId>InteriorLight</TypeId>
+                <SubtypeId>SmallNeonTubesT</SubtypeId>
+            </Id>
+            <DisplayName>Neon Light T Shape</DisplayName>
+            <Components>
+                <Component Subtype="InteriorPlate" Count="1">
+                    <DeconstructId>                
+                      <TypeId>Ore</TypeId>
+                      <SubtypeId>InteriorPlateScrap</SubtypeId>
+                    </DeconstructId>
+                  </Component>
+                <Component Subtype="SmallTube" Count="1">
+                    <DeconstructId>                
+                      <TypeId>Ore</TypeId>
+                      <SubtypeId>SmallTubeScrap</SubtypeId>
+                    </DeconstructId>
+                  </Component>                
+                <Component Subtype="Lightbulb" Count="1">
+                    <DeconstructId>                
+                      <TypeId>Ore</TypeId>
+                      <SubtypeId>LightbulbScrap</SubtypeId>
+                    </DeconstructId>
+                  </Component>                  
+                <Component Subtype="Construction" Count="1">
+                    <DeconstructId>                
+                      <TypeId>Ore</TypeId>
+                      <SubtypeId>ConstructionScrap</SubtypeId>
+                    </DeconstructId>
+                  </Component>                  
+            </Components>
+            <CriticalComponent Subtype="Construction" Index="0" />
+		</Definition>
+		
+		<Definition xsi:type="MyObjectBuilder_LightingBlockDefinition">
+            <Id>
+                <TypeId>InteriorLight</TypeId>
+                <SubtypeId>SmallNeonTubesU</SubtypeId>
+            </Id>
+            <DisplayName>Neon Light U Shape</DisplayName>
+            <Components>
+                <Component Subtype="InteriorPlate" Count="1">
+                    <DeconstructId>                
+                      <TypeId>Ore</TypeId>
+                      <SubtypeId>InteriorPlateScrap</SubtypeId>
+                    </DeconstructId>
+                  </Component>
+                <Component Subtype="SmallTube" Count="1">
+                    <DeconstructId>                
+                      <TypeId>Ore</TypeId>
+                      <SubtypeId>SmallTubeScrap</SubtypeId>
+                    </DeconstructId>
+                  </Component>                
+                <Component Subtype="Lightbulb" Count="1">
+                    <DeconstructId>                
+                      <TypeId>Ore</TypeId>
+                      <SubtypeId>LightbulbScrap</SubtypeId>
+                    </DeconstructId>
+                  </Component>                  
+                <Component Subtype="Construction" Count="1">
+                    <DeconstructId>                
+                      <TypeId>Ore</TypeId>
+                      <SubtypeId>ConstructionScrap</SubtypeId>
+                    </DeconstructId>
+                  </Component>                  
+            </Components>
+            <CriticalComponent Subtype="Construction" Index="0" />
+		</Definition>
+
+		<Definition xsi:type="MyObjectBuilder_LightingBlockDefinition">
+            <Id>
+                <TypeId>InteriorLight</TypeId>
+                <SubtypeId>LargeNeonTubesBendDown</SubtypeId>
+            </Id>
+            <DisplayName>Neon Light Down</DisplayName>
+            <Components>
+                <Component Subtype="InteriorPlate" Count="3">
+                    <DeconstructId>                
+                      <TypeId>Ore</TypeId>
+                      <SubtypeId>InteriorPlateScrap</SubtypeId>
+                    </DeconstructId>
+                  </Component>
+                <Component Subtype="SmallTube" Count="3">
+                    <DeconstructId>                
+                      <TypeId>Ore</TypeId>
+                      <SubtypeId>SmallTubeScrap</SubtypeId>
+                    </DeconstructId>
+                  </Component>                
+                <Component Subtype="Lightbulb" Count="1">
+                    <DeconstructId>                
+                      <TypeId>Ore</TypeId>
+                      <SubtypeId>LightbulbScrap</SubtypeId>
+                    </DeconstructId>
+                  </Component>                  
+                <Component Subtype="Construction" Count="1">
+                    <DeconstructId>                
+                      <TypeId>Ore</TypeId>
+                      <SubtypeId>ConstructionScrap</SubtypeId>
+                    </DeconstructId>
+                  </Component>                  
+            </Components>
+            <CriticalComponent Subtype="SmallTube" Index="0" />
+		</Definition>
+		
+		<Definition xsi:type="MyObjectBuilder_LightingBlockDefinition">
+            <Id>
+                <TypeId>InteriorLight</TypeId>
+                <SubtypeId>LargeNeonTubesBendUp</SubtypeId>
+            </Id>
+            <DisplayName>Neon Light Up</DisplayName>
+            <Components>
+                <Component Subtype="InteriorPlate" Count="12">
+                    <DeconstructId>                
+                      <TypeId>Ore</TypeId>
+                      <SubtypeId>InteriorPlateScrap</SubtypeId>
+                    </DeconstructId>
+                  </Component>
+                <Component Subtype="SmallTube" Count="12">
+                    <DeconstructId>                
+                      <TypeId>Ore</TypeId>
+                      <SubtypeId>SmallTubeScrap</SubtypeId>
+                    </DeconstructId>
+                  </Component>                
+                <Component Subtype="Lightbulb" Count="2">
+                    <DeconstructId>                
+                      <TypeId>Ore</TypeId>
+                      <SubtypeId>LightbulbScrap</SubtypeId>
+                    </DeconstructId>
+                  </Component>                  
+                <Component Subtype="Construction" Count="4">
+                    <DeconstructId>                
+                      <TypeId>Ore</TypeId>
+                      <SubtypeId>ConstructionScrap</SubtypeId>
+                    </DeconstructId>
+                  </Component>                  
+            </Components>
+            <CriticalComponent Subtype="SmallTube" Index="0" />
+		</Definition>
+		
+		<Definition xsi:type="MyObjectBuilder_LightingBlockDefinition">
+            <Id>
+                <TypeId>InteriorLight</TypeId>
+                <SubtypeId>LargeNeonTubesCircle</SubtypeId>
+            </Id>
+            <DisplayName>Neon Light Circle</DisplayName>
+            <Components>
+                <Component Subtype="InteriorPlate" Count="12">
+                    <DeconstructId>                
+                      <TypeId>Ore</TypeId>
+                      <SubtypeId>InteriorPlateScrap</SubtypeId>
+                    </DeconstructId>
+                  </Component>
+                <Component Subtype="SmallTube" Count="12">
+                    <DeconstructId>                
+                      <TypeId>Ore</TypeId>
+                      <SubtypeId>SmallTubeScrap</SubtypeId>
+                    </DeconstructId>
+                  </Component>                
+                <Component Subtype="Lightbulb" Count="2">
+                    <DeconstructId>                
+                      <TypeId>Ore</TypeId>
+                      <SubtypeId>LightbulbScrap</SubtypeId>
+                    </DeconstructId>
+                  </Component>                  
+                <Component Subtype="Construction" Count="4">
+                    <DeconstructId>                
+                      <TypeId>Ore</TypeId>
+                      <SubtypeId>ConstructionScrap</SubtypeId>
+                    </DeconstructId>
+                  </Component>                  
+            </Components>
+            <CriticalComponent Subtype="SmallTube" Index="0" />
+		</Definition>
+		
+		<Definition xsi:type="MyObjectBuilder_LightingBlockDefinition">
+            <Id>
+                <TypeId>InteriorLight</TypeId>
+                <SubtypeId>LargeNeonTubesCorner</SubtypeId>
+            </Id>
+            <DisplayName>Neon Light Corner</DisplayName>
+            <Components>
+                <Component Subtype="InteriorPlate" Count="6">
+                    <DeconstructId>                
+                      <TypeId>Ore</TypeId>
+                      <SubtypeId>InteriorPlateScrap</SubtypeId>
+                    </DeconstructId>
+                  </Component>
+                <Component Subtype="SmallTube" Count="6">
+                    <DeconstructId>                
+                      <TypeId>Ore</TypeId>
+                      <SubtypeId>SmallTubeScrap</SubtypeId>
+                    </DeconstructId>
+                  </Component>                
+                <Component Subtype="Lightbulb" Count="2">
+                    <DeconstructId>                
+                      <TypeId>Ore</TypeId>
+                      <SubtypeId>LightbulbScrap</SubtypeId>
+                    </DeconstructId>
+                  </Component>                  
+                <Component Subtype="Construction" Count="2">
+                    <DeconstructId>                
+                      <TypeId>Ore</TypeId>
+                      <SubtypeId>ConstructionScrap</SubtypeId>
+                    </DeconstructId>
+                  </Component>                  
+            </Components>
+            <CriticalComponent Subtype="SmallTube" Index="0" />
+		</Definition>
+		
+		<Definition xsi:type="MyObjectBuilder_LightingBlockDefinition">
+            <Id>
+                <TypeId>InteriorLight</TypeId>
+                <SubtypeId>LargeNeonTubesStraight1</SubtypeId>
+            </Id>
+            <DisplayName>Neon Light 1</DisplayName>
+            <Components>
+                <Component Subtype="InteriorPlate" Count="6">
+                    <DeconstructId>                
+                      <TypeId>Ore</TypeId>
+                      <SubtypeId>InteriorPlateScrap</SubtypeId>
+                    </DeconstructId>
+                  </Component>
+                <Component Subtype="SmallTube" Count="6">
+                    <DeconstructId>                
+                      <TypeId>Ore</TypeId>
+                      <SubtypeId>SmallTubeScrap</SubtypeId>
+                    </DeconstructId>
+                  </Component>                
+                <Component Subtype="Lightbulb" Count="2">
+                    <DeconstructId>                
+                      <TypeId>Ore</TypeId>
+                      <SubtypeId>LightbulbScrap</SubtypeId>
+                    </DeconstructId>
+                  </Component>                  
+                <Component Subtype="Construction" Count="2">
+                    <DeconstructId>                
+                      <TypeId>Ore</TypeId>
+                      <SubtypeId>ConstructionScrap</SubtypeId>
+                    </DeconstructId>
+                  </Component>                  
+            </Components>
+            <CriticalComponent Subtype="SmallTube" Index="0" />
+		</Definition>
+		
+		<Definition xsi:type="MyObjectBuilder_LightingBlockDefinition">
+            <Id>
+                <TypeId>InteriorLight</TypeId>
+                <SubtypeId>LargeNeonTubesStraight2</SubtypeId>
+            </Id>
+            <DisplayName>Neon Light 2</DisplayName>
+            <Components>
+                <Component Subtype="InteriorPlate" Count="6">
+                    <DeconstructId>                
+                      <TypeId>Ore</TypeId>
+                      <SubtypeId>InteriorPlateScrap</SubtypeId>
+                    </DeconstructId>
+                  </Component>
+                <Component Subtype="SmallTube" Count="6">
+                    <DeconstructId>                
+                      <TypeId>Ore</TypeId>
+                      <SubtypeId>SmallTubeScrap</SubtypeId>
+                    </DeconstructId>
+                  </Component>                
+                <Component Subtype="Lightbulb" Count="2">
+                    <DeconstructId>                
+                      <TypeId>Ore</TypeId>
+                      <SubtypeId>LightbulbScrap</SubtypeId>
+                    </DeconstructId>
+                  </Component>                  
+                <Component Subtype="Construction" Count="2">
+                    <DeconstructId>                
+                      <TypeId>Ore</TypeId>
+                      <SubtypeId>ConstructionScrap</SubtypeId>
+                    </DeconstructId>
+                  </Component>                  
+            </Components>
+            <CriticalComponent Subtype="SmallTube" Index="0" />
+		</Definition>
+		
+		<Definition xsi:type="MyObjectBuilder_LightingBlockDefinition">
+            <Id>
+                <TypeId>InteriorLight</TypeId>
+                <SubtypeId>LargeNeonTubesStraightDown</SubtypeId>
+            </Id>
+            <DisplayName>Neon Light Down 2</DisplayName>
+            <Components>
+                <Component Subtype="InteriorPlate" Count="9">
+                    <DeconstructId>                
+                      <TypeId>Ore</TypeId>
+                      <SubtypeId>InteriorPlateScrap</SubtypeId>
+                    </DeconstructId>
+                  </Component>
+                <Component Subtype="SmallTube" Count="9">
+                    <DeconstructId>                
+                      <TypeId>Ore</TypeId>
+                      <SubtypeId>SmallTubeScrap</SubtypeId>
+                    </DeconstructId>
+                  </Component>                
+                <Component Subtype="Lightbulb" Count="2">
+                    <DeconstructId>                
+                      <TypeId>Ore</TypeId>
+                      <SubtypeId>LightbulbScrap</SubtypeId>
+                    </DeconstructId>
+                  </Component>                  
+                <Component Subtype="Construction" Count="3">
+                    <DeconstructId>                
+                      <TypeId>Ore</TypeId>
+                      <SubtypeId>ConstructionScrap</SubtypeId>
+                    </DeconstructId>
+                  </Component>                  
+            </Components>
+            <CriticalComponent Subtype="SmallTube" Index="0" />
+		</Definition>
+		
+		<Definition xsi:type="MyObjectBuilder_LightingBlockDefinition">
+            <Id>
+                <TypeId>InteriorLight</TypeId>
+                <SubtypeId>LargeNeonTubesStraightEnd1</SubtypeId>
+            </Id>
+            <DisplayName>Neon Light End 1</DisplayName>
+            <Components>
+                <Component Subtype="InteriorPlate" Count="6">
+                    <DeconstructId>                
+                      <TypeId>Ore</TypeId>
+                      <SubtypeId>InteriorPlateScrap</SubtypeId>
+                    </DeconstructId>
+                  </Component>
+                <Component Subtype="SmallTube" Count="6">
+                    <DeconstructId>                
+                      <TypeId>Ore</TypeId>
+                      <SubtypeId>SmallTubeScrap</SubtypeId>
+                    </DeconstructId>
+                  </Component>                
+                <Component Subtype="Lightbulb" Count="2">
+                    <DeconstructId>                
+                      <TypeId>Ore</TypeId>
+                      <SubtypeId>LightbulbScrap</SubtypeId>
+                    </DeconstructId>
+                  </Component>                  
+                <Component Subtype="Construction" Count="2">
+                    <DeconstructId>                
+                      <TypeId>Ore</TypeId>
+                      <SubtypeId>ConstructionScrap</SubtypeId>
+                    </DeconstructId>
+                  </Component>                  
+            </Components>
+            <CriticalComponent Subtype="SmallTube" Index="0" />
+		</Definition>
+		
+		<Definition xsi:type="MyObjectBuilder_LightingBlockDefinition">
+            <Id>
+                <TypeId>InteriorLight</TypeId>
+                <SubtypeId>LargeNeonTubesStraightEnd2</SubtypeId>
+            </Id>
+            <DisplayName>Neon Light End 2</DisplayName>
+            <Components>
+                <Component Subtype="InteriorPlate" Count="10">
+                    <DeconstructId>                
+                      <TypeId>Ore</TypeId>
+                      <SubtypeId>InteriorPlateScrap</SubtypeId>
+                    </DeconstructId>
+                  </Component>
+                <Component Subtype="SmallTube" Count="6">
+                    <DeconstructId>                
+                      <TypeId>Ore</TypeId>
+                      <SubtypeId>SmallTubeScrap</SubtypeId>
+                    </DeconstructId>
+                  </Component>                
+                <Component Subtype="Lightbulb" Count="2">
+                    <DeconstructId>                
+                      <TypeId>Ore</TypeId>
+                      <SubtypeId>LightbulbScrap</SubtypeId>
+                    </DeconstructId>
+                  </Component>                  
+                <Component Subtype="Construction" Count="4">
+                    <DeconstructId>                
+                      <TypeId>Ore</TypeId>
+                      <SubtypeId>ConstructionScrap</SubtypeId>
+                    </DeconstructId>
+                  </Component>                  
+            </Components>
+            <CriticalComponent Subtype="SmallTube" Index="0" />
+		</Definition>
+		
+		<Definition xsi:type="MyObjectBuilder_LightingBlockDefinition">
+            <Id>
+                <TypeId>InteriorLight</TypeId>
+                <SubtypeId>LargeNeonTubesT</SubtypeId>
+            </Id>
+            <DisplayName>Neon Light T Shape</DisplayName>
+            <Components>
+                <Component Subtype="InteriorPlate" Count="9">
+                    <DeconstructId>                
+                      <TypeId>Ore</TypeId>
+                      <SubtypeId>InteriorPlateScrap</SubtypeId>
+                    </DeconstructId>
+                  </Component>
+                <Component Subtype="SmallTube" Count="9">
+                    <DeconstructId>                
+                      <TypeId>Ore</TypeId>
+                      <SubtypeId>SmallTubeScrap</SubtypeId>
+                    </DeconstructId>
+                  </Component>                
+                <Component Subtype="Lightbulb" Count="3">
+                    <DeconstructId>                
+                      <TypeId>Ore</TypeId>
+                      <SubtypeId>LightbulbScrap</SubtypeId>
+                    </DeconstructId>
+                  </Component>                  
+                <Component Subtype="Construction" Count="3">
+                    <DeconstructId>                
+                      <TypeId>Ore</TypeId>
+                      <SubtypeId>ConstructionScrap</SubtypeId>
+                    </DeconstructId>
+                  </Component>                  
+            </Components>
+            <CriticalComponent Subtype="SmallTube" Index="0" />
+		</Definition>
+		
+		<Definition xsi:type="MyObjectBuilder_LightingBlockDefinition">
+            <Id>
+                <TypeId>InteriorLight</TypeId>
+                <SubtypeId>LargeNeonTubesU</SubtypeId>
+            </Id>
+            <DisplayName>Neon Light U Shape</DisplayName>
+            <Components>
+                <Component Subtype="InteriorPlate" Count="18">
+                    <DeconstructId>                
+                      <TypeId>Ore</TypeId>
+                      <SubtypeId>InteriorPlateScrap</SubtypeId>
+                    </DeconstructId>
+                  </Component>
+                <Component Subtype="SmallTube" Count="18">
+                    <DeconstructId>                
+                      <TypeId>Ore</TypeId>
+                      <SubtypeId>SmallTubeScrap</SubtypeId>
+                    </DeconstructId>
+                  </Component>                
+                <Component Subtype="Lightbulb" Count="3">
+                    <DeconstructId>                
+                      <TypeId>Ore</TypeId>
+                      <SubtypeId>LightbulbScrap</SubtypeId>
+                    </DeconstructId>
+                  </Component>                  
+                <Component Subtype="Construction" Count="6">
+                    <DeconstructId>                
+                      <TypeId>Ore</TypeId>
+                      <SubtypeId>ConstructionScrap</SubtypeId>
+                    </DeconstructId>
+                  </Component>                  
+            </Components>
+            <CriticalComponent Subtype="SmallTube" Index="0" />
+		</Definition>
+
+
+    <!--Long Hangar Doors-->	  
+
+		<Definition xsi:type="MyObjectBuilder_AirtightHangarDoorDefinition">
+			<Id>
+				<TypeId>AirtightHangarDoor</TypeId>
+				<SubtypeId>UOH_Hangar_x3</SubtypeId>
+			</Id>
+			<DisplayName>Hangar Door H-4</DisplayName>
+			<Components>
+				<Component Subtype="SteelPlate" Count="500">
+                    <DeconstructId>
+                      <TypeId>Ore</TypeId>
+                      <SubtypeId>SteelPlateScrap</SubtypeId>
+                    </DeconstructId>
+                  </Component>   
+				<Component Subtype="Construction" Count="30">
+                    <DeconstructId>                
+                      <TypeId>Ore</TypeId>
+                      <SubtypeId>ConstructionScrap</SubtypeId>
+                    </DeconstructId>
+                  </Component>   
+				<Component Subtype="CopperWire" Count="80">
+                    <DeconstructId>                
+                      <TypeId>Ore</TypeId>
+                      <SubtypeId>CopperWireScrap</SubtypeId>
+                    </DeconstructId>
+                  </Component>   
+				<Component Subtype="Motor" Count="32">
+                    <DeconstructId>                
+                      <TypeId>Ore</TypeId>
+                      <SubtypeId>MotorScrap</SubtypeId>
+                    </DeconstructId>
+                  </Component>   
+				<Component Subtype="Computer" Count="4">
+                    <DeconstructId>                
+                      <TypeId>Ore</TypeId>
+                      <SubtypeId>ComputerScrap</SubtypeId>
+                    </DeconstructId>
+                  </Component>   
+				<Component Subtype="Construction" Count="50">
+                    <DeconstructId>                
+                      <TypeId>Ore</TypeId>
+                      <SubtypeId>ConstructionScrap</SubtypeId>
+                    </DeconstructId>
+                  </Component>   
+				<Component Subtype="SteelPlate" Count="200">
+                    <DeconstructId>                
+                      <TypeId>Ore</TypeId>
+                      <SubtypeId>SteelPlateScrap</SubtypeId>
+                    </DeconstructId>
+                  </Component>   
+			</Components>
+			<CriticalComponent Subtype="Computer" Index="0"/>
+		</Definition>
+
+		<Definition xsi:type="MyObjectBuilder_AirtightHangarDoorDefinition">
+			<Id>
+				<TypeId>AirtightHangarDoor</TypeId>
+				<SubtypeId>UOH_Hangar_x4</SubtypeId>
+			</Id>
+			<DisplayName>Hangar Door H-6</DisplayName>
+			<Components>
+				<Component Subtype="SteelPlate" Count="700">
+                    <DeconstructId>                
+                      <TypeId>Ore</TypeId>
+                      <SubtypeId>SteelPlateScrap</SubtypeId>
+                    </DeconstructId>
+                  </Component>   
+				<Component Subtype="Construction" Count="50">
+                    <DeconstructId>                
+                      <TypeId>Ore</TypeId>
+                      <SubtypeId>ConstructionScrap</SubtypeId>
+                    </DeconstructId>
+                  </Component>   
+				<Component Subtype="GoldWire" Count="80">
+                    <DeconstructId>                
+                      <TypeId>Ore</TypeId>
+                      <SubtypeId>GoldWireScrap</SubtypeId>
+                    </DeconstructId>
+                  </Component>   
+				<Component Subtype="Motor" Count="48">
+                    <DeconstructId>                
+                      <TypeId>Ore</TypeId>
+                      <SubtypeId>MotorScrap</SubtypeId>
+                    </DeconstructId>
+                  </Component>   
+				<Component Subtype="Computer" Count="6">
+                    <DeconstructId>                
+                      <TypeId>Ore</TypeId>
+                      <SubtypeId>ComputerScrap</SubtypeId>
+                    </DeconstructId>
+                  </Component>   
+				<Component Subtype="AdvancedComputer" Count="3">
+                    <DeconstructId>                
+                      <TypeId>Ore</TypeId>
+                      <SubtypeId>AdvancedComputerScrap</SubtypeId>
+                    </DeconstructId>
+                  </Component>   				
+				<Component Subtype="Construction" Count="75">
+                    <DeconstructId>                
+                      <TypeId>Ore</TypeId>
+                      <SubtypeId>ConstructionScrap</SubtypeId>
+                    </DeconstructId>
+                  </Component>   
+				<Component Subtype="SteelPlate" Count="250">
+                    <DeconstructId>                
+                      <TypeId>Ore</TypeId>
+                      <SubtypeId>SteelPlateScrap</SubtypeId>
+                    </DeconstructId>
+                  </Component>   
+			</Components>
+			<CriticalComponent Subtype="Computer" Index="0"/>
+		</Definition>
+
+		<Definition xsi:type="MyObjectBuilder_AirtightHangarDoorDefinition">
+			<Id>
+				<TypeId>AirtightHangarDoor</TypeId>
+				<SubtypeId>UOH_Hangar_x5</SubtypeId>
+			</Id>
+			<DisplayName>Hangar Door H-8</DisplayName>
+			<Components>
+				<Component Subtype="SteelPlate" Count="1000">
+                    <DeconstructId>                
+                      <TypeId>Ore</TypeId>
+                      <SubtypeId>SteelPlateScrap</SubtypeId>
+                    </DeconstructId>
+                  </Component>   
+				<Component Subtype="Construction" Count="80">
+                    <DeconstructId>                
+                      <TypeId>Ore</TypeId>
+                      <SubtypeId>ConstructionScrap</SubtypeId>
+                    </DeconstructId>
+                  </Component>   
+				<Component Subtype="GoldWire" Count="150">
+                    <DeconstructId>                
+                      <TypeId>Ore</TypeId>
+                      <SubtypeId>GoldWireScrap</SubtypeId>
+                    </DeconstructId>
+                  </Component>   
+				<Component Subtype="Motor" Count="64">
+                    <DeconstructId>                
+                      <TypeId>Ore</TypeId>
+                      <SubtypeId>MotorScrap</SubtypeId>
+                    </DeconstructId>
+                  </Component>   
+				<Component Subtype="Computer" Count="8">
+                    <DeconstructId>                
+                      <TypeId>Ore</TypeId>
+                      <SubtypeId>ComputerScrap</SubtypeId>
+                    </DeconstructId>
+                  </Component>   
+				<Component Subtype="AdvancedComputer" Count="4">
+                    <DeconstructId>                
+                      <TypeId>Ore</TypeId>
+                      <SubtypeId>AdvancedComputerScrap</SubtypeId>
+                    </DeconstructId>
+                  </Component>   				
+				<Component Subtype="Construction" Count="100">
+                    <DeconstructId>                
+                      <TypeId>Ore</TypeId>
+                      <SubtypeId>ConstructionScrap</SubtypeId>
+                    </DeconstructId>
+                  </Component>   
+				<Component Subtype="SteelPlate" Count="300">
+                    <DeconstructId>                
+                      <TypeId>Ore</TypeId>
+                      <SubtypeId>SteelPlateScrap</SubtypeId>
+                    </DeconstructId>
+                  </Component>   
+			</Components>
+			<CriticalComponent Subtype="Computer" Index="0"/>
+		</Definition>
+
+
+    <!--Powerbanks-->
+
+        <Definition xsi:type="MyObjectBuilder_CargoContainerDefinition">
+            <Id>
+                <TypeId>CargoContainer</TypeId>
+                <SubtypeId>LargeBlockPowerbankCharger</SubtypeId>
+            </Id>
+            <DisplayName>Suit Battery Charger</DisplayName>
+            <Description>Store empty suit batteries in this device for recharging</Description>
+            <Components>
+               <Component Subtype="SteelPlate" Count="20">
+                    <DeconstructId>
+                      <TypeId>Ore</TypeId>
+                      <SubtypeId>SteelPlateScrap</SubtypeId>
+                    </DeconstructId>
+                  </Component> 
+               <Component Subtype="Construction" Count="10">
+                    <DeconstructId>
+                      <TypeId>Ore</TypeId>
+                      <SubtypeId>ConstructionScrap</SubtypeId>
+                    </DeconstructId>
+                  </Component> 
+               <Component Subtype="CopperWire" Count="80">
+                    <DeconstructId>
+                      <TypeId>Ore</TypeId>
+                      <SubtypeId>CopperWireScrap</SubtypeId>
+                    </DeconstructId>
+                  </Component>              
+               <Component Subtype="Motor" Count="6">
+                    <DeconstructId>
+                      <TypeId>Ore</TypeId>
+                      <SubtypeId>MotorScrap</SubtypeId>
+                    </DeconstructId>
+                  </Component> 
+               <Component Subtype="Computer" Count="12">
+                    <DeconstructId>
+                      <TypeId>Ore</TypeId>
+                      <SubtypeId>ComputerScrap</SubtypeId>
+                    </DeconstructId>
+                  </Component> 
+               <Component Subtype="Construction" Count="5">
+                    <DeconstructId>
+                      <TypeId>Ore</TypeId>
+                      <SubtypeId>ConstructionScrap</SubtypeId>
+                    </DeconstructId>
+                  </Component> 
+            </Components>
+            <CriticalComponent Subtype="Computer" Index="0" />
+        </Definition>
+
+        <Definition xsi:type="MyObjectBuilder_CargoContainerDefinition">
+            <Id>
+                <TypeId>CargoContainer</TypeId>
+                <SubtypeId>SmallBlockPowerbankCharger</SubtypeId>
+            </Id>
+            <DisplayName>Suit Battery Charger</DisplayName>
+            <Description>Store empty suit batteries in this device for recharging</Description>
+            <Components>
+               <Component Subtype="SteelPlate" Count="2">
+                    <DeconstructId>
+                      <TypeId>Ore</TypeId>
+                      <SubtypeId>SteelPlateScrap</SubtypeId>
+                    </DeconstructId>
+                  </Component> 
+               <Component Subtype="Construction" Count="2">
+                    <DeconstructId>
+                      <TypeId>Ore</TypeId>
+                      <SubtypeId>ConstructionScrap</SubtypeId>
+                    </DeconstructId>
+                  </Component> 
+               <Component Subtype="CopperWire" Count="16">
+                    <DeconstructId>
+                      <TypeId>Ore</TypeId>
+                      <SubtypeId>CopperWireScrap</SubtypeId>
+                    </DeconstructId>
+                  </Component>               
+               <Component Subtype="Motor" Count="2">
+                    <DeconstructId>
+                      <TypeId>Ore</TypeId>
+                      <SubtypeId>MotorScrap</SubtypeId>
+                    </DeconstructId>
+                  </Component> 
+               <Component Subtype="Computer" Count="4">
+                    <DeconstructId>
+                      <TypeId>Ore</TypeId>
+                      <SubtypeId>ComputerScrap</SubtypeId>
+                    </DeconstructId>
+                  </Component> 
+               <Component Subtype="Construction" Count="1">
+                    <DeconstructId>
+                      <TypeId>Ore</TypeId>
+                      <SubtypeId>ConstructionScrap</SubtypeId>
+                    </DeconstructId>
+                  </Component> 
+            </Components>
+            <CriticalComponent Subtype="Computer" Index="0" />
+        </Definition> 
+		
+
+<!--Shield Generators-->	
+
+     <Definition xsi:type="MyObjectBuilder_UpgradeModuleDefinition">
+      <Id>
+        <TypeId>UpgradeModule</TypeId>
+        <SubtypeId>LargeShipLargeShieldGeneratorBase</SubtypeId>	
+      </Id>
+      <Components>
+	  	  <Component Subtype="SteelPlate" Count="100">
+                 <DeconstructId>                
+                   <TypeId>Ore</TypeId>
+                   <SubtypeId>SteelPlateScrap</SubtypeId>
+                 </DeconstructId>
+               </Component>
+		    <Component Subtype="GoldWire" Count="80">
+                 <DeconstructId>                
+                   <TypeId>Ore</TypeId>
+                   <SubtypeId>GoldWireScrap</SubtypeId>
+                 </DeconstructId>
+               </Component>                  
+		    <Component Subtype="MetalGrid" Count="80">
+                 <DeconstructId>                
+                   <TypeId>Ore</TypeId>
+                   <SubtypeId>MetalGridScrap</SubtypeId>
+                 </DeconstructId>
+               </Component>
+        <Component Subtype="Shield" Count="160">
+                 <DeconstructId>                
+                   <TypeId>Ore</TypeId>
+                   <SubtypeId>ShieldScrap</SubtypeId>
+                 </DeconstructId>
+               </Component>
+		    <Component Subtype="Superconductor" Count="200">
+                 <DeconstructId>                
+                   <TypeId>Ore</TypeId>
+                   <SubtypeId>SuperconductorScrap</SubtypeId>
+                 </DeconstructId>
+               </Component>
+		    <Component Subtype="PowerCell" Count="240">
+                 <DeconstructId>                
+                   <TypeId>Ore</TypeId>
+                   <SubtypeId>PowerCellScrap</SubtypeId>
+                 </DeconstructId>
+               </Component>
+		    <Component Subtype="GravityGenerator" Count="50">
+                 <DeconstructId>                
+                   <TypeId>Ore</TypeId>
+                   <SubtypeId>GravityGeneratorScrap</SubtypeId>
+                 </DeconstructId>
+               </Component>
+		    <Component Subtype="Detector" Count="30">
+                 <DeconstructId>                
+                   <TypeId>Ore</TypeId>
+                   <SubtypeId>DetectorScrap</SubtypeId>
+                 </DeconstructId>
+               </Component>       
+		    <Component Subtype="Computer" Count="200">
+                 <DeconstructId>                
+                   <TypeId>Ore</TypeId>
+                   <SubtypeId>ComputerScrap</SubtypeId>
+                 </DeconstructId>
+               </Component>
+		    <Component Subtype="QuantumComputer" Count="120">
+                 <DeconstructId>                
+                   <TypeId>Ore</TypeId>
+                   <SubtypeId>QuantumComputerScrap</SubtypeId>
+                 </DeconstructId>
+               </Component>
+		    <Component Subtype="SteelPlate" Count="30">
+                 <DeconstructId>                
+                   <TypeId>Ore</TypeId>
+                   <SubtypeId>SteelPlateScrap</SubtypeId>
+                 </DeconstructId>
+               </Component>
+      </Components>
+      <CriticalComponent Subtype="QuantumComputer" Index="0" />
+    </Definition>
+
+    <Definition xsi:type="MyObjectBuilder_UpgradeModuleDefinition">
+      <Id>
+        <TypeId>UpgradeModule</TypeId>
+        <SubtypeId>SmallShipSmallShieldGeneratorBase</SubtypeId>	
+      </Id>
+      <Components>
+	  	  <Component Subtype="SteelPlate" Count="20">
+                 <DeconstructId>                
+                   <TypeId>Ore</TypeId>
+                   <SubtypeId>SteelPlateScrap</SubtypeId>
+                 </DeconstructId>
+               </Component>
+		    <Component Subtype="MetalGrid" Count="12">
+                 <DeconstructId>                
+                   <TypeId>Ore</TypeId>
+                   <SubtypeId>MetalGridScrap</SubtypeId>
+                 </DeconstructId>
+               </Component>
+        <Component Subtype="Shield" Count="80">
+                 <DeconstructId>                
+                   <TypeId>Ore</TypeId>
+                   <SubtypeId>ShieldScrap</SubtypeId>
+                 </DeconstructId>
+               </Component>
+		    <Component Subtype="Superconductor" Count="50">
+                 <DeconstructId>                
+                   <TypeId>Ore</TypeId>
+                   <SubtypeId>SuperconductorScrap</SubtypeId>
+                 </DeconstructId>
+               </Component>
+		    <Component Subtype="PowerCell" Count="50">
+                 <DeconstructId>                
+                   <TypeId>Ore</TypeId>
+                   <SubtypeId>PowerCellScrap</SubtypeId>
+                 </DeconstructId>
+               </Component>
+		    <Component Subtype="GravityGenerator" Count="10">
+                 <DeconstructId>                
+                   <TypeId>Ore</TypeId>
+                   <SubtypeId>GravityGeneratorScrap</SubtypeId>
+                 </DeconstructId>
+               </Component>
+		    <Component Subtype="Detector" Count="6">
+                 <DeconstructId>                
+                   <TypeId>Ore</TypeId>
+                   <SubtypeId>DetectorScrap</SubtypeId>
+                 </DeconstructId>
+               </Component>       
+		    <Component Subtype="Computer" Count="50">
+                 <DeconstructId>                
+                   <TypeId>Ore</TypeId>
+                   <SubtypeId>ComputerScrap</SubtypeId>
+                 </DeconstructId>
+               </Component>
+		    <Component Subtype="QuantumComputer" Count="25">
+                 <DeconstructId>                
+                   <TypeId>Ore</TypeId>
+                   <SubtypeId>QuantumComputerScrap</SubtypeId>
+                 </DeconstructId>
+               </Component>
+		    <Component Subtype="SteelPlate" Count="10">
+                 <DeconstructId>                
+                   <TypeId>Ore</TypeId>
+                   <SubtypeId>SteelPlateScrap</SubtypeId>
+                 </DeconstructId>
+               </Component>
+      </Components>
+      <CriticalComponent Subtype="QuantumComputer" Index="0" />
+    </Definition>
+  
+	</CubeBlocks>
+</Definitions>

@@ -1,0 +1,405 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CubeBlocks>
+  
+<!--Cargos-->
+    <Definition xsi:type="MyObjectBuilder_CargoContainerDefinition">
+      	<Id>
+			<TypeId>CargoContainer</TypeId>
+			<SubtypeId>Industrial Storage</SubtypeId>
+	  	</Id>
+		<DisplayName>Industrial Cargo Container</DisplayName>
+		<Description>With 6x more space than a large cargo container, this is designed to store a huge amount of items</Description>
+		<Components>
+			<Component Subtype="TitaniumPlate" Count="1500">
+          <DeconstructId>                
+            <TypeId>Ore</TypeId>
+            <SubtypeId>TitaniumPlateScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+			<Component Subtype="Construction" Count="360">
+          <DeconstructId>                
+            <TypeId>Ore</TypeId>
+            <SubtypeId>ConstructionScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+			<Component Subtype="MetalGrid" Count="144">
+          <DeconstructId>                
+            <TypeId>Ore</TypeId>
+            <SubtypeId>MetalGridScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+			<Component Subtype="GoldWire" Count="120">
+          <DeconstructId>                
+            <TypeId>Ore</TypeId>
+            <SubtypeId>GoldWireScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+			<Component Subtype="AdvancedMotor" Count="120">
+          <DeconstructId>                
+            <TypeId>Ore</TypeId>
+            <SubtypeId>AdvancedMotorScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+			<Component Subtype="Display" Count="4">
+          <DeconstructId>                
+            <TypeId>Ore</TypeId>
+            <SubtypeId>DisplayScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+			<Component Subtype="Computer" Count="20">
+          <DeconstructId>                
+            <TypeId>Ore</TypeId>
+            <SubtypeId>ComputerScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+			<Component Subtype="AdvancedComputer" Count="30">
+          <DeconstructId>                
+            <TypeId>Ore</TypeId>
+            <SubtypeId>AdvancedComputerScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+			<Component Subtype="Construction" Count="120">
+          <DeconstructId>                
+            <TypeId>Ore</TypeId>
+            <SubtypeId>ConstructionScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+			<Component Subtype="TitaniumPlate" Count="250">
+          <DeconstructId>                
+            <TypeId>Ore</TypeId>
+            <SubtypeId>TitaniumPlateScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+			<Component Subtype="ArmoredPlate" Count="100">
+          <DeconstructId>                
+            <TypeId>Ore</TypeId>
+            <SubtypeId>ArmoredPlateScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+      	</Components>
+      	<CriticalComponent Subtype="AdvancedComputer" Index="0" />
+    </Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_CargoContainerDefinition">
+      	<Id>
+			<TypeId>CargoContainer</TypeId>
+			<SubtypeId>Stone Storage</SubtypeId>
+	  	</Id>
+			<DisplayName>Ore Cargo Container</DisplayName>
+			<Description>Limited to ore only. With 6x more space than a large cargo container, this is designed to store a huge amount of ore</Description>
+		<Components>
+			<Component Subtype="SteelPlate" Count="1500">
+          <DeconstructId>                
+            <TypeId>Ore</TypeId>
+            <SubtypeId>SteelPlateScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+			<Component Subtype="Construction" Count="360">
+          <DeconstructId>                
+            <TypeId>Ore</TypeId>
+            <SubtypeId>ConstructionScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+			<Component Subtype="MetalGrid" Count="144">
+          <DeconstructId>                
+            <TypeId>Ore</TypeId>
+            <SubtypeId>MetalGridScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+			<Component Subtype="CopperWire" Count="120">
+          <DeconstructId>                
+            <TypeId>Ore</TypeId>
+            <SubtypeId>CopperWireScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+			<Component Subtype="Motor" Count="120">
+          <DeconstructId>                
+            <TypeId>Ore</TypeId>
+            <SubtypeId>MotorScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+			<Component Subtype="Display" Count="4">
+          <DeconstructId>                
+            <TypeId>Ore</TypeId>
+            <SubtypeId>DisplayScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+			<Component Subtype="Computer" Count="40">
+          <DeconstructId>                
+            <TypeId>Ore</TypeId>
+            <SubtypeId>ComputerScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+			<Component Subtype="Construction" Count="120">
+          <DeconstructId>                
+            <TypeId>Ore</TypeId>
+            <SubtypeId>ConstructionScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+			<Component Subtype="SteelPlate" Count="250">
+          <DeconstructId>                
+            <TypeId>Ore</TypeId>
+            <SubtypeId>SteelPlateScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+			<Component Subtype="ArmoredPlate" Count="100">
+          <DeconstructId>                
+            <TypeId>Ore</TypeId>
+            <SubtypeId>ArmoredPlateScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+      	</Components>
+      	<CriticalComponent Subtype="Computer" Index="0" />
+    </Definition>
+
+	<Definition xsi:type="MyObjectBuilder_CargoContainerDefinition">
+		<Id>
+			<TypeId>CargoContainer</TypeId>
+			<SubtypeId>Industrial Storage SG</SubtypeId>
+		</Id>
+		<DisplayName>Industrial Cargo Container</DisplayName>
+		<Description>With 6x more space than a large cargo container, this is designed to store a huge amount of items</Description>
+		<Components>
+			<Component Subtype="TitaniumPlate" Count="240">
+          <DeconstructId>                
+            <TypeId>Ore</TypeId>
+            <SubtypeId>TitaniumPlateScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+			<Component Subtype="Construction" Count="150">
+          <DeconstructId>                
+            <TypeId>Ore</TypeId>
+            <SubtypeId>ConstructionScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+			<Component Subtype="MetalGrid" Count="60">
+          <DeconstructId>                
+            <TypeId>Ore</TypeId>
+            <SubtypeId>MetalGridScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+			<Component Subtype="GoldWire" Count="90">
+          <DeconstructId>                
+            <TypeId>Ore</TypeId>
+            <SubtypeId>GoldWireScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+			<Component Subtype="AdvancedMotor" Count="50">
+          <DeconstructId>                
+            <TypeId>Ore</TypeId>
+            <SubtypeId>AdvancedMotorScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+			<Component Subtype="Display" Count="4">
+          <DeconstructId>                
+            <TypeId>Ore</TypeId>
+            <SubtypeId>DisplayScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+			<Component Subtype="Computer" Count="20">
+          <DeconstructId>                
+            <TypeId>Ore</TypeId>
+            <SubtypeId>ComputerScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+			<Component Subtype="AdvancedComputer" Count="20">
+          <DeconstructId>                
+            <TypeId>Ore</TypeId>
+            <SubtypeId>AdvancedComputerScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+			<Component Subtype="TitaniumPlate" Count="100">
+          <DeconstructId>                
+            <TypeId>Ore</TypeId>
+            <SubtypeId>TitaniumPlateScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+			<Component Subtype="ArmoredPlate" Count="20">
+          <DeconstructId>                
+            <TypeId>Ore</TypeId>
+            <SubtypeId>ArmoredPlateScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+		</Components>
+		<CriticalComponent Subtype="AdvancedComputer" Index="0" />
+	</Definition>
+
+	<Definition xsi:type="MyObjectBuilder_CargoContainerDefinition">
+		<Id>
+			<TypeId>CargoContainer</TypeId>
+			<SubtypeId>Stone Storage SG</SubtypeId>
+		</Id>
+		<DisplayName>Ore Cargo Container</DisplayName>
+		<Description>Limited to ore only. With 6x more space than a large cargo container, this is designed to store a huge amount of ore</Description>
+		<Icon>..\2325537420\Textures\GUI\Icons\Stone Storage.dds</Icon>
+		<Components>
+			<Component Subtype="SteelPlate" Count="240">
+          <DeconstructId>                
+            <TypeId>Ore</TypeId>
+            <SubtypeId>SteelPlateScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+			<Component Subtype="Construction" Count="150">
+          <DeconstructId>                
+            <TypeId>Ore</TypeId>
+            <SubtypeId>ConstructionScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+			<Component Subtype="MetalGrid" Count="60">
+          <DeconstructId>                
+            <TypeId>Ore</TypeId>
+            <SubtypeId>MetalGridScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+			<Component Subtype="CopperWire" Count="90">
+          <DeconstructId>                
+            <TypeId>Ore</TypeId>
+            <SubtypeId>CopperWireScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+			<Component Subtype="Motor" Count="50">
+          <DeconstructId>                
+            <TypeId>Ore</TypeId>
+            <SubtypeId>MotorScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+			<Component Subtype="Display" Count="4">
+          <DeconstructId>                
+            <TypeId>Ore</TypeId>
+            <SubtypeId>DisplayScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+			<Component Subtype="Computer" Count="30">
+          <DeconstructId>                
+            <TypeId>Ore</TypeId>
+            <SubtypeId>ComputerScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+			<Component Subtype="SteelPlate" Count="100">
+          <DeconstructId>                
+            <TypeId>Ore</TypeId>
+            <SubtypeId>SteelPlateScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+			<Component Subtype="ArmoredPlate" Count="20">
+          <DeconstructId>                
+            <TypeId>Ore</TypeId>
+            <SubtypeId>ArmoredPlateScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+		</Components>
+		<CriticalComponent Subtype="Computer" Index="0" />
+	</Definition>
+
+<!--Converters-->
+    <Definition>
+      <Id>
+        <TypeId>Conveyor</TypeId>
+        <SubtypeId>Small Ship Conveyor 1-5</SubtypeId>
+      </Id>
+        <DisplayName>Conveyor Converter 2</DisplayName>
+        <Description>Large Port to 5 Small Ports</Description>
+        <Components>
+            <Component Subtype="SteelPlate" Count="4">
+          <DeconstructId>                
+            <TypeId>Ore</TypeId>
+            <SubtypeId>SteelPlateScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+            <Component Subtype="Construction" Count="4">
+          <DeconstructId>                
+            <TypeId>Ore</TypeId>
+            <SubtypeId>ConstructionScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+            <Component Subtype="SmallTube" Count="4">
+          <DeconstructId>                
+            <TypeId>Ore</TypeId>
+            <SubtypeId>SmallTubeScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+            <Component Subtype="Motor" Count="2">
+          <DeconstructId>                
+            <TypeId>Ore</TypeId>
+            <SubtypeId>MotorScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+            <Component Subtype="Construction" Count="2">
+          <DeconstructId>                
+            <TypeId>Ore</TypeId>
+            <SubtypeId>ConstructionScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+            <Component Subtype="SteelPlate" Count="2">
+          <DeconstructId>                
+            <TypeId>Ore</TypeId>
+            <SubtypeId>SteelPlateScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        </Components>
+        <CriticalComponent Subtype="Motor" Index="0" />
+      <BuildTimeSeconds>10</BuildTimeSeconds>     
+    </Definition>
+	
+	<Definition>
+      <Id>
+        <TypeId>Conveyor</TypeId>
+        <SubtypeId>Small Ship Conveyor 2-4</SubtypeId>
+	  </Id>
+        <DisplayName>Conveyor Converter 3</DisplayName>
+        <Description>2 Large Ports to 4 Small Ports</Description>
+        <Components>
+            <Component Subtype="SteelPlate" Count="4">
+          <DeconstructId>                
+            <TypeId>Ore</TypeId>
+            <SubtypeId>SteelPlateScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+            <Component Subtype="Construction" Count="8">
+          <DeconstructId>                
+            <TypeId>Ore</TypeId>
+            <SubtypeId>ConstructionScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+            <Component Subtype="SmallTube" Count="6">
+          <DeconstructId>                
+            <TypeId>Ore</TypeId>
+            <SubtypeId>SmallTubeScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+            <Component Subtype="Motor" Count="3">
+          <DeconstructId>                
+            <TypeId>Ore</TypeId>
+            <SubtypeId>MotorScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+            <Component Subtype="Construction" Count="2">
+          <DeconstructId>                
+            <TypeId>Ore</TypeId>
+            <SubtypeId>ConstructionScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+            <Component Subtype="SteelPlate" Count="2">
+          <DeconstructId>                
+            <TypeId>Ore</TypeId>
+            <SubtypeId>SteelPlateScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        </Components>
+        <CriticalComponent Subtype="Motor" Index="0" />
+      <BuildTimeSeconds>14</BuildTimeSeconds>   
+    </Definition>
+
+<!--Vanilla Converter renamed-->
+ 	<Definition>
+        <Id>
+            <TypeId>Conveyor</TypeId>
+            <SubtypeId>SmallBlockConveyorConverter</SubtypeId>
+        </Id>
+        <DisplayName>Conveyor Converter 1</DisplayName>
+        <Description>Large Port to 7 Small Ports</Description>
+    </Definition>
+
+  </CubeBlocks>
+</Definitions>

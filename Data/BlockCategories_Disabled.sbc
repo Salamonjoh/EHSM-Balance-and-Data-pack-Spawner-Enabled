@@ -1,0 +1,59 @@
+<?xml version="1.0"  encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CategoryClasses>
+
+    <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+      <Id>
+        <TypeId>GuiBlockCategoryDefinition</TypeId>
+        <SubtypeId/>
+      </Id>
+      <DisplayName>Archan's Utilities</DisplayName>
+      <Name>Archan</Name>
+      <StrictSearch>true</StrictSearch>
+      <ItemIds>        
+        <string>MyObjectBuilder_MedicalRoom/Medpanel_LB</string>  
+      </ItemIds>
+      <Public>false</Public>
+    </Category>
+
+    <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+      <Id>
+        <TypeId>GuiBlockCategoryDefinition</TypeId>
+        <SubtypeId />
+      </Id>
+      <DisplayName>Ai Enabled</DisplayName>
+      <Name>Ai_Enabled</Name>
+      <ItemIds>
+        <string>ConveyorSorter/RoboFactory</string>
+      </ItemIds>
+      <Public>false</Public>
+    </Category>
+
+    <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+      <Id>
+        <TypeId>GuiBlockCategoryDefinition</TypeId>
+        <SubtypeId/>
+      </Id>
+      <DisplayName>Darth Biomech Mods</DisplayName>
+      <Name>darthbiomech</Name>
+      <ItemIds>
+        <string>CubeBlock/DB_Powerline</string> 
+      </ItemIds>
+      <Public>false</Public>
+    </Category>
+
+    <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+	    <Id>
+		    <TypeId>GuiBlockCategoryDefinition</TypeId>
+		    <SubtypeId/>
+	    </Id>
+			<DisplayName>Double Door Airlocks</DisplayName>
+		  <Name>HumanoidAirlocks</Name>
+			<ItemIds>
+				<string>AdvancedDoor/LargeBlockSlideDoorDouble</string>
+			</ItemIds>
+      <Public>false</Public>
+		</Category>
+
+  </CategoryClasses>
+</Definitions>

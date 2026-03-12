@@ -1,0 +1,286 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CubeBlocks>
+
+    <Definition>
+      <Id>
+        <TypeId>ConveyorConnector</TypeId>
+        <SubtypeId>LargeBlockPipesStraight1</SubtypeId>
+      </Id>
+			<Components>
+				<Component Subtype="SteelPlate" Count="5">
+          <DeconstructId>                
+            <TypeId>Ore</TypeId>
+            <SubtypeId>SteelPlateScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+				<Component Subtype="Construction" Count="10">
+          <DeconstructId>                
+            <TypeId>Ore</TypeId>
+            <SubtypeId>ConstructionScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="LargeTube" Count="12">
+          <DeconstructId>                
+            <TypeId>Ore</TypeId>
+            <SubtypeId>LargeTubeScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+				<Component Subtype="Motor" Count="3">
+          <DeconstructId>                
+            <TypeId>Ore</TypeId>
+            <SubtypeId>MotorScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+				<Component Subtype="SteelPlate" Count="10">
+          <DeconstructId>                
+            <TypeId>Ore</TypeId>
+            <SubtypeId>SteelPlateScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+			</Components>
+			<CriticalComponent Subtype="Motor" Index="0" />
+    </Definition>
+
+    <Definition>
+      <Id>
+        <TypeId>ConveyorConnector</TypeId>
+        <SubtypeId>LargeBlockPipesStraight2</SubtypeId>
+      </Id>
+			<Components>
+				<Component Subtype="SteelPlate" Count="10">
+          <DeconstructId>                
+            <TypeId>Ore</TypeId>
+            <SubtypeId>SteelPlateScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+				<Component Subtype="Construction" Count="10">
+          <DeconstructId>                
+            <TypeId>Ore</TypeId>
+            <SubtypeId>ConstructionScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="LargeTube" Count="12">
+          <DeconstructId>                
+            <TypeId>Ore</TypeId>
+            <SubtypeId>LargeTubeScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+				<Component Subtype="Motor" Count="3">
+          <DeconstructId>                
+            <TypeId>Ore</TypeId>
+            <SubtypeId>MotorScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+				<Component Subtype="SteelPlate" Count="10">
+            <DeconstructId>                
+            <TypeId>Ore</TypeId>
+            <SubtypeId>SteelPlateScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+			</Components>
+			<CriticalComponent Subtype="Motor" Index="0" />
+    </Definition>
+
+    <Definition>
+      <Id>
+        <TypeId>Conveyor</TypeId>
+        <SubtypeId>LargeBlockPipesEnd</SubtypeId>
+      </Id>
+			<Components>
+				<Component Subtype="SteelPlate" Count="5">
+          <DeconstructId>                
+            <TypeId>Ore</TypeId>
+            <SubtypeId>SteelPlateScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+				<Component Subtype="Construction" Count="10">
+          <DeconstructId>                
+            <TypeId>Ore</TypeId>
+            <SubtypeId>ConstructionScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="LargeTube" Count="12">
+          <DeconstructId>                
+            <TypeId>Ore</TypeId>
+            <SubtypeId>LargeTubeScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+				<Component Subtype="Motor" Count="3">
+          <DeconstructId>                
+            <TypeId>Ore</TypeId>
+            <SubtypeId>MotorScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+				<Component Subtype="SteelPlate" Count="10">
+          <DeconstructId>                
+            <TypeId>Ore</TypeId>
+            <SubtypeId>SteelPlateScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+			</Components>
+			<CriticalComponent Subtype="Motor" Index="0" />
+    </Definition>
+
+    <Definition>
+      <Id>
+        <TypeId>Conveyor</TypeId>
+        <SubtypeId>LargeBlockPipesJunction</SubtypeId>
+      </Id>
+			<Components>
+				<Component Subtype="SteelPlate" Count="10">
+          <DeconstructId>                
+            <TypeId>Ore</TypeId>
+            <SubtypeId>SteelPlateScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+				<Component Subtype="Construction" Count="20">
+          <DeconstructId>                
+            <TypeId>Ore</TypeId>
+            <SubtypeId>ConstructionScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="LargeTube" Count="14">
+          <DeconstructId>                
+            <TypeId>Ore</TypeId>
+            <SubtypeId>LargeTubeScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+				<Component Subtype="Motor" Count="6">
+          <DeconstructId>                
+            <TypeId>Ore</TypeId>
+            <SubtypeId>MotorScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+				<Component Subtype="SteelPlate" Count="10">
+          <DeconstructId>                
+            <TypeId>Ore</TypeId>
+            <SubtypeId>SteelPlateScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+			</Components>
+			<CriticalComponent Subtype="Motor" Index="0" />
+    </Definition>
+
+    <Definition>
+      <Id>
+        <TypeId>ConveyorConnector</TypeId>
+        <SubtypeId>LargeBlockPipesCornerOuter</SubtypeId>
+      </Id>
+			<Components>
+				<Component Subtype="SteelPlate" Count="1">
+          <DeconstructId>                
+            <TypeId>Ore</TypeId>
+            <SubtypeId>SteelPlateScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+				<Component Subtype="Construction" Count="5">
+          <DeconstructId>                
+            <TypeId>Ore</TypeId>
+            <SubtypeId>ConstructionScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="LargeTube" Count="6">
+          <DeconstructId>                
+            <TypeId>Ore</TypeId>
+            <SubtypeId>LargeTubeScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+				<Component Subtype="Motor" Count="1">
+          <DeconstructId>                
+            <TypeId>Ore</TypeId>
+            <SubtypeId>MotorScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+				<Component Subtype="SteelPlate" Count="5">
+          <DeconstructId>                
+            <TypeId>Ore</TypeId>
+            <SubtypeId>SteelPlateScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+			</Components>
+			<CriticalComponent Subtype="Motor" Index="0" />
+    </Definition>
+
+    <Definition>
+      <Id>
+        <TypeId>ConveyorConnector</TypeId>
+        <SubtypeId>LargeBlockPipesCorner</SubtypeId>
+      </Id>
+			<Components>
+				<Component Subtype="SteelPlate" Count="5">
+          <DeconstructId>                
+            <TypeId>Ore</TypeId>
+            <SubtypeId>SteelPlateScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+				<Component Subtype="Construction" Count="10">
+          <DeconstructId>                
+            <TypeId>Ore</TypeId>
+            <SubtypeId>ConstructionScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="LargeTube" Count="12">
+          <DeconstructId>                
+            <TypeId>Ore</TypeId>
+            <SubtypeId>LargeTubeScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+				<Component Subtype="Motor" Count="3">
+          <DeconstructId>                
+            <TypeId>Ore</TypeId>
+            <SubtypeId>MotorScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+				<Component Subtype="SteelPlate" Count="10">
+          <DeconstructId>                
+            <TypeId>Ore</TypeId>
+            <SubtypeId>SteelPlateScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+			</Components>
+			<CriticalComponent Subtype="Motor" Index="0" />
+    </Definition>
+
+    <Definition>
+      <Id>
+        <TypeId>ConveyorConnector</TypeId>
+        <SubtypeId>LargeBlockPipesCornerInner</SubtypeId>
+      </Id>
+			<Components>
+				<Component Subtype="SteelPlate" Count="10">
+          <DeconstructId>                
+            <TypeId>Ore</TypeId>
+            <SubtypeId>SteelPlateScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+				<Component Subtype="Construction" Count="15">
+          <DeconstructId>                
+            <TypeId>Ore</TypeId>
+            <SubtypeId>ConstructionScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="LargeTube" Count="18">
+          <DeconstructId>                
+            <TypeId>Ore</TypeId>
+            <SubtypeId>LargeTubeScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+				<Component Subtype="Motor" Count="6">
+          <DeconstructId>                
+            <TypeId>Ore</TypeId>
+            <SubtypeId>MotorScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+				<Component Subtype="SteelPlate" Count="15">
+          <DeconstructId>                
+            <TypeId>Ore</TypeId>
+            <SubtypeId>SteelPlateScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+			</Components>
+			<CriticalComponent Subtype="Motor" Index="0" />
+    </Definition>
+
+  </CubeBlocks>
+</Definitions>

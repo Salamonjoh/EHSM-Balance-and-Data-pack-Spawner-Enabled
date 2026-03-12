@@ -1,0 +1,624 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <SpawnGroups>
+ 
+        <SpawnGroup>
+            <Id Type="MyObjectBuilder_SpawnGroupDefinition" Subtype="GE_HighProfileTransportA" />
+            <Frequency>0.5</Frequency>
+            <IsGlobalEncounter>true</IsGlobalEncounter>
+            <Factions>
+                <SubtypeId>Factorum</SubtypeId>
+            </Factions>
+            <GlobalEncounterSettings>
+                <MinDistanceFromCenter>100000</MinDistanceFromCenter>
+                <MaxDistanceFromCenter>10000000</MaxDistanceFromCenter>
+                <PlanetProximitySpawnProbability>0.2</PlanetProximitySpawnProbability>
+                <MinPlanetProximityDistance>2000</MinPlanetProximityDistance>
+                <MaxPlanetProximityDistance>5000</MaxPlanetProximityDistance>
+            </GlobalEncounterSettings>
+            <ReactorsOn>true</ReactorsOn>
+            <Prefabs>
+                <Prefab SubtypeId="EHSM_GE_HighProfileTransport">
+                    <Position>
+                        <X>0</X>
+                        <Y>0</Y>
+                        <Z>0</Z>
+                    </Position>
+                    <Speed>0</Speed>
+                    <GpsGrid>true</GpsGrid>
+                </Prefab>
+            </Prefabs>
+            <MinFactionSubEncounters>1</MinFactionSubEncounters>
+            <MaxFactionSubEncounters>1</MaxFactionSubEncounters>
+            <MinHostileSubEncounters>0</MinHostileSubEncounters>
+            <MaxHostileSubEncounters>1</MaxHostileSubEncounters>
+            <FactionSubEncounters>
+                <SubEncounter SubtypeId="HighProfileEscort">
+                    <MinDistanceFromCore>200</MinDistanceFromCore>
+                    <MaxDistanceFromCore>600</MaxDistanceFromCore>
+                    <MinSpawnCount>2</MinSpawnCount>
+                    <MaxSpawnCount>4</MaxSpawnCount>
+                </SubEncounter>
+                <SubEncounter SubtypeId="M2Barage">
+                    <MinDistanceFromCore>200</MinDistanceFromCore>
+                    <MaxDistanceFromCore>600</MaxDistanceFromCore>
+                    <MinSpawnCount>1</MinSpawnCount>
+                    <MaxSpawnCount>3</MaxSpawnCount>
+                </SubEncounter>
+            </FactionSubEncounters>
+        </SpawnGroup>
+
+        <SpawnGroup>
+            <Id Type="MyObjectBuilder_SpawnGroupDefinition" Subtype="GE_HighProfileTransportB" />
+            <Frequency>0.5</Frequency>
+            <IsGlobalEncounter>true</IsGlobalEncounter>
+            <Factions>
+                <SubtypeId>Factorum</SubtypeId>
+            </Factions>
+            <GlobalEncounterSettings>
+                <MinDistanceFromCenter>100000</MinDistanceFromCenter>
+                <MaxDistanceFromCenter>10000000</MaxDistanceFromCenter>
+                <PlanetProximitySpawnProbability>0.2</PlanetProximitySpawnProbability>
+                <MinPlanetProximityDistance>2000</MinPlanetProximityDistance>
+                <MaxPlanetProximityDistance>5000</MaxPlanetProximityDistance>
+            </GlobalEncounterSettings>
+            <ReactorsOn>true</ReactorsOn>
+            <Prefabs>
+                <Prefab SubtypeId="EHSM_GE_HighProfileTransportB">
+                    <Position>
+                        <X>0</X>
+                        <Y>0</Y>
+                        <Z>0</Z>
+                    </Position>
+                    <Speed>0</Speed>
+                    <GpsGrid>true</GpsGrid>
+                </Prefab>
+            </Prefabs>
+            <MinFactionSubEncounters>1</MinFactionSubEncounters>
+            <MaxFactionSubEncounters>1</MaxFactionSubEncounters>
+            <MinHostileSubEncounters>0</MinHostileSubEncounters>
+            <MaxHostileSubEncounters>1</MaxHostileSubEncounters>
+            <FactionSubEncounters>
+                <SubEncounter SubtypeId="HighProfileEscort">
+                    <MinDistanceFromCore>200</MinDistanceFromCore>
+                    <MaxDistanceFromCore>600</MaxDistanceFromCore>
+                    <MinSpawnCount>2</MinSpawnCount>
+                    <MaxSpawnCount>4</MaxSpawnCount>
+                </SubEncounter>
+                <SubEncounter SubtypeId="M2Barage">
+                    <MinDistanceFromCore>200</MinDistanceFromCore>
+                    <MaxDistanceFromCore>600</MaxDistanceFromCore>
+                    <MinSpawnCount>1</MinSpawnCount>
+                    <MaxSpawnCount>3</MaxSpawnCount>
+                </SubEncounter>
+            </FactionSubEncounters>
+        </SpawnGroup>
+
+        <SpawnGroup>
+            <Id Type="MyObjectBuilder_SpawnGroupDefinition" Subtype="GE_ListeningPostC" />
+            <Frequency>0.33</Frequency>
+            <IsGlobalEncounter>true</IsGlobalEncounter>
+            <Factions>
+                <SubtypeId>Factorum</SubtypeId>
+            </Factions>
+            <GlobalEncounterSettings>
+                <MinDistanceFromCenter>100000</MinDistanceFromCenter>
+                <MaxDistanceFromCenter>10000000</MaxDistanceFromCenter>
+                <PlanetProximitySpawnProbability>0.2</PlanetProximitySpawnProbability>
+                <MinPlanetProximityDistance>1500</MinPlanetProximityDistance>
+                <MaxPlanetProximityDistance>3000</MaxPlanetProximityDistance>
+            </GlobalEncounterSettings>
+            <ReactorsOn>true</ReactorsOn>
+            <Prefabs>
+                <Prefab SubtypeId="EHSM_GE_ListeningPostC">
+                    <Position>
+                        <X>0</X>
+                        <Y>0</Y>
+                        <Z>0</Z>
+                    </Position>
+                    <Speed>0</Speed>
+                    <GpsGrid>true</GpsGrid>
+                </Prefab>
+            </Prefabs>
+            <MinFactionSubEncounters>5</MinFactionSubEncounters>
+            <MaxFactionSubEncounters>7</MaxFactionSubEncounters>
+            <MinHostileSubEncounters>0</MinHostileSubEncounters>
+            <MaxHostileSubEncounters>0</MaxHostileSubEncounters>
+            <FactionSubEncounters>
+                <SubEncounter SubtypeId="GE_ZoneSubStationA">
+                    <MinDistanceFromCore>200</MinDistanceFromCore>
+                    <MaxDistanceFromCore>800</MaxDistanceFromCore>
+                    <MinSpawnCount>1</MinSpawnCount>
+                    <MaxSpawnCount>1</MaxSpawnCount>
+                </SubEncounter>
+                <SubEncounter SubtypeId="GE_ZoneSubStationB">
+                    <MinDistanceFromCore>200</MinDistanceFromCore>
+                    <MaxDistanceFromCore>800</MaxDistanceFromCore>
+                    <MinSpawnCount>1</MinSpawnCount>
+                    <MaxSpawnCount>1</MaxSpawnCount>
+                </SubEncounter>
+                <SubEncounter SubtypeId="GE_ZoneSubStationC">
+                    <MinDistanceFromCore>200</MinDistanceFromCore>
+                    <MaxDistanceFromCore>800</MaxDistanceFromCore>
+                    <MinSpawnCount>1</MinSpawnCount>
+                    <MaxSpawnCount>1</MaxSpawnCount>
+                </SubEncounter>
+                <SubEncounter SubtypeId="HighProfileEscort">
+                    <MinDistanceFromCore>300</MinDistanceFromCore>
+                    <MaxDistanceFromCore>1000</MaxDistanceFromCore>
+                    <MinSpawnCount>1</MinSpawnCount>
+                    <MaxSpawnCount>1</MaxSpawnCount>
+                </SubEncounter>
+                <SubEncounter SubtypeId="M2Barage">
+                    <MinDistanceFromCore>300</MinDistanceFromCore>
+                    <MaxDistanceFromCore>1000</MaxDistanceFromCore>
+                    <MinSpawnCount>0</MinSpawnCount>
+                    <MaxSpawnCount>1</MaxSpawnCount>
+                </SubEncounter>
+            </FactionSubEncounters>
+        </SpawnGroup>
+
+        <SpawnGroup>
+            <Id Type="MyObjectBuilder_SpawnGroupDefinition" Subtype="GE_StorageFacilityA" />
+            <Frequency>1</Frequency>
+            <IsGlobalEncounter>true</IsGlobalEncounter>
+            <Factions>
+                <SubtypeId>Factorum</SubtypeId>
+            </Factions>
+            <GlobalEncounterSettings>
+                <MinDistanceFromCenter>100000</MinDistanceFromCenter>
+                <MaxDistanceFromCenter>10000000</MaxDistanceFromCenter>
+                <PlanetProximitySpawnProbability>0.2</PlanetProximitySpawnProbability>
+                <MinPlanetProximityDistance>1500</MinPlanetProximityDistance>
+                <MaxPlanetProximityDistance>3000</MaxPlanetProximityDistance>
+            </GlobalEncounterSettings>
+            <ReactorsOn>true</ReactorsOn>
+            <Prefabs>
+                <Prefab SubtypeId="EHSM_GE_StorageFacility">
+                    <Position>
+                        <X>39.69413</X>
+                        <Y>-50.35951</Y>
+                        <Z>-1.25684309</Z>
+                    </Position>
+                    <Speed>0</Speed>
+                    <GpsGrid>true</GpsGrid>
+                </Prefab>
+            </Prefabs>
+            <Voxels>
+                <Voxel StorageName="many2_small_asteroids">
+                    <Offset>
+                        <X>0</X>
+                        <Y>0</Y>
+                        <Z>0</Z>
+                    </Offset>
+                    <CenterOffset>true</CenterOffset>
+                    <Orientation>
+                        <X>-0.50465095</X>
+                        <Y>0.230831176</Y>
+                        <Z>0.721520364</Z>
+                        <W>-0.41406855</W>
+                    </Orientation>
+                </Voxel>
+                <Voxel StorageName="many_small_asteroids">
+                    <Offset>
+                        <X>-14.50282</X>
+                        <Y>123.671249</Y>
+                        <Z>121.265739</Z>
+                    </Offset>
+                    <CenterOffset>true</CenterOffset>
+                    <Orientation>
+                        <X>-0.4152141</X>
+                        <Y>0.7919351</Y>
+                        <Z>-0.323038131</Z>
+                        <W>0.30997172</W>
+                    </Orientation>
+                </Voxel>
+                <Voxel StorageName="GE_StorageFacility">
+                    <Offset>
+                        <X>288.789551</X>
+                        <Y>-104.819328</Y>
+                        <Z>-98.65559</Z>
+                    </Offset>
+                    <CenterOffset>true</CenterOffset>
+                    <Orientation>
+                        <X>0.5</X>
+                        <Y>0.5</Y>
+                        <Z>-0.5</Z>
+                        <W>0.5</W>
+                    </Orientation>
+                    <CenterOffset>true</CenterOffset>
+                </Voxel>
+            </Voxels>
+            <MinFactionSubEncounters>2</MinFactionSubEncounters>
+            <MaxFactionSubEncounters>4</MaxFactionSubEncounters>
+            <MinHostileSubEncounters>0</MinHostileSubEncounters>
+            <MaxHostileSubEncounters>0</MaxHostileSubEncounters>
+            <FactionSubEncounters>
+                <SubEncounter SubtypeId="HighProfileEscort">
+                    <MinDistanceFromCore>600</MinDistanceFromCore>
+                    <MaxDistanceFromCore>800</MaxDistanceFromCore>
+                    <MinSpawnCount>1</MinSpawnCount>
+                    <MaxSpawnCount>1</MaxSpawnCount>
+                </SubEncounter>
+                <SubEncounter SubtypeId="M2Barage">
+                    <MinDistanceFromCore>600</MinDistanceFromCore>
+                    <MaxDistanceFromCore>800</MaxDistanceFromCore>
+                    <MinSpawnCount>1</MinSpawnCount>
+                    <MaxSpawnCount>1</MaxSpawnCount>
+                </SubEncounter>
+                <SubEncounter SubtypeId="GE_Debris_Tubes">
+                    <MinDistanceFromCore>300</MinDistanceFromCore>
+                    <MaxDistanceFromCore>500</MaxDistanceFromCore>
+                    <MinSpawnCount>1</MinSpawnCount>
+                    <MaxSpawnCount>1</MaxSpawnCount>
+                </SubEncounter>
+                <SubEncounter SubtypeId="GE_Mine">
+                    <MinDistanceFromCore>300</MinDistanceFromCore>
+                    <MaxDistanceFromCore>500</MaxDistanceFromCore>
+                    <MinSpawnCount>2</MinSpawnCount>
+                    <MaxSpawnCount>5</MaxSpawnCount>
+                </SubEncounter>
+                <SubEncounter SubtypeId="GE_Debris_Ambush">
+                    <MinDistanceFromCore>300</MinDistanceFromCore>
+                    <MaxDistanceFromCore>500</MaxDistanceFromCore>
+                    <MinSpawnCount>1</MinSpawnCount>
+                    <MaxSpawnCount>1</MaxSpawnCount>
+                </SubEncounter>
+                <SubEncounter SubtypeId="GE_FreightPlateA">
+                    <MinDistanceFromCore>300</MinDistanceFromCore>
+                    <MaxDistanceFromCore>600</MaxDistanceFromCore>
+                    <MinSpawnCount>1</MinSpawnCount>
+                    <MaxSpawnCount>1</MaxSpawnCount>
+                </SubEncounter>
+                <SubEncounter SubtypeId="GE_FreightPlateB">
+                    <MinDistanceFromCore>300</MinDistanceFromCore>
+                    <MaxDistanceFromCore>600</MaxDistanceFromCore>
+                    <MinSpawnCount>1</MinSpawnCount>
+                    <MaxSpawnCount>1</MaxSpawnCount>
+                </SubEncounter>
+            </FactionSubEncounters>
+        </SpawnGroup>
+
+        <SpawnGroup>
+            <Id Type="MyObjectBuilder_SpawnGroupDefinition" Subtype="GE_StorageFacilityB" />
+            <Frequency>0.5</Frequency>
+            <IsGlobalEncounter>true</IsGlobalEncounter>
+            <Factions>
+                <SubtypeId>Factorum</SubtypeId>
+            </Factions>
+            <GlobalEncounterSettings>
+                <MinDistanceFromCenter>100000</MinDistanceFromCenter>
+                <MaxDistanceFromCenter>10000000</MaxDistanceFromCenter>
+                <PlanetProximitySpawnProbability>0.2</PlanetProximitySpawnProbability>
+                <MinPlanetProximityDistance>1500</MinPlanetProximityDistance>
+                <MaxPlanetProximityDistance>3000</MaxPlanetProximityDistance>
+            </GlobalEncounterSettings>
+            <ReactorsOn>true</ReactorsOn>
+            <Prefabs>
+                <Prefab SubtypeId="EHSM_GE_StorageFacilityB">
+                    <Position>
+                        <X>54.1969528</X>
+                        <Y>-174.030762</Y>
+                        <Z>-122.522583</Z>
+                    </Position>
+                    <Speed>0</Speed>
+                    <GpsGrid>true</GpsGrid>
+                </Prefab>
+            </Prefabs>
+            <Voxels>
+                <Voxel StorageName="many_small_asteroids">
+                    <Offset>
+                        <X>0</X>
+                        <Y>0</Y>
+                        <Z>0</Z>
+                    </Offset>
+                    <CenterOffset>true</CenterOffset>
+                    <Orientation>
+                        <X>-0.4152141</X>
+                        <Y>0.7919351</Y>
+                        <Z>-0.323038131</Z>
+                        <W>0.30997172</W>
+                    </Orientation>
+                </Voxel>
+                <Voxel StorageName="many2_small_asteroids">
+                    <Offset>
+                        <X>14.50282</X>
+                        <Y>-123.671249</Y>
+                        <Z>-121.265739</Z>
+                    </Offset>
+                    <CenterOffset>true</CenterOffset>
+                    <Orientation>
+                        <X>-0.50465095</X>
+                        <Y>0.230831176</Y>
+                        <Z>0.721520364</Z>
+                        <W>-0.41406855</W>
+                    </Orientation>
+                </Voxel>
+                <Voxel StorageName="GE_StorageFacility">
+                    <Offset>
+                        <X>303.292358</X>
+                        <Y>-228.49057</Y>
+                        <Z>-219.921326</Z>
+                    </Offset>
+                    <CenterOffset>true</CenterOffset>
+                    <Orientation>
+                        <X>0.5</X>
+                        <Y>0.5</Y>
+                        <Z>-0.5</Z>
+                        <W>0.5</W>
+                    </Orientation>
+                    <CenterOffset>true</CenterOffset>
+                </Voxel>
+            </Voxels>
+            <MinFactionSubEncounters>2</MinFactionSubEncounters>
+            <MaxFactionSubEncounters>4</MaxFactionSubEncounters>
+            <MinHostileSubEncounters>0</MinHostileSubEncounters>
+            <MaxHostileSubEncounters>0</MaxHostileSubEncounters>
+            <FactionSubEncounters>
+                <SubEncounter SubtypeId="HighProfileEscort">
+                    <MinDistanceFromCore>600</MinDistanceFromCore>
+                    <MaxDistanceFromCore>800</MaxDistanceFromCore>
+                    <MinSpawnCount>1</MinSpawnCount>
+                    <MaxSpawnCount>1</MaxSpawnCount>
+                </SubEncounter>
+                <SubEncounter SubtypeId="M2Barage">
+                    <MinDistanceFromCore>600</MinDistanceFromCore>
+                    <MaxDistanceFromCore>800</MaxDistanceFromCore>
+                    <MinSpawnCount>1</MinSpawnCount>
+                    <MaxSpawnCount>1</MaxSpawnCount>
+                </SubEncounter>
+                <SubEncounter SubtypeId="GE_Debris_Tubes">
+                    <MinDistanceFromCore>300</MinDistanceFromCore>
+                    <MaxDistanceFromCore>500</MaxDistanceFromCore>
+                    <MinSpawnCount>1</MinSpawnCount>
+                    <MaxSpawnCount>1</MaxSpawnCount>
+                </SubEncounter>
+                <SubEncounter SubtypeId="GE_Mine">
+                    <MinDistanceFromCore>300</MinDistanceFromCore>
+                    <MaxDistanceFromCore>500</MaxDistanceFromCore>
+                    <MinSpawnCount>2</MinSpawnCount>
+                    <MaxSpawnCount>5</MaxSpawnCount>
+                </SubEncounter>
+                <SubEncounter SubtypeId="GE_Debris_Ambush">
+                    <MinDistanceFromCore>300</MinDistanceFromCore>
+                    <MaxDistanceFromCore>500</MaxDistanceFromCore>
+                    <MinSpawnCount>1</MinSpawnCount>
+                    <MaxSpawnCount>1</MaxSpawnCount>
+                </SubEncounter>
+                <SubEncounter SubtypeId="GE_FreightPlateA">
+                    <MinDistanceFromCore>300</MinDistanceFromCore>
+                    <MaxDistanceFromCore>600</MaxDistanceFromCore>
+                    <MinSpawnCount>1</MinSpawnCount>
+                    <MaxSpawnCount>1</MaxSpawnCount>
+                </SubEncounter>
+                <SubEncounter SubtypeId="GE_FreightPlateB">
+                    <MinDistanceFromCore>300</MinDistanceFromCore>
+                    <MaxDistanceFromCore>600</MaxDistanceFromCore>
+                    <MinSpawnCount>1</MinSpawnCount>
+                    <MaxSpawnCount>1</MaxSpawnCount>
+                </SubEncounter>
+            </FactionSubEncounters>
+        </SpawnGroup>
+
+        <SpawnGroup>
+            <Id Type="MyObjectBuilder_SpawnGroupDefinition" Subtype="GE_FactorumWarshipA" />
+            <Frequency>0.33</Frequency>
+            <IsGlobalEncounter>true</IsGlobalEncounter>
+            <Factions>
+                <SubtypeId>Factorum</SubtypeId>
+            </Factions>
+            <GlobalEncounterSettings>
+                <MinDistanceFromCenter>100000</MinDistanceFromCenter>
+                <MaxDistanceFromCenter>10000000</MaxDistanceFromCenter>
+                <PlanetProximitySpawnProbability>0.2</PlanetProximitySpawnProbability>
+                <MinPlanetProximityDistance>2000</MinPlanetProximityDistance>
+                <MaxPlanetProximityDistance>5000</MaxPlanetProximityDistance>
+            </GlobalEncounterSettings>
+            <ReactorsOn>true</ReactorsOn>
+            <Prefabs>
+                <Prefab SubtypeId="EHSM_GE_FactorumWarship">
+                    <Position>
+                        <X>0</X>
+                        <Y>0</Y>
+                        <Z>0</Z>
+                    </Position>
+                    <Speed>0</Speed>
+                    <GpsGrid>true</GpsGrid>
+                </Prefab>
+            </Prefabs>
+            <MinFactionSubEncounters>1</MinFactionSubEncounters>
+            <MaxFactionSubEncounters>1</MaxFactionSubEncounters>
+            <MinHostileSubEncounters>0</MinHostileSubEncounters>
+            <MaxHostileSubEncounters>1</MaxHostileSubEncounters>
+            <FactionSubEncounters>
+                <SubEncounter SubtypeId="HighProfileEscort">
+                    <MinDistanceFromCore>200</MinDistanceFromCore>
+                    <MaxDistanceFromCore>600</MaxDistanceFromCore>
+                    <MinSpawnCount>2</MinSpawnCount>
+                    <MaxSpawnCount>3</MaxSpawnCount>
+                </SubEncounter>
+                <SubEncounter SubtypeId="M2Barage">
+                    <MinDistanceFromCore>200</MinDistanceFromCore>
+                    <MaxDistanceFromCore>600</MaxDistanceFromCore>
+                    <MinSpawnCount>1</MinSpawnCount>
+                    <MaxSpawnCount>2</MaxSpawnCount>
+                </SubEncounter>
+            </FactionSubEncounters>
+            <HostileSubEncounters>
+                <SubEncounter SubtypeId="DS_AutomatedGunShip">
+                    <MinDistanceFromCore>2000</MinDistanceFromCore>
+                    <MaxDistanceFromCore>3000</MaxDistanceFromCore>
+                    <MinSpawnCount>0</MinSpawnCount>
+                    <MaxSpawnCount>1</MaxSpawnCount>
+                </SubEncounter>
+            </HostileSubEncounters>
+        </SpawnGroup>
+
+        <SpawnGroup>
+            <Id Type="MyObjectBuilder_SpawnGroupDefinition" Subtype="GE_FactorumWarshipB" />
+            <Frequency>0.33</Frequency>
+            <IsGlobalEncounter>true</IsGlobalEncounter>
+            <Factions>
+                <SubtypeId>Factorum</SubtypeId>
+            </Factions>
+            <GlobalEncounterSettings>
+                <MinDistanceFromCenter>100000</MinDistanceFromCenter>
+                <MaxDistanceFromCenter>10000000</MaxDistanceFromCenter>
+                <PlanetProximitySpawnProbability>0.2</PlanetProximitySpawnProbability>
+                <MinPlanetProximityDistance>2000</MinPlanetProximityDistance>
+                <MaxPlanetProximityDistance>5000</MaxPlanetProximityDistance>
+            </GlobalEncounterSettings>
+            <ReactorsOn>true</ReactorsOn>
+            <Prefabs>
+                <Prefab SubtypeId="EHSM_GE_FactorumWarshipB">
+                    <Position>
+                        <X>0</X>
+                        <Y>0</Y>
+                        <Z>0</Z>
+                    </Position>
+                    <Speed>0</Speed>
+                    <GpsGrid>true</GpsGrid>
+                </Prefab>
+            </Prefabs>
+            <MinFactionSubEncounters>1</MinFactionSubEncounters>
+            <MaxFactionSubEncounters>1</MaxFactionSubEncounters>
+            <MinHostileSubEncounters>0</MinHostileSubEncounters>
+            <MaxHostileSubEncounters>1</MaxHostileSubEncounters>
+            <FactionSubEncounters>
+                <SubEncounter SubtypeId="HighProfileEscort">
+                    <MinDistanceFromCore>200</MinDistanceFromCore>
+                    <MaxDistanceFromCore>600</MaxDistanceFromCore>
+                    <MinSpawnCount>2</MinSpawnCount>
+                    <MaxSpawnCount>3</MaxSpawnCount>
+                </SubEncounter>
+
+                <SubEncounter SubtypeId="M2Barage">
+                    <MinDistanceFromCore>200</MinDistanceFromCore>
+                    <MaxDistanceFromCore>600</MaxDistanceFromCore>
+                    <MinSpawnCount>1</MinSpawnCount>
+                    <MaxSpawnCount>2</MaxSpawnCount>
+                </SubEncounter>
+            </FactionSubEncounters>
+            <HostileSubEncounters>
+                <SubEncounter SubtypeId="DS_AutomatedGunShip">
+                    <MinDistanceFromCore>2000</MinDistanceFromCore>
+                    <MaxDistanceFromCore>3000</MaxDistanceFromCore>
+                    <MinSpawnCount>0</MinSpawnCount>
+                    <MaxSpawnCount>1</MaxSpawnCount>
+                </SubEncounter>
+            </HostileSubEncounters>
+        </SpawnGroup>
+
+        <SpawnGroup>
+            <Id Type="MyObjectBuilder_SpawnGroupDefinition" Subtype="GE_FactorumWarshipC" />
+            <Frequency>0.33</Frequency>
+            <IsGlobalEncounter>true</IsGlobalEncounter>
+            <Factions>
+                <SubtypeId>Factorum</SubtypeId>
+            </Factions>
+            <GlobalEncounterSettings>
+                <MinDistanceFromCenter>100000</MinDistanceFromCenter>
+                <MaxDistanceFromCenter>10000000</MaxDistanceFromCenter>
+                <PlanetProximitySpawnProbability>0.2</PlanetProximitySpawnProbability>
+                <MinPlanetProximityDistance>2000</MinPlanetProximityDistance>
+                <MaxPlanetProximityDistance>5000</MaxPlanetProximityDistance>
+            </GlobalEncounterSettings>
+            <ReactorsOn>true</ReactorsOn>
+            <Prefabs>
+                <Prefab SubtypeId="EHSM_GE_FactorumWarshipD">
+                    <Position>
+                        <X>0</X>
+                        <Y>0</Y>
+                        <Z>0</Z>
+                    </Position>
+                    <Speed>0</Speed>
+                    <GpsGrid>true</GpsGrid>
+                </Prefab>
+            </Prefabs>
+            <MinFactionSubEncounters>1</MinFactionSubEncounters>
+            <MaxFactionSubEncounters>1</MaxFactionSubEncounters>
+            <MinHostileSubEncounters>0</MinHostileSubEncounters>
+            <MaxHostileSubEncounters>1</MaxHostileSubEncounters>
+            <FactionSubEncounters>
+                <SubEncounter SubtypeId="HighProfileEscort">
+                    <MinDistanceFromCore>200</MinDistanceFromCore>
+                    <MaxDistanceFromCore>600</MaxDistanceFromCore>
+                    <MinSpawnCount>2</MinSpawnCount>
+                    <MaxSpawnCount>3</MaxSpawnCount>
+                </SubEncounter>
+                <SubEncounter SubtypeId="M2Barage">
+                    <MinDistanceFromCore>200</MinDistanceFromCore>
+                    <MaxDistanceFromCore>600</MaxDistanceFromCore>
+                    <MinSpawnCount>1</MinSpawnCount>
+                    <MaxSpawnCount>2</MaxSpawnCount>
+                </SubEncounter>
+            </FactionSubEncounters>
+            <HostileSubEncounters>
+                <SubEncounter SubtypeId="DS_AutomatedGunShip">
+                    <MinDistanceFromCore>2000</MinDistanceFromCore>
+                    <MaxDistanceFromCore>3000</MaxDistanceFromCore>
+                    <MinSpawnCount>0</MinSpawnCount>
+                    <MaxSpawnCount>1</MaxSpawnCount>
+                </SubEncounter>
+            </HostileSubEncounters>
+        </SpawnGroup>
+
+        <SpawnGroup>
+            <Id Type="MyObjectBuilder_SpawnGroupDefinition" Subtype="GE_BioResearchB" />
+            <Frequency>0.5</Frequency>
+            <IsGlobalEncounter>true</IsGlobalEncounter>
+            <Factions>
+                <SubtypeId>Factorum</SubtypeId>
+            </Factions>
+            <GlobalEncounterSettings>
+                <MinDistanceFromCenter>100000</MinDistanceFromCenter>
+                <MaxDistanceFromCenter>10000000</MaxDistanceFromCenter>
+                <PlanetProximitySpawnProbability>0.2</PlanetProximitySpawnProbability>
+                <MinPlanetProximityDistance>5000</MinPlanetProximityDistance>
+                <MaxPlanetProximityDistance>15000</MaxPlanetProximityDistance>
+            </GlobalEncounterSettings>
+            <ReactorsOn>true</ReactorsOn>
+            <Prefabs>
+                <Prefab SubtypeId="EHSM_GE_BioResearchB">
+                    <Position>
+                        <X>-20.9573822</X>
+                        <Y>82.07664</Y>
+                        <Z>-38.6038055</Z>
+                    </Position>
+                    <Speed>0</Speed>
+                    <GpsGrid>true</GpsGrid>
+                </Prefab>
+            </Prefabs>
+            <Voxels>
+                <Voxel StorageName="GE_BioResearch">
+                    <Offset>
+                        <X>0</X>
+                        <Y>0</Y>
+                        <Z>0</Z>
+                    </Offset>
+                    <CenterOffset>true</CenterOffset>
+                    <Orientation>
+                        <X>0.5</X>
+                        <Y>0.5</Y>
+                        <Z>-0.5</Z>
+                        <W>0.5</W>
+                    </Orientation>
+                </Voxel>
+            </Voxels>
+            <MinFactionSubEncounters>0</MinFactionSubEncounters>
+            <MaxFactionSubEncounters>2</MaxFactionSubEncounters>
+            <MinHostileSubEncounters>0</MinHostileSubEncounters>
+            <MaxHostileSubEncounters>0</MaxHostileSubEncounters>
+            <FactionSubEncounters>
+                <SubEncounter SubtypeId="GE_Factorum_RailDrone">
+                    <MinDistanceFromCore>600</MinDistanceFromCore>
+                    <MaxDistanceFromCore>1000</MaxDistanceFromCore>
+                    <MinSpawnCount>1</MinSpawnCount>
+                    <MaxSpawnCount>1</MaxSpawnCount>
+                </SubEncounter>
+            </FactionSubEncounters>
+        </SpawnGroup>
+
+
+    </SpawnGroups>
+</Definitions>

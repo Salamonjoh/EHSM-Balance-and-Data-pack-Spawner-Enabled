@@ -1,0 +1,281 @@
+<?xml version="1.0" ?>
+<Definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <CubeBlocks>
+
+    <Definition xsi:type="MyObjectBuilder_GyroDefinition">
+      <Id>
+        <TypeId>Gyro</TypeId>
+        <SubtypeId>AQD_LG_LargeGyro</SubtypeId>
+      </Id>
+      <Components>
+        <Component Subtype="SteelPlate" Count="4000">
+                <DeconstructId>                
+                  <TypeId>Ore</TypeId>
+                  <SubtypeId>SteelPlateScrap</SubtypeId>
+                </DeconstructId>
+              </Component>
+        <Component Subtype="Construction" Count="1080">
+                <DeconstructId>                
+                  <TypeId>Ore</TypeId>
+                  <SubtypeId>ConstructionScrap</SubtypeId>
+                </DeconstructId>
+              </Component>
+        <Component Subtype="GoldWire" Count="96">
+                <DeconstructId>                
+                  <TypeId>Ore</TypeId>
+                  <SubtypeId>GoldWireScrap</SubtypeId>
+                </DeconstructId>
+              </Component>
+        <Component Subtype="LargeTube" Count="100">
+                <DeconstructId>                
+                  <TypeId>Ore</TypeId>
+                  <SubtypeId>LargeTubeScrap</SubtypeId>
+                </DeconstructId>
+              </Component>
+        <Component Subtype="MetalGrid" Count="1000">
+                <DeconstructId>                
+                  <TypeId>Ore</TypeId>
+                  <SubtypeId>MetalGridScrap</SubtypeId>
+                </DeconstructId>
+              </Component>
+        <Component Subtype="Motor" Count="96">
+                <DeconstructId>                
+                  <TypeId>Ore</TypeId>
+                  <SubtypeId>MotorScrap</SubtypeId>
+                </DeconstructId>
+              </Component>
+        <Component Subtype="Computer" Count="80">
+                <DeconstructId>                
+                  <TypeId>Ore</TypeId>
+                  <SubtypeId>ComputerScrap</SubtypeId>
+                </DeconstructId>
+              </Component>
+        <Component Subtype="AdvancedComputer" Count="40">
+                <DeconstructId>                
+                  <TypeId>Ore</TypeId>
+                  <SubtypeId>AdvancedComputerScrap</SubtypeId>
+                </DeconstructId>
+              </Component>
+        <Component Subtype="SteelPlate" Count="1000">
+                <DeconstructId>                
+                  <TypeId>Ore</TypeId>
+                  <SubtypeId>SteelPlateScrap</SubtypeId>
+                </DeconstructId>
+              </Component>
+      </Components>
+      <CriticalComponent Subtype="AdvancedComputer" Index="0" />
+    </Definition>
+
+    <Definition xsi:type="MyObjectBuilder_UpgradeModuleDefinition">
+      <Id>
+        <TypeId>UpgradeModule</TypeId>
+        <SubtypeId>AQD_LG_GyroUpgrade</SubtypeId>
+      </Id>
+      <Components>
+        <Component Subtype="SteelPlate" Count="1500">
+                <DeconstructId>                
+                  <TypeId>Ore</TypeId>
+                  <SubtypeId>SteelPlateScrap</SubtypeId>
+                </DeconstructId>
+              </Component>
+        <Component Subtype="Construction" Count="120">
+                <DeconstructId>                
+                  <TypeId>Ore</TypeId>
+                  <SubtypeId>ConstructionScrap</SubtypeId>
+                </DeconstructId>
+              </Component>
+        <Component Subtype="GoldWire" Count="60">
+                <DeconstructId>                
+                  <TypeId>Ore</TypeId>
+                  <SubtypeId>GoldWireScrap</SubtypeId>
+                </DeconstructId>
+              </Component>
+        <Component Subtype="LargeTube" Count="16">
+                <DeconstructId>                
+                  <TypeId>Ore</TypeId>
+                  <SubtypeId>LargeTubeScrap</SubtypeId>
+                </DeconstructId>
+              </Component>
+        <Component Subtype="MetalGrid" Count="200">
+                <DeconstructId>                
+                  <TypeId>Ore</TypeId>
+                  <SubtypeId>MetalGridScrap</SubtypeId>
+                </DeconstructId>
+              </Component>
+        <Component Subtype="Capacitor" Count="32">
+                <DeconstructId>                
+                  <TypeId>Ore</TypeId>
+                  <SubtypeId>CapacitorScrap</SubtypeId>
+                </DeconstructId>
+              </Component>
+        <Component Subtype="Motor" Count="16">
+                <DeconstructId>                
+                  <TypeId>Ore</TypeId>
+                  <SubtypeId>MotorScrap</SubtypeId>
+                </DeconstructId>
+              </Component>
+        <Component Subtype="Computer" Count="20">
+                <DeconstructId>                
+                  <TypeId>Ore</TypeId>
+                  <SubtypeId>ComputerScrap</SubtypeId>
+                </DeconstructId>
+              </Component>
+        <Component Subtype="AdvancedComputer" Count="10">
+                <DeconstructId>                
+                  <TypeId>Ore</TypeId>
+                  <SubtypeId>AdvancedComputerScrap</SubtypeId>
+                </DeconstructId>
+              </Component>
+        <Component Subtype="SteelPlate" Count="500">
+                <DeconstructId>                
+                  <TypeId>Ore</TypeId>
+                  <SubtypeId>SteelPlateScrap</SubtypeId>
+                </DeconstructId>
+              </Component>
+      </Components>
+      <CriticalComponent Subtype="AdvancedComputer" Index="0" />
+    </Definition>
+
+    <Definition xsi:type="MyObjectBuilder_UpgradeModuleDefinition">
+      <Id>
+        <TypeId>UpgradeModule</TypeId>
+        <SubtypeId>AQD_LG_GyroBooster</SubtypeId>
+      </Id>
+      <Components>
+        <Component Subtype="SteelPlate" Count="1000">
+                <DeconstructId>                
+                  <TypeId>Ore</TypeId>
+                  <SubtypeId>SteelPlateScrap</SubtypeId>
+                </DeconstructId>
+              </Component>
+        <Component Subtype="Construction" Count="80">
+                <DeconstructId>                
+                  <TypeId>Ore</TypeId>
+                  <SubtypeId>ConstructionScrap</SubtypeId>
+                </DeconstructId>
+              </Component>
+        <Component Subtype="GoldWire" Count="40">
+                <DeconstructId>                
+                  <TypeId>Ore</TypeId>
+                  <SubtypeId>GoldWireScrap</SubtypeId>
+                </DeconstructId>
+              </Component>
+        <Component Subtype="LargeTube" Count="8">
+                <DeconstructId>                
+                  <TypeId>Ore</TypeId>
+                  <SubtypeId>LargeTubeScrap</SubtypeId>
+                </DeconstructId>
+              </Component>
+        <Component Subtype="MetalGrid" Count="100">
+                <DeconstructId>                
+                  <TypeId>Ore</TypeId>
+                  <SubtypeId>MetalGridScrap</SubtypeId>
+                </DeconstructId>
+              </Component>
+        <Component Subtype="Capacitor" Count="80">
+                <DeconstructId>                
+                  <TypeId>Ore</TypeId>
+                  <SubtypeId>CapacitorScrap</SubtypeId>
+                </DeconstructId>
+              </Component>
+        <Component Subtype="Motor" Count="40">
+                <DeconstructId>                
+                  <TypeId>Ore</TypeId>
+                  <SubtypeId>MotorScrap</SubtypeId>
+                </DeconstructId>
+              </Component>
+        <Component Subtype="Computer" Count="10">
+                <DeconstructId>                
+                  <TypeId>Ore</TypeId>
+                  <SubtypeId>ComputerScrap</SubtypeId>
+                </DeconstructId>
+              </Component>
+        <Component Subtype="AdvancedComputer" Count="10">
+                <DeconstructId>                
+                  <TypeId>Ore</TypeId>
+                  <SubtypeId>AdvancedComputerScrap</SubtypeId>
+                </DeconstructId>
+              </Component>
+        <Component Subtype="SteelPlate" Count="200">
+                <DeconstructId>                
+                  <TypeId>Ore</TypeId>
+                  <SubtypeId>SteelPlateScrap</SubtypeId>
+                </DeconstructId>
+              </Component>
+      </Components>
+      <CriticalComponent Subtype="AdvancedComputer" Index="0" />
+    </Definition>
+
+    <Definition xsi:type="MyObjectBuilder_UpgradeModuleDefinition">
+      <Id>
+        <TypeId>UpgradeModule</TypeId>
+        <SubtypeId>AQD_SG_GyroBooster</SubtypeId>
+      </Id>
+      <Components>
+        <Component Subtype="SteelPlate" Count="100">
+                <DeconstructId>                
+                  <TypeId>Ore</TypeId>
+                  <SubtypeId>SteelPlateScrap</SubtypeId>
+                </DeconstructId>
+              </Component>
+        <Component Subtype="Construction" Count="20">
+                <DeconstructId>                
+                  <TypeId>Ore</TypeId>
+                  <SubtypeId>ConstructionScrap</SubtypeId>
+                </DeconstructId>
+              </Component>
+        <Component Subtype="GoldWire" Count="10">
+                <DeconstructId>                
+                  <TypeId>Ore</TypeId>
+                  <SubtypeId>GoldWireScrap</SubtypeId>
+                </DeconstructId>
+              </Component>
+        <Component Subtype="LargeTube" Count="2">
+                <DeconstructId>                
+                  <TypeId>Ore</TypeId>
+                  <SubtypeId>LargeTubeScrap</SubtypeId>
+                </DeconstructId>
+              </Component>
+        <Component Subtype="MetalGrid" Count="20">
+                <DeconstructId>                
+                  <TypeId>Ore</TypeId>
+                  <SubtypeId>MetalGridScrap</SubtypeId>
+                </DeconstructId>
+              </Component>
+        <Component Subtype="Capacitor" Count="16">
+                <DeconstructId>                
+                  <TypeId>Ore</TypeId>
+                  <SubtypeId>CapacitorScrap</SubtypeId>
+                </DeconstructId>
+              </Component>
+        <Component Subtype="Motor" Count="8">
+                <DeconstructId>                
+                  <TypeId>Ore</TypeId>
+                  <SubtypeId>MotorScrap</SubtypeId>
+                </DeconstructId>
+              </Component>
+        <Component Subtype="Computer" Count="10">
+                <DeconstructId>                
+                  <TypeId>Ore</TypeId>
+                  <SubtypeId>ComputerScrap</SubtypeId>
+                </DeconstructId>
+              </Component>
+        <Component Subtype="AdvancedComputer" Count="10">
+                <DeconstructId>                
+                  <TypeId>Ore</TypeId>
+                  <SubtypeId>AdvancedComputerScrap</SubtypeId>
+                </DeconstructId>
+              </Component>
+        <Component Subtype="SteelPlate" Count="50">
+                <DeconstructId>                
+                  <TypeId>Ore</TypeId>
+                  <SubtypeId>SteelPlateScrap</SubtypeId>
+                </DeconstructId>
+              </Component>
+      </Components>
+      <CriticalComponent Subtype="AdvancedComputer" Index="0" />
+    </Definition>
+
+  </CubeBlocks>
+</Definitions>

@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CubeBlocks>
+  
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>L_Wood03_Convert</SubtypeId>
+      </Id>
+      <Public>false</Public>
+    </Definition>
+
+    <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
+      <Id>
+        <TypeId>Thrust</TypeId>
+        <SubtypeId>L_Wood03_Campfire</SubtypeId>
+      </Id>
+      <Public>false</Public>
+    </Definition>
+
+  </CubeBlocks>
+</Definitions>

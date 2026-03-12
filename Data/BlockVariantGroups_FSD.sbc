@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <BlockVariantGroups>
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="JumpDriveGroup" />
+            <Icon>Textures\GUI\Icons\Cubes\JumpDrive.dds</Icon>
+            <DisplayName>DisplayName_Block_JumpDrive</DisplayName>
+            <Description>Description_JumpDrive</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_UpgradeModule" Subtype="FSDriveSmall" />
+                <Block Type="MyObjectBuilder_UpgradeModule" Subtype="FSDriveLarge" />
+            </Blocks>
+        </BlockVariantGroup>
+
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="PrototechGroup" />
+            <Icon>Textures\GUI\Icons\Cubes\Prototech_JumpDrive.dds</Icon>
+            <DisplayName>DisplayName_Block_PrototechJumpDrive</DisplayName>
+            <Description>Description_Prototech</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_UpgradeModule" Subtype="PrototechFSDriveLarge" />
+                <Block Type="MyObjectBuilder_UpgradeModule" Subtype="PrototechFSDriveSmall" />
+                <Block Type="MyObjectBuilder_Thrust" Subtype="LargeBlockPrototechThruster" />
+                <Block Type="MyObjectBuilder_Thrust" Subtype="SmallBlockPrototechThruster" />
+                <Block Type="MyObjectBuilder_Refinery" Subtype="LargePrototechRefinery" />
+                <Block Type="MyObjectBuilder_Refinery" Subtype="SmallPrototechRefinery" />
+                <Block Type="MyObjectBuilder_Assembler" Subtype="LargePrototechAssembler" />
+                <Block Type="MyObjectBuilder_Gyro" Subtype="LargeBlockPrototechGyro" />
+                <Block Type="MyObjectBuilder_Gyro" Subtype="SmallBlockPrototechGyro" />
+                <Block Type="MyObjectBuilder_BatteryBlock" Subtype="LargeBlockPrototechBattery" />
+                <Block Type="MyObjectBuilder_BatteryBlock" Subtype="SmallBlockPrototechBattery" />
+                <Block Type="MyObjectBuilder_Drill" Subtype="LargeBlockPrototechDrill" />
+            	<Block Type="MyObjectBuilder_HydrogenEngine" Subtype="LargePrototechReactor" />
+            </Blocks>
+        </BlockVariantGroup>
+
+    </BlockVariantGroups>
+</Definitions>

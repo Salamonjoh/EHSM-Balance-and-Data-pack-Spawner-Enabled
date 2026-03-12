@@ -1,0 +1,97 @@
+<?xml version="1.0" ?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<CubeBlocks>
+		<Definition>
+			<Id>
+				<TypeId>TerminalBlock</TypeId>
+				<SubtypeId>PEPCOMarineAnchorLG1x1x1</SubtypeId>
+			</Id>
+			<Components>
+				<Component Subtype="SteelPlate" Count="70">
+        		  <DeconstructId>                
+		            <TypeId>Ore</TypeId>
+        		    <SubtypeId>SteelPlateScrap</SubtypeId>
+        		  </DeconstructId>
+		        </Component>  
+				<Component Subtype="Construction" Count="10">
+        		  <DeconstructId>                
+		            <TypeId>Ore</TypeId>
+        		    <SubtypeId>ConstructionScrap</SubtypeId>
+        		  </DeconstructId>
+		        </Component>  
+				<Component Subtype="CopperWire" Count="50">
+        		  <DeconstructId>                
+		            <TypeId>Ore</TypeId>
+        		    <SubtypeId>CopperWireScrap</SubtypeId>
+        		  </DeconstructId>
+		        </Component>  
+				<Component Subtype="Motor" Count="25">
+        		  <DeconstructId>                
+		            <TypeId>Ore</TypeId>
+        		    <SubtypeId>MotorScrap</SubtypeId>
+        		  </DeconstructId>
+		        </Component>  
+				<Component Subtype="Computer" Count="25">
+        		  <DeconstructId>                
+		            <TypeId>Ore</TypeId>
+        		    <SubtypeId>ComputerScrap</SubtypeId>
+        		  </DeconstructId>
+		        </Component>  
+				<Component Subtype="SteelPlate" Count="30">
+        		  <DeconstructId>                
+		            <TypeId>Ore</TypeId>
+        		    <SubtypeId>SteelPlateScrap</SubtypeId>
+        		  </DeconstructId>
+		        </Component>  
+			</Components>
+			<CriticalComponent Subtype="Computer" Index="0"/>
+		</Definition>
+
+		<Definition>
+			<Id>
+				<TypeId>TerminalBlock</TypeId>
+				<SubtypeId>PEPCOMarineAnchorSG1x1x1</SubtypeId>
+			</Id>
+			<Components>
+				<Component Subtype="SteelPlate" Count="30">
+        		  <DeconstructId>                
+		            <TypeId>Ore</TypeId>
+        		    <SubtypeId>SteelPlateScrap</SubtypeId>
+        		  </DeconstructId>
+		        </Component>  
+				<Component Subtype="Construction" Count="2">
+        		  <DeconstructId>                
+		            <TypeId>Ore</TypeId>
+        		    <SubtypeId>ConstructionScrap</SubtypeId>
+        		  </DeconstructId>
+		        </Component>  
+				<Component Subtype="CopperWire" Count="10">
+        		  <DeconstructId>                
+		            <TypeId>Ore</TypeId>
+        		    <SubtypeId>CopperWireScrap</SubtypeId>
+        		  </DeconstructId>
+		        </Component>  
+				<Component Subtype="Motor" Count="5">
+        		  <DeconstructId>                
+		            <TypeId>Ore</TypeId>
+        		    <SubtypeId>MotorScrap</SubtypeId>
+        		  </DeconstructId>
+		        </Component>  
+				<Component Subtype="Computer" Count="5">
+        		  <DeconstructId>                
+		            <TypeId>Ore</TypeId>
+        		    <SubtypeId>ComputerScrap</SubtypeId>
+        		  </DeconstructId>
+		        </Component>  
+				<Component Subtype="SteelPlate" Count="10">
+        		  <DeconstructId>                
+		            <TypeId>Ore</TypeId>
+        		    <SubtypeId>SteelPlateScrap</SubtypeId>
+        		  </DeconstructId>
+		        </Component>  
+			</Components>
+			<CriticalComponent Subtype="Computer" Index="0"/>
+		</Definition>
+		
+	</CubeBlocks>
+</Definitions>

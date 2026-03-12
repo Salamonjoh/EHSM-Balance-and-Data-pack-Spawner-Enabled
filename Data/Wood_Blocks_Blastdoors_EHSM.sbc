@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CubeBlocks>
+
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>Wood03ArmorBlastCenter</SubtypeId>
+      </Id>
+      <DisplayName>Wood03 Armor Blast Door</DisplayName>
+      <Icon>..\2593545016\Textures\GUI\Icons\Cubes\plank_BlastCenter.dds</Icon>
+      <Description>Wooden blast doors are heavier than wooden blocks. They require construction components to be built at full strength.</Description>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>..\2593545016\Models\Large\Wood03ArmorBlastCenter.mwm</Model>
+      <UseModelIntersection>true</UseModelIntersection>
+      <Components>
+        <Component Subtype="WoodPlank" Count="450" />
+        <Component Subtype="Construction" Count="5"/>
+        <Component Subtype="WoodPlank" Count="50" />
+      </Components>
+      <CriticalComponent Subtype="WoodPlank" Index="0" />
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.3" File="..\2593545016\Models\Large\Wood03ArmorBlastCenterConstruction_3.mwm" />
+        <Model BuildPercentUpperBound="0.6" File="..\2593545016\Models\Large\Wood03ArmorBlastCenterConstruction_3.mwm" />
+        <Model BuildPercentUpperBound="1.0" File="..\2593545016\Models\Large\Wood03ArmorBlastCenterConstruction_3.mwm" />
+      </BuildProgressModels>
+      <MountPoints>
+        <MountPoint Side="Left" StartX="0.1" StartY="0.0" EndX="0.9" EndY="1.0" />
+        <MountPoint Side="Right" StartX="0.1" StartY="0.0" EndX="0.9" EndY="1.0" />
+        <MountPoint Side="Top" StartX="0.0" StartY="0.1" EndX="1.0" EndY="0.9" />
+        <MountPoint Side="Bottom" StartX="0.0" StartY="0.1" EndX="1.0" EndY="0.9" />
+      </MountPoints>
+      <BlockPairName>Wood03ArmorBlastCenter</BlockPairName>
+      <DeformationRatio>0.02</DeformationRatio>
+      <EdgeType>Wood03_Edge</EdgeType>
+      <BuildTimeSeconds>10</BuildTimeSeconds>
+      <DisassembleRatio>2.5</DisassembleRatio>
+      <Public>true</Public>
+    </Definition>
+
+  </CubeBlocks>
+</Definitions>

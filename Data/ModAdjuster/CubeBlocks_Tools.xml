@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<CubeBlocks>
+
+		<Definition xsi:type="MyObjectBuilder_OreDetectorDefinition">
+			<Id>
+				<TypeId>OreDetector</TypeId>
+				<SubtypeId>SmallBlockOreDetector</SubtypeId>
+			</Id>
+			<Description>Uses magnetic field interations to detect buried ores. A cruder and less sensitive detection mechanism means a shorter effective range.
+Range: 300m</Description>
+			<MaximumRange>300</MaximumRange>
+		</Definition>
+
+    	<Definition xsi:type="MyObjectBuilder_OreDetectorDefinition">
+    		<Id>
+        		<TypeId>OreDetector</TypeId>
+        		<SubtypeId>LargeMetalDetector</SubtypeId>
+    		</Id>
+    		<Description>More advanced sensors and discrimination algorithms means ores can be detected at longer ranges.
+Range: 1.5km</Description>
+      		<MaximumRange>1500</MaximumRange>
+    	</Definition>
+
+    	<Definition xsi:type="MyObjectBuilder_OreDetectorDefinition">
+    		<Id>
+        		<TypeId>OreDetector</TypeId>
+                <SubtypeId>LargeMetalDetectorReskin</SubtypeId>
+            </Id>
+            <Description>More advanced sensors and discrimination algorithms means ores can be detected at longer ranges.
+Range: 1.5km</Description>
+      		<MaximumRange>1500</MaximumRange>
+    	</Definition>
+		
+	</CubeBlocks>
+</Definitions>

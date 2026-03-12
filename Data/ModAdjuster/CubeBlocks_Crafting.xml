@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CubeBlocks>
+
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>AnvilTable</SubtypeId>
+      </Id>
+      <Public>false</Public>
+    </Definition>
+
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>AnvilTableDirty</SubtypeId>
+      </Id>
+      <Public>false</Public>
+    </Definition>
+
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>AnvilTableRusted</SubtypeId>
+      </Id>
+      <Public>false</Public>
+    </Definition>
+  
+  
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>AnvilTable2</SubtypeId>
+      </Id>
+      <Public>false</Public>
+    </Definition>
+
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>AnvilTableDirty2</SubtypeId>
+      </Id>
+      <Public>false</Public>
+    </Definition>
+
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>AnvilTableRusted2</SubtypeId>
+      </Id>
+      <Public>false</Public>
+    </Definition>
+  
+   </CubeBlocks>
+</Definitions>
+

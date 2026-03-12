@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<CubeBlocks>
+
+		<Definition xsi:type="MyObjectBuilder_CockpitDefinition">
+			<Id>
+				<TypeId>Cockpit</TypeId>
+				<SubtypeId>SmallBlockCapCockpit</SubtypeId>
+			</Id>
+      <Components>      
+			    <Component Subtype="SteelPlate" Count="10">
+              <DeconstructId>                
+                <TypeId>Ore</TypeId>
+                <SubtypeId>SteelPlateScrap</SubtypeId>
+              </DeconstructId>
+            </Component>
+        	<Component Subtype="Construction" Count="20">
+              <DeconstructId>                
+                <TypeId>Ore</TypeId>
+                <SubtypeId>ConstructionScrap</SubtypeId>
+              </DeconstructId>
+            </Component>
+          <Component Subtype="CopperWire" Count="15">
+              <DeconstructId>                
+                <TypeId>Ore</TypeId>
+                <SubtypeId>CopperWireScrap</SubtypeId>
+              </DeconstructId>
+            </Component>
+          <Component Subtype="Motor" Count="5">
+              <DeconstructId>                
+                <TypeId>Ore</TypeId>
+                <SubtypeId>MotorScrap</SubtypeId>
+              </DeconstructId>
+            </Component>
+          <Component Subtype="Display" Count="8">
+              <DeconstructId>                
+                <TypeId>Ore</TypeId>
+                <SubtypeId>DisplayScrap</SubtypeId>
+              </DeconstructId>
+            </Component>						
+          <Component Subtype="Computer" Count="10">
+              <DeconstructId>                
+                <TypeId>Ore</TypeId>
+                <SubtypeId>ComputerScrap</SubtypeId>
+              </DeconstructId>
+            </Component>
+          <Component Subtype="AdvancedComputer" Count="30">
+              <DeconstructId>                
+                <TypeId>Ore</TypeId>
+                <SubtypeId>AdvancedComputerScrap</SubtypeId>
+              </DeconstructId>
+            </Component>
+          <Component Subtype="Fabric" Count="15">
+              <DeconstructId>                
+                <TypeId>Ore</TypeId>
+                <SubtypeId>FabricScrap</SubtypeId>
+              </DeconstructId>
+            </Component>						
+          <Component Subtype="SteelPlate" Count="10">
+              <DeconstructId>                
+                <TypeId>Ore</TypeId>
+                <SubtypeId>SteelPlateScrap</SubtypeId>
+              </DeconstructId>
+            </Component>								
+          <Component Subtype="BulletproofGlass" Count="40">
+              <DeconstructId>                
+                <TypeId>Ore</TypeId>
+                <SubtypeId>BulletproofGlassScrap</SubtypeId>
+              </DeconstructId>
+            </Component>
+          </Components>                	
+			<CriticalComponent Subtype="AdvancedComputer" Index="0" />
+		</Definition>
+
+        <Definition xsi:type="MyObjectBuilder_BeaconDefinition">
+            <Id>
+                <TypeId>Beacon</TypeId>
+                <SubtypeId>LargeBlockBeaconReskin</SubtypeId>
+            </Id>
+            <Components>
+                <Component Subtype="SteelPlate" Count="60">
+                    <DeconstructId>                
+                        <TypeId>Ore</TypeId>
+                        <SubtypeId>SteelPlateScrap</SubtypeId>
+                    </DeconstructId>
+                </Component>
+                <Component Subtype="LargeTube" Count="30">
+                    <DeconstructId>                
+                        <TypeId>Ore</TypeId>
+                        <SubtypeId>LargeTubeScrap</SubtypeId>
+                    </DeconstructId>
+                </Component>
+                <Component Subtype="Construction" Count="30">
+                    <DeconstructId>                
+                        <TypeId>Ore</TypeId>
+                        <SubtypeId>ConstructionScrap</SubtypeId>
+                    </DeconstructId>
+                </Component>
+                <Component Subtype="CopperWire" Count="20">
+                    <DeconstructId>                
+                        <TypeId>Ore</TypeId>
+                        <SubtypeId>CopperWireScrap</SubtypeId>
+                    </DeconstructId>
+                </Component>
+	            <Component Subtype="Computer" Count="10">
+                    <DeconstructId>                
+                        <TypeId>Ore</TypeId>
+                        <SubtypeId>ComputerScrap</SubtypeId>
+                    </DeconstructId>
+                </Component>
+                <Component Subtype="AdvancedComputer" Count="20">
+                    <DeconstructId>                
+                        <TypeId>Ore</TypeId>
+                        <SubtypeId>AdvancedComputerScrap</SubtypeId>
+                    </DeconstructId>
+                </Component>
+                <Component Subtype="RadioCommunication" Count="8">
+                    <DeconstructId>                
+                        <TypeId>Ore</TypeId>
+                        <SubtypeId>RadioCommunicationScrap</SubtypeId>
+                    </DeconstructId>
+                </Component>              
+                <Component Subtype="Lightbulb" Count="40">
+                    <DeconstructId>                
+                        <TypeId>Ore</TypeId>
+                        <SubtypeId>LightbulbScrap</SubtypeId>
+                    </DeconstructId>
+                </Component>
+                <Component Subtype="SteelPlate" Count="20">
+                    <DeconstructId>                
+                        <TypeId>Ore</TypeId>
+                        <SubtypeId>SteelPlateScrap</SubtypeId>
+                    </DeconstructId>
+                </Component>
+            </Components>
+            <CriticalComponent Subtype="Lightbulb" Index="0" />
+        </Definition>
+
+        <Definition xsi:type="MyObjectBuilder_BeaconDefinition">
+            <Id>
+                <TypeId>Beacon</TypeId>
+                <SubtypeId>SmallBlockBeaconReskin</SubtypeId>
+            </Id>
+            <Components>
+                <Component Subtype="SteelPlate" Count="1">
+                    <DeconstructId>                
+                        <TypeId>Ore</TypeId>
+                        <SubtypeId>SteelPlateScrap</SubtypeId>
+                    </DeconstructId>
+                </Component>
+                <Component Subtype="Construction" Count="1">
+                    <DeconstructId>                
+                        <TypeId>Ore</TypeId>
+                        <SubtypeId>ConstructionScrap</SubtypeId>
+                    </DeconstructId>
+                </Component>
+                <Component Subtype="CopperWire" Count="4">
+                    <DeconstructId>                
+                        <TypeId>Ore</TypeId>
+                        <SubtypeId>CopperWireScrap</SubtypeId>
+                    </DeconstructId>
+                </Component>
+	            <Component Subtype="Computer" Count="2">
+                    <DeconstructId>                
+                        <TypeId>Ore</TypeId>
+                        <SubtypeId>ComputerScrap</SubtypeId>
+                    </DeconstructId>
+                </Component>
+                <Component Subtype="RadioCommunication" Count="1">
+                    <DeconstructId>                
+                        <TypeId>Ore</TypeId>
+                        <SubtypeId>RadioCommunicationScrap</SubtypeId>
+                    </DeconstructId>
+                </Component>               
+                <Component Subtype="Lightbulb" Count="2">
+                    <DeconstructId>                
+                        <TypeId>Ore</TypeId>
+                        <SubtypeId>LightbulbScrap</SubtypeId>
+                    </DeconstructId>
+                </Component>
+                <Component Subtype="SteelPlate" Count="1">
+                    <DeconstructId>                
+                        <TypeId>Ore</TypeId>
+                        <SubtypeId>SteelPlateScrap</SubtypeId>
+                    </DeconstructId>
+                </Component>
+            </Components>
+            <CriticalComponent Subtype="Lightbulb" Index="0" />
+        </Definition>
+
+
+        <Definition xsi:type="MyObjectBuilder_CryoChamberDefinition">
+            <Id>
+                <TypeId>CryoChamber</TypeId>
+                <SubtypeId>LargeBlockHalfBed</SubtypeId>
+            </Id>
+            <Components>
+                <Component Subtype="SteelPlate" Count="14">
+                    <DeconstructId>                
+                        <TypeId>Ore</TypeId>
+                        <SubtypeId>SteelPlateScrap</SubtypeId>
+                    </DeconstructId>
+                </Component> 
+                <Component Subtype="Construction" Count="10">
+                    <DeconstructId>                
+                        <TypeId>Ore</TypeId>
+                        <SubtypeId>ConstructionScrap</SubtypeId>
+                    </DeconstructId>
+                </Component> 
+                <Component Subtype="SmallTube" Count="6">
+                    <DeconstructId>                
+                        <TypeId>Ore</TypeId>
+                        <SubtypeId>SmallTubeScrap</SubtypeId>
+                    </DeconstructId>
+                </Component> 
+                <Component Subtype="Display" Count="3">
+                    <DeconstructId>                
+                        <TypeId>Ore</TypeId>
+                        <SubtypeId>DisplayScrap</SubtypeId>
+                    </DeconstructId>
+                </Component> 
+                <Component Subtype="Construction" Count="6">
+                    <DeconstructId>                
+                        <TypeId>Ore</TypeId>
+                        <SubtypeId>ConstructionScrap</SubtypeId>
+                    </DeconstructId>
+                </Component> 
+            </Components>
+            <CriticalComponent Subtype="Display" Index="0" />
+        </Definition>
+		
+        <Definition xsi:type="MyObjectBuilder_CryoChamberDefinition">
+            <Id>
+                <TypeId>CryoChamber</TypeId>
+                <SubtypeId>LargeBlockHalfBedOffset</SubtypeId>
+            </Id>
+            <Components>
+                <Component Subtype="SteelPlate" Count="14">
+                    <DeconstructId>                
+                        <TypeId>Ore</TypeId>
+                        <SubtypeId>SteelPlateScrap</SubtypeId>
+                    </DeconstructId>
+                </Component> 
+                <Component Subtype="Construction" Count="10">
+                    <DeconstructId>                
+                        <TypeId>Ore</TypeId>
+                        <SubtypeId>ConstructionScrap</SubtypeId>
+                    </DeconstructId>
+                </Component> 
+                <Component Subtype="SmallTube" Count="6">
+                    <DeconstructId>                
+                        <TypeId>Ore</TypeId>
+                        <SubtypeId>SmallTubeScrap</SubtypeId>
+                    </DeconstructId>
+                </Component> 
+                <Component Subtype="Display" Count="3">
+                    <DeconstructId>                
+                        <TypeId>Ore</TypeId>
+                        <SubtypeId>DisplayScrap</SubtypeId>
+                    </DeconstructId>
+                </Component> 
+                <Component Subtype="Construction" Count="6">
+                    <DeconstructId>                
+                        <TypeId>Ore</TypeId>
+                        <SubtypeId>ConstructionScrap</SubtypeId>
+                    </DeconstructId>
+                </Component> 
+            </Components>
+            <CriticalComponent Subtype="Display" Index="0" />
+        </Definition>
+
+        <Definition>
+            <Id>
+                <TypeId>Ladder2</TypeId>
+                <SubtypeId>TrussLadder</SubtypeId>
+            </Id>
+            <Components>
+                <Component Subtype="Girder" Count="20">
+                    <DeconstructId>                
+                        <TypeId>Ore</TypeId>
+                        <SubtypeId>GirderScrap</SubtypeId>
+                    </DeconstructId>
+                </Component> 
+                <Component Subtype="SteelPlate" Count="10">
+                    <DeconstructId>                
+                        <TypeId>Ore</TypeId>
+                        <SubtypeId>SteelPlateScrap</SubtypeId>
+                    </DeconstructId>
+                </Component> 
+                <Component Subtype="Construction" Count="10">
+                    <DeconstructId>                
+                        <TypeId>Ore</TypeId>
+                        <SubtypeId>ConstructionScrap</SubtypeId>
+                    </DeconstructId>
+                </Component> 
+                <Component Subtype="SmallTube" Count="30">
+                    <DeconstructId>                
+                        <TypeId>Ore</TypeId>
+                        <SubtypeId>SmallTubeScrap</SubtypeId>
+                    </DeconstructId>
+                </Component> 
+				<Component Subtype="Construction" Count="10">
+                    <DeconstructId>                
+                        <TypeId>Ore</TypeId>
+                        <SubtypeId>ConstructionScrap</SubtypeId>
+                    </DeconstructId>
+                </Component> 
+            </Components>
+            <CriticalComponent Subtype="SmallTube" Index="0" />
+        </Definition> 
+    
+
+	</CubeBlocks>
+</Definitions>

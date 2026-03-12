@@ -1,0 +1,576 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <BlockVariantGroups>
+    
+
+
+    <!--Vanilla Groups-->
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="DoorGroup" />
+            <Icon>Textures\GUI\Icons\Cubes\door.dds</Icon>
+            <DisplayName>DisplayName_Block_Door</DisplayName>
+            <Description>Description_Door</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_Door" Subtype="" />
+                <Block Type="MyObjectBuilder_Door" Subtype="SmallDoor" />
+                <Block Type="MyObjectBuilder_Door" Subtype="SmallSideDoor" />
+                <Block Type="MyObjectBuilder_AirtightSlideDoor" Subtype="LargeBlockSlideDoor" />
+                <Block Type="MyObjectBuilder_AdvancedDoor" Subtype="LargeBlockSlideDoorDouble" />
+                <Block Type="MyObjectBuilder_Door" Subtype="LargeBlockOffsetDoor" />
+                <Block Type="MyObjectBuilder_Door" Subtype="SlidingHatchDoor" />
+                <Block Type="MyObjectBuilder_Door" Subtype="SlidingHatchDoorHalf" />
+                <Block Type="MyObjectBuilder_AdvancedDoor" Subtype="HatchDoorDouble" />
+                <Block Type="MyObjectBuilder_Door" Subtype="LargeBlockNarrowDoor" />
+                <Block Type="MyObjectBuilder_Door" Subtype="LargeBlockNarrowDoorHalf" />
+                <Block Type="MyObjectBuilder_AdvancedDoor" Subtype="NarrowDoorAirlock" />
+                <Block Type="MyObjectBuilder_Door" Subtype="CorridorRoundDoor" />
+                <Block Type="MyObjectBuilder_Door" Subtype="CorridorRoundDoorInv" />
+                <Block Type="MyObjectBuilder_AdvancedDoor" Subtype="RoundCorridorDoubleDoorAirlock" />
+                <Block Type="MyObjectBuilder_Door" Subtype="LargeBlockLabDoor" />
+                <Block Type="MyObjectBuilder_Door" Subtype="LargeBlockLabDoorInv" />
+                <Block Type="MyObjectBuilder_Door" Subtype="LargeBlockCentredDoor" />
+                <Block Type="MyObjectBuilder_Door" Subtype="LargeBlockCentredDoorGlass" />
+                <Block Type="MyObjectBuilder_Door" Subtype="LargeBlockHalfCentredDoor" />
+                <Block Type="MyObjectBuilder_Door" Subtype="LargeBlockHalfCentredDoorGlass" />
+                <Block Type="MyObjectBuilder_Door" Subtype="SmallBlockCentredDoor" />
+                <Block Type="MyObjectBuilder_Door" Subtype="SmallBlockCentredDoorGlass" />
+                <Block Type="MyObjectBuilder_AdvancedDoor" Subtype="CentredDoubleDoorAirlock" />
+                <Block Type="MyObjectBuilder_AdvancedDoor" Subtype="CentredDoubleDoorGlassAirlock" />
+                <Block Type="MyObjectBuilder_AdvancedDoor" Subtype="RotaryAirlock" />
+                <Block Type="MyObjectBuilder_AdvancedDoor" Subtype="RotaryAirlockSmallGrid" />
+                <Block Type="MyObjectBuilder_AdvancedDoor" Subtype="RotaryAirlockCorner" />
+                <Block Type="MyObjectBuilder_AdvancedDoor" Subtype="RotaryAirlockCornerSmallGrid" />
+                <Block Type="MyObjectBuilder_AdvancedDoor" Subtype="Warfare_RotaryAirlock" />
+                <Block Type="MyObjectBuilder_AdvancedDoor" Subtype="Warfare_RotaryAirlockCorner" />
+                <Block Type="MyObjectBuilder_AdvancedDoor" Subtype="RampMain" />
+            </Blocks>
+        </BlockVariantGroup>
+
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="AirtightHangarDoorGroup" />
+            <Icon>Textures\GUI\Icons\Cubes\HangarDoor.dds</Icon>
+            <DisplayName>DisplayName_Block_AirtightHangarDoor</DisplayName>
+            <Description>Description_HangarDoor</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_AirtightHangarDoor" Subtype="" />
+                <Block Type="MyObjectBuilder_AirtightHangarDoor" Subtype="UOH_Hangar_x3" />
+                <Block Type="MyObjectBuilder_AirtightHangarDoor" Subtype="UOH_Hangar_x4" />
+                <Block Type="MyObjectBuilder_AirtightHangarDoor" Subtype="UOH_Hangar_x5" />
+                <Block Type="MyObjectBuilder_AirtightHangarDoor" Subtype="AirtightHangarDoorWarfare2A" />
+                <Block Type="MyObjectBuilder_AirtightHangarDoor" Subtype="AirtightHangarDoorWarfare2B" />
+                <Block Type="MyObjectBuilder_AirtightHangarDoor" Subtype="AirtightHangarDoorWarfare2C" />
+            </Blocks>
+        </BlockVariantGroup>
+
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="StairsGroup" />
+            <Icon>Textures\GUI\Icons\Cubes\stairs.dds</Icon>
+            <DisplayName>DisplayName_Block_Stairs</DisplayName>
+            <Description>Description_Stairs</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeStairs" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeRamp" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="GratedStairs" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="GratedHalfStairs" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="GratedHalfStairsMirrored" />
+
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SEDE-RampBaseDoubleRailing_Large" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SEDE-RampTipDoubleRailing_Large" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SEDE-StairsBaseDoubleRailing_Large" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SEDE-StairsTipDoubleRailing_Large" />
+
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SEDE-RampBaseLeftRailing_Large" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SEDE-RampTipLeftRailing_Large" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SEDE-StairsBaseLeftRailing_Large" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SEDE-StairsTipLeftRailing_Large" />
+
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SEDE-RampBaseRightRailing_Large" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SEDE-RampTipRightRailing_Large" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SEDE-StairsBaseRightRailing_Large" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SEDE-StairsTipRightRailing_Large" />
+
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SEDE-RampBase_Large" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SEDE-RampTip_Large" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SEDE-StairsBase_Large" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SEDE-StairsTip_Large" />
+
+            </Blocks>
+        </BlockVariantGroup>
+		
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="CorridorGroup" />
+            <Icon>Textures\GUI\Icons\Cubes\Corridor.dds</Icon>
+            <DisplayName>DisplayName_Block_Corridor</DisplayName>
+            <Description>Description_Passage</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Corridor" />
+                <Block Type="MyObjectBuilder_InteriorLight" Subtype="CorridorLight" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="CorridorCorner" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="CorridorT" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="CorridorX" />
+                <Block Type="MyObjectBuilder_InteriorLight" Subtype="JS_CorridorStair" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="JS_CorridorStairWindow" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="CorridorWindow" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="CorridorDoubleWindow" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="CorridorWindowRoof" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="CorridorNarrow" />
+                <Block Type="MyObjectBuilder_InteriorLight" Subtype="CorridorNarrowStowage" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="CorridorRound" />
+                <Block Type="MyObjectBuilder_InteriorLight" Subtype="CorridorRoundLight" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="CorridorRoundCorner" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="CorridorRoundT" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="CorridorRoundX" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="CorridorRoundTransition" />
+            </Blocks>
+        </BlockVariantGroup>
+
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="CockpitGroup" />
+            <Icon>Textures\GUI\Icons\Cubes\CockpitSmall.dds</Icon>
+            <DisplayName>DisplayName_Block_Cockpit2</DisplayName>
+            <Description>Description_ControlStation</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_Cockpit" Subtype="LargeBlockCockpitSeat" />
+                <Block Type="MyObjectBuilder_Cockpit" Subtype="SmallBlockCockpit" />
+                <Block Type="MyObjectBuilder_Cockpit" Subtype="SmallBlockFlushCockpit" />
+                <Block Type="MyObjectBuilder_Cockpit" Subtype="DBSmallBlockFighterCockpit" />
+                <Block Type="MyObjectBuilder_Cockpit" Subtype="MA_FGC_SiloController" />
+                <Block Type="MyObjectBuilder_Cockpit" Subtype="SmallBlockCockpitIndustrial" />
+                <Block Type="MyObjectBuilder_Cockpit" Subtype="LargeBlockCockpitIndustrial" />
+                <Block Type="MyObjectBuilder_Cockpit" Subtype="FlushCockpit" />
+                <Block Type="MyObjectBuilder_Cockpit" Subtype="SmallBlockCapCockpit" />
+            </Blocks>
+        </BlockVariantGroup>
+
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="OpenCockpitGroup" />
+            <Icon>Textures\GUI\Icons\Cubes\OpenCockpitLarge.dds</Icon>
+            <DisplayName>DisplayName_Block_OpenCockpitSmall</DisplayName>
+            <Description>Description_ControlStation</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_Cockpit" Subtype="LargeBlockCockpit" />
+                <Block Type="MyObjectBuilder_Cockpit" Subtype="CockpitOpen" />
+                <Block Type="MyObjectBuilder_Cockpit" Subtype="OpenCockpitLarge" />
+                <Block Type="MyObjectBuilder_Cockpit" Subtype="OpenCockpitSmall" />
+                <Block Type="MyObjectBuilder_Cockpit" Subtype="RoverCockpit" />
+                <Block Type="MyObjectBuilder_Cockpit" Subtype="BuggyCockpit" />
+                <Block Type="MyObjectBuilder_Cockpit" Subtype="LargeBlockStandingCockpit" />
+                <Block Type="MyObjectBuilder_Cockpit" Subtype="SmallBlockStandingCockpit" />
+                <Block Type="MyObjectBuilder_Cockpit" Subtype="MiniStandingHelm" />
+                <Block Type="MyObjectBuilder_Cockpit" Subtype="MiniStandingHelmNoTarget" />
+                <Block Type="MyObjectBuilder_Cockpit" Subtype="SpeederCockpit" />
+                <Block Type="MyObjectBuilder_Cockpit" Subtype="SpeederCockpitCompact" />
+                <Block Type="MyObjectBuilder_Cockpit" Subtype="AQD_SG_CompactControlSeat" />
+                <Block Type="MyObjectBuilder_Cockpit" Subtype="LargeBlockSuspendedControlSeat" />
+                <Block Type="MyObjectBuilder_Cockpit" Subtype="LargeBlockSuspendedControlSeatB" />
+                <Block Type="MyObjectBuilder_Cockpit" Subtype="SmallBlockSuspendedControlSeat" />
+                <Block Type="MyObjectBuilder_Cockpit" Subtype="SmallBlockSuspendedControlSeatB" />
+            </Blocks>
+        </BlockVariantGroup>
+
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="PassengerSeatGroup" />
+            <Icon>Textures\GUI\Icons\Cubes\PassengerSeat.dds</Icon>
+            <DisplayName>DisplayName_Block_PassengerSeat</DisplayName>
+            <Description>Description_PassengerSeat</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_Cockpit" Subtype="PassengerSeatLarge" />
+                <Block Type="MyObjectBuilder_Cockpit" Subtype="PassengerSeatSmallNew" />
+                <Block Type="MyObjectBuilder_Cockpit" Subtype="PassengerSeatSmallOffset" />
+                <Block Type="MyObjectBuilder_Cockpit" Subtype="AQD_SG_CompactSeat" />
+                <Block Type="MyObjectBuilder_Cockpit" Subtype="PassengerBench" />
+            </Blocks>
+        </BlockVariantGroup>
+		
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="WindTurbineGroup" />
+            <Icon>Textures\GUI\Icons\Cubes\WindTurbine.dds</Icon>
+            <DisplayName>DisplayName_Block_WindTurbine</DisplayName>
+            <Description>Description_WindTurbine</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_WindTurbine" Subtype="LargeBlockWindTurbine" />
+                <Block Type="MyObjectBuilder_WindTurbine" Subtype="MA_Windmill" />
+                <Block Type="MyObjectBuilder_WindTurbine" Subtype="LargeWindTurbine" />
+                <Block Type="MyObjectBuilder_WindTurbine" Subtype="LargeBlockWindTurbineReskin" />
+            </Blocks>
+        </BlockVariantGroup>
+
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="RefillStation" />
+            <Icon>Textures\GUI\Icons\Cubes\RefillStationCap.dds</Icon>
+            <DisplayName>DisplayName_Block_RefillStation</DisplayName>
+            <Description>Description_RefillStation</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_MedicalRoom" Subtype="LargeRefillStation" />
+                <Block Type="MyObjectBuilder_MedicalRoom" Subtype="SmallRefillStation" />
+				<Block Type="MyObjectBuilder_MedicalRoom" Subtype="InsetRefillStation" />
+                <Block Type="MyObjectBuilder_MedicalRoom" Subtype="Medpanel_LB" />
+				<Block Type="MyObjectBuilder_MedicalRoom" Subtype="Medpanel_SB" />
+            </Blocks>
+        </BlockVariantGroup>
+
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="CameraGroup" />
+            <Icon>Textures\GUI\Icons\Camera.dds</Icon>
+            <DisplayName>DisplayName_Block_Camera</DisplayName>
+            <Description>Description_Camera</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_CameraBlock" Subtype="LargeCameraBlock" />
+                <Block Type="MyObjectBuilder_CameraBlock" Subtype="SmallCameraBlock" />
+                <Block Type="MyObjectBuilder_CameraBlock" Subtype="LargeCameraTopMounted" />
+                <Block Type="MyObjectBuilder_CameraBlock" Subtype="SmallCameraTopMounted" />
+                <Block Type="MyObjectBuilder_CameraBlock" Subtype="LargeCameraBottomMounted" />
+                <Block Type="MyObjectBuilder_CameraBlock" Subtype="SmallCameraBottomMounted" />
+            </Blocks>
+        </BlockVariantGroup>
+
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="LightingGroup" />
+            <Icon>Textures\GUI\Icons\Cubes\interior_light.dds</Icon>
+            <DisplayName>DisplayName_Block_InteriorLight</DisplayName>
+            <Description>Description_InteriorLight</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_InteriorLight" Subtype="SmallLight" />
+                <Block Type="MyObjectBuilder_InteriorLight" Subtype="SmallBlockSmallLight" />
+                <Block Type="MyObjectBuilder_InteriorLight" Subtype="LargeBlockInsetLight" />
+                <Block Type="MyObjectBuilder_InteriorLight" Subtype="SmallBlockInsetLight" />
+                <Block Type="MyObjectBuilder_InteriorLight" Subtype="LargeBlockTrofferLight" />
+                <Block Type="MyObjectBuilder_InteriorLight" Subtype="LargeBlockHalfTrofferLight" />
+                <Block Type="MyObjectBuilder_InteriorLight" Subtype="LargeBlockHalfTrofferLightInv" />
+                <Block Type="MyObjectBuilder_InteriorLight" Subtype="RoundInteriorLight" />
+                <Block Type="MyObjectBuilder_InteriorLight" Subtype="RoundInteriorLight_SB" />
+                <Block Type="MyObjectBuilder_InteriorLight" Subtype="RoundInteriorLightOffset" />
+                <Block Type="MyObjectBuilder_InteriorLight" Subtype="InteriorLightBulb" />
+                <Block Type="MyObjectBuilder_InteriorLight" Subtype="MediumLightPole" />
+                <Block Type="MyObjectBuilder_InteriorLight" Subtype="SmallLightPole" />
+                <Block Type="MyObjectBuilder_InteriorLight" Subtype="SmallLightPoleCorner" />
+                <Block Type="MyObjectBuilder_InteriorLight" Subtype="SmallLightPoleDouble" />
+                <Block Type="MyObjectBuilder_ReflectorLight" Subtype="LargeLightPole" />
+                <Block Type="MyObjectBuilder_ReflectorLight" Subtype="LargeWorkLight" />
+                <Block Type="MyObjectBuilder_InteriorLight" Subtype="OffsetLight" />
+            </Blocks>
+        </BlockVariantGroup>
+
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="SpotlightGroup" />
+            <Icon>Textures\GUI\Icons\Cubes\light.dds</Icon>
+            <DisplayName>DisplayName_BlockGroup_LightingGroup</DisplayName>
+            <Description>Description_BlockGroup_LightingGroup</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_ReflectorLight" Subtype="LargeBlockFrontLight" />
+                <Block Type="MyObjectBuilder_ReflectorLight" Subtype="SmallBlockFrontLight" />
+                <Block Type="MyObjectBuilder_ReflectorLight" Subtype="OffsetSpotlight" />
+                <Block Type="MyObjectBuilder_ReflectorLight" Subtype="CleanSpotlight_LB" />
+                <Block Type="MyObjectBuilder_ReflectorLight" Subtype="CleanSpotlight_SB" />
+                <Block Type="MyObjectBuilder_ReflectorLight" Subtype="CleanSpotlightSlanted_LB" />
+                <Block Type="MyObjectBuilder_ReflectorLight" Subtype="CleanSpotlightSlanted_SB" />
+                <Block Type="MyObjectBuilder_ReflectorLight" Subtype="CleanSpotlightSlope_LB" />
+                <Block Type="MyObjectBuilder_ReflectorLight" Subtype="CleanSpotlightSlope_SB" />
+                <Block Type="MyObjectBuilder_ReflectorLight" Subtype="SlimSpotlight_LB" />
+                <Block Type="MyObjectBuilder_ReflectorLight" Subtype="SlimSpotlight_SB" />
+                <Block Type="MyObjectBuilder_ReflectorLight" Subtype="CleanSpotlightSlope2_LB" />
+                <Block Type="MyObjectBuilder_ReflectorLight" Subtype="CleanSpotlightSlope2_SB" />
+                <Block Type="MyObjectBuilder_ReflectorLight" Subtype="CleanSpotlightSlanted2_LB" />
+                <Block Type="MyObjectBuilder_ReflectorLight" Subtype="CleanSpotlightSlanted2_SB" />
+                <Block Type="MyObjectBuilder_ReflectorLight" Subtype="SmallFloodLight_LB" />
+                <Block Type="MyObjectBuilder_ReflectorLight" Subtype="SmallFloodLight_SB" />
+                <Block Type="MyObjectBuilder_Searchlight" Subtype="LargeSearchlight" />
+                <Block Type="MyObjectBuilder_Searchlight" Subtype="SmallSearchlight" />
+            </Blocks>
+        </BlockVariantGroup>
+
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="SpecialLightGroup" />
+            <Icon>Textures\GUI\Icons\Cubes\Light_1corner.dds</Icon>
+            <DisplayName>DisplayName_BlockGroup_LightingGroup</DisplayName>
+            <Description>Description_BlockGroup_LightingGroup</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_InteriorLight" Subtype="LargeBlockLight_1corner" />
+                <Block Type="MyObjectBuilder_InteriorLight" Subtype="LargeBlockLight_2corner" />
+                <Block Type="MyObjectBuilder_InteriorLight" Subtype="SmallBlockLight_1corner" />
+                <Block Type="MyObjectBuilder_InteriorLight" Subtype="SmallBlockLight_2corner" />
+                <Block Type="MyObjectBuilder_InteriorLight" Subtype="Long_Interior_Light_Center" />
+                <Block Type="MyObjectBuilder_InteriorLight" Subtype="Long_Interior_Light_SB" />
+                <Block Type="MyObjectBuilder_InteriorLight" Subtype="Long_Interior_Light_Corner" />
+                <Block Type="MyObjectBuilder_InteriorLight" Subtype="Long_Interior_Light_Double" />
+                <Block Type="MyObjectBuilder_InteriorLight" Subtype="Long_Interior_Light_Diagonal" />
+                <Block Type="MyObjectBuilder_InteriorLight" Subtype="SmallLightPanel" />
+                <Block Type="MyObjectBuilder_InteriorLight" Subtype="LargeLightPanel" />
+                <Block Type="MyObjectBuilder_ReflectorLight" Subtype="RotatingLightLarge" />
+                <Block Type="MyObjectBuilder_ReflectorLight" Subtype="RotatingLightSmall" />
+                <Block Type="MyObjectBuilder_ReflectorLight" Subtype="LargeBlockFloodlight" />
+                <Block Type="MyObjectBuilder_ReflectorLight" Subtype="LargeBlockFloodlightAngled" />
+                <Block Type="MyObjectBuilder_ReflectorLight" Subtype="LargeBlockFloodlightCornerL" />
+                <Block Type="MyObjectBuilder_ReflectorLight" Subtype="LargeBlockFloodlightCornerR" />
+                <Block Type="MyObjectBuilder_ReflectorLight" Subtype="SmallBlockFloodlight" />
+                <Block Type="MyObjectBuilder_ReflectorLight" Subtype="SmallBlockFloodlightAngled" />
+                <Block Type="MyObjectBuilder_ReflectorLight" Subtype="SmallBlockFloodlightCornerL" />
+                <Block Type="MyObjectBuilder_ReflectorLight" Subtype="SmallBlockFloodlightCornerR" />
+                <Block Type="MyObjectBuilder_ReflectorLight" Subtype="SmallBlockFloodlightDown" />
+                <Block Type="MyObjectBuilder_ReflectorLight" Subtype="SmallBlockFloodlightAngledRotated" />
+            </Blocks>
+        </BlockVariantGroup>
+
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="CustomOreDetectorGroup" />
+            <Icon>..\2344068716\Icons\MetalDetector.dds</Icon>
+            <DisplayName>Metal Detector</DisplayName>
+            <Description>Metal Detector</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_OreDetector" Subtype="LargeOreDetector" />
+                <Block Type="MyObjectBuilder_OreDetector" Subtype="SmallBlockOreDetector" />
+                <Block Type="MyObjectBuilder_LandingGear" Subtype="ThumperGear" />
+                <Block Type="MyObjectBuilder_LandingGear" Subtype="SmallTumperGear" />
+                <Block Type="MyObjectBuilder_OreDetector" Subtype="LargeMetalDetector" />
+                <Block Type="MyObjectBuilder_OreDetector" Subtype="SmallMetalDetector" />
+                <Block Type="MyObjectBuilder_OreDetector" Subtype="LargeMetalDetectorReskin" />
+                <Block Type="MyObjectBuilder_OreDetector" Subtype="SmallMetalDetectorReskin" />
+                <Block Type="MyObjectBuilder_LandingGear" Subtype="AdvThumperGear" />
+                <Block Type="MyObjectBuilder_LandingGear" Subtype="SmallAdvThumperGear" />
+            </Blocks>
+        </BlockVariantGroup>
+
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="ContainerGroup" />
+            <Icon>Textures\GUI\Icons\Cubes\container.dds</Icon>
+            <DisplayName>DisplayName_BlockGroup_ContainerGroup</DisplayName>
+            <Description>Description_BlockGroup_ContainerGroup</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_CargoContainer" Subtype="LargeBlockSmallContainer" />
+                <Block Type="MyObjectBuilder_CargoContainer" Subtype="SmallBlockSmallContainer" />
+
+                <Block Type="MyObjectBuilder_CargoContainer" Subtype="TransportBox" />
+
+                <Block Type="MyObjectBuilder_CargoContainer" Subtype="LargeShippingContainer" />
+                <Block Type="MyObjectBuilder_CargoContainer" Subtype="SmallShippingContainer" />
+
+                <Block Type="MyObjectBuilder_CargoContainer" Subtype="LargeBlockCargoTerminal" />
+
+                <Block Type="MyObjectBuilder_CargoContainer" Subtype="LargeBlockCargoTerminalHalf" />
+
+                <Block Type="MyObjectBuilder_CargoContainer" Subtype="Lemniscate_Cargo_Container_3x3x1" />
+                <Block Type="MyObjectBuilder_CargoContainer" Subtype="SmallBlockMediumContainer" />
+
+                <Block Type="MyObjectBuilder_CargoContainer" Subtype="LargeBlockLargeContainer" />
+                <Block Type="MyObjectBuilder_CargoContainer" Subtype="SmallBlockLargeContainer" />
+
+                <Block Type="MyObjectBuilder_CargoContainer" Subtype="SmallBlockModularContainer" />
+                <Block Type="MyObjectBuilder_CargoContainer" Subtype="LargeBlockLargeIndustrialContainer" />
+
+                <Block Type="MyObjectBuilder_CargoContainer" Subtype="Industrial Storage" />
+                <Block Type="MyObjectBuilder_CargoContainer" Subtype="Industrial Storage SG" />
+
+                <Block Type="MyObjectBuilder_CargoContainer" Subtype="Stone Storage" />
+                <Block Type="MyObjectBuilder_CargoContainer" Subtype="Stone Storage SG" />
+            </Blocks>
+        </BlockVariantGroup>
+        
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="ConveyorThickGroup" />
+            <Icon>Textures\GUI\Icons\Cubes\conveyor.dds</Icon>
+            <DisplayName>DisplayName_Block_Conveyor</DisplayName>
+            <Description>Description_ConveyorTube</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_Conveyor" Subtype="LargeBlockConveyor" />
+                <Block Type="MyObjectBuilder_ConveyorConnector" Subtype="ConveyorTube" />
+                <Block Type="MyObjectBuilder_ConveyorConnector" Subtype="ConveyorTubeMedium" />
+                <Block Type="MyObjectBuilder_ConveyorConnector" Subtype="ConveyorFrameMedium" />
+                <Block Type="MyObjectBuilder_ConveyorConnector" Subtype="ConveyorTubeCurved" />
+                <Block Type="MyObjectBuilder_ConveyorConnector" Subtype="ConveyorTubeCurvedMedium" />
+                <Block Type="MyObjectBuilder_Conveyor" Subtype="SmallBlockConveyorConverter" />
+                <Block Type="MyObjectBuilder_Conveyor" Subtype="Small Ship Conveyor 1-5" />
+                <Block Type="MyObjectBuilder_Conveyor" Subtype="Small Ship Conveyor 2-4" />
+                <Block Type="MyObjectBuilder_Conveyor" Subtype="ConveyorTubeT" />
+                <Block Type="MyObjectBuilder_Conveyor" Subtype="ConveyorCross" />
+                <Block Type="MyObjectBuilder_Conveyor" Subtype="ConveyorElbow" />
+                <Block Type="MyObjectBuilder_Conveyor" Subtype="Conveyor4Way" />
+                <Block Type="MyObjectBuilder_Conveyor" Subtype="Conveyor5Way" />
+                <Block Type="MyObjectBuilder_Conveyor" Subtype="Conveyor6Way" />
+                <Block Type="MyObjectBuilder_ConveyorConnector" Subtype="ConveyorTube45" />
+                <Block Type="MyObjectBuilder_ConveyorConnector" Subtype="MediumConveyorTube45" />
+                <Block Type="MyObjectBuilder_ConveyorConnector" Subtype="ConveyorBracketDouble" />
+                <Block Type="MyObjectBuilder_ConveyorConnector" Subtype="ConveyorBracket" />
+                <Block Type="MyObjectBuilder_ConveyorConnector" Subtype="ConveyorTubeDuct" />
+                <Block Type="MyObjectBuilder_ConveyorConnector" Subtype="ConveyorTubeDuctCurved" />
+                <Block Type="MyObjectBuilder_Conveyor" Subtype="ConveyorTubeDuctT" />
+                <Block Type="MyObjectBuilder_CargoContainer" Subtype="AccessPoint" />
+            </Blocks>
+        </BlockVariantGroup>
+		
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="GasGeneratorGroup" />
+            <Icon>Textures\GUI\Icons\Cubes\OxygenGenerator.dds</Icon>
+            <DisplayName>DisplayName_Block_OxygenGenerator</DisplayName>
+            <Description>Description_OxygenGenerator</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_OxygenGenerator" Subtype="" />
+                <Block Type="MyObjectBuilder_OxygenGenerator" Subtype="LargeBlockOxygenGeneratorLab" />
+                <Block Type="MyObjectBuilder_OxygenGenerator" Subtype="OxygenGeneratorSmall" />
+                <Block Type="MyObjectBuilder_OxygenGenerator" Subtype="SmallBlockOxygenGeneratorLab" />
+                <Block Type="MyObjectBuilder_OxygenGenerator" Subtype="EHSMScriptlessGasGen" />
+                <Block Type="MyObjectBuilder_OxygenGenerator" Subtype="EHSMOxygenGeneratorSmall" />
+                <Block Type="MyObjectBuilder_OxygenGenerator" Subtype="EHSMScriptlessOxygenGeneratorLab" />
+                <Block Type="MyObjectBuilder_OxygenGenerator" Subtype="EHSMSmallBlockOxygenGeneratorLab" />
+            </Blocks>
+        </BlockVariantGroup>
+
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="LandingGearGroup" />
+            <Icon>Textures\GUI\Icons\Cubes\landing_gear.dds</Icon>
+            <DisplayName>DisplayName_Block_LandingGear</DisplayName>
+            <Description>Description_LandingGear</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_LandingGear" Subtype="LargeBlockLandingGear" />
+                <Block Type="MyObjectBuilder_LandingGear" Subtype="SmallBlockLandingGear" />
+                <Block Type="MyObjectBuilder_LandingGear" Subtype="LargeBlockLandingGearReskin" />
+                <Block Type="MyObjectBuilder_LandingGear" Subtype="SmallBlockLandingGearReskin" />
+                <Block Type="MyObjectBuilder_LandingGear" Subtype="LargeBlockMagneticPlate" />
+                <Block Type="MyObjectBuilder_LandingGear" Subtype="SmallBlockMagneticPlate" />
+                <Block Type="MyObjectBuilder_LandingGear" Subtype="LargeBlockSmallMagneticPlate" />
+                <Block Type="MyObjectBuilder_LandingGear" Subtype="SmallBlockSmallMagneticPlate" />
+                <Block Type="MyObjectBuilder_LandingGear" Subtype="ThumperGear" />
+                <Block Type="MyObjectBuilder_LandingGear" Subtype="SmallThumperGear" />
+                <Block Type="MyObjectBuilder_LandingGear" Subtype="AdvThumperGear" />
+                <Block Type="MyObjectBuilder_LandingGear" Subtype="SmallAdvThumperGear" />
+            </Blocks>
+        </BlockVariantGroup>
+
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="RotorGroup" />
+            <Icon>Textures\GUI\Icons\Cubes\motor.dds</Icon>
+            <DisplayName>DisplayName_Block_Rotor</DisplayName>
+            <Description>Description_Rotor</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_MotorStator" Subtype="LargeStator" />
+                <Block Type="MyObjectBuilder_MotorStator" Subtype="SmallStator" />
+                <Block Type="MyObjectBuilder_MotorRotor" Subtype="LargeRotor" />
+                <Block Type="MyObjectBuilder_MotorRotor" Subtype="SmallRotor" />
+                <Block Type="MyObjectBuilder_MotorAdvancedStator" Subtype="LargeAdvancedStator" />
+                <Block Type="MyObjectBuilder_MotorAdvancedStator" Subtype="SmallAdvancedStatorSmall" />
+                <Block Type="MyObjectBuilder_MotorAdvancedRotor" Subtype="LargeAdvancedRotor" />
+                <Block Type="MyObjectBuilder_MotorAdvancedRotor" Subtype="SmallAdvancedRotorSmall" />
+                <Block Type="MyObjectBuilder_MotorAdvancedStator" Subtype="SmallAdvancedStator" />
+                <Block Type="MyObjectBuilder_MotorAdvancedRotor" Subtype="SmallAdvancedRotor" />
+            </Blocks>
+        </BlockVariantGroup>
+
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="HingeGroup" />
+            <Icon>Textures\GUI\Icons\Cubes\Hinge.dds</Icon>
+            <DisplayName>DisplayName_Block_Hinge</DisplayName>
+            <Description>Description_Rotor</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_MotorAdvancedStator" Subtype="LargeHinge" />
+                <Block Type="MyObjectBuilder_MotorAdvancedStator" Subtype="MediumHinge" />
+                <Block Type="MyObjectBuilder_MotorAdvancedStator" Subtype="SmallHinge" />
+                <Block Type="MyObjectBuilder_MotorAdvancedRotor" Subtype="LargeHingeHead" />
+                <Block Type="MyObjectBuilder_MotorAdvancedRotor" Subtype="MediumHingeHead" />
+                <Block Type="MyObjectBuilder_MotorAdvancedRotor" Subtype="SmallHingeHead" />
+
+		        <Block Type="MyObjectBuilder_MotorStator" Subtype="MA_Panel_Hinge2" />
+		        <Block Type="MyObjectBuilder_MotorStator" Subtype="MA_Panel_Hinge_sm" />
+                <Block Type="MyObjectBuilder_MotorRotor" Subtype="MA_Panel_Hinge_Part" />
+                <Block Type="MyObjectBuilder_MotorRotor" Subtype="MA_Panel_Hinge_Part_sm" />
+
+		        <Block Type="MyObjectBuilder_MotorAdvancedStator" Subtype="SmallCenterHinge" />
+		        <Block Type="MyObjectBuilder_MotorAdvancedStator" Subtype="SmallCornerHinge" />
+		        <Block Type="MyObjectBuilder_MotorAdvancedStator" Subtype="SmallWideHinge" />
+		        <Block Type="MyObjectBuilder_MotorAdvancedStator" Subtype="SmallLongHinge" />
+                <Block Type="MyObjectBuilder_MotorAdvancedRotor" Subtype="SmallSlimHingeHead" />
+            </Blocks>
+        </BlockVariantGroup>
+
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="FoodProductionGroup" />
+            <Icon>Textures\GUI\Icons\Cubes\food_processor.dds</Icon>
+            <DisplayName>DisplayName_Block_FoodProcessor</DisplayName>
+            <Description>Description_FoodProcessor</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_Assembler" Subtype="FoodProcessor" />
+                <Block Type="MyObjectBuilder_OxygenGenerator" Subtype="IrrigationSystem" />
+                <Block Type="MyObjectBuilder_FunctionalBlock" Subtype="LargeBlockFarmPlot" />
+                <Block Type="MyObjectBuilder_FunctionalBlock" Subtype="VerticalFarmPlot" />
+                <Block Type="MyObjectBuilder_FunctionalBlock" Subtype="InsetFarmPlot" />
+                <Block Type="MyObjectBuilder_FunctionalBlock" Subtype="Flat_Farm" />
+                <Block Type="MyObjectBuilder_FunctionalBlock" Subtype="farm_Block" />
+                <Block Type="MyObjectBuilder_FunctionalBlock" Subtype="LargeBlockAlgaeFarm" />
+                <Block Type="MyObjectBuilder_FunctionalBlock" Subtype="LargeBlockAlgaeFarmReskin" />
+            </Blocks>
+        </BlockVariantGroup>
+
+    <!--Mechanical Expansion-->
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="ExtraRotorGroup" />
+            <Icon>..\2840113284\Textures\GUI\Icons\Cubes\JunctionMotorStator.dds</Icon>
+            <DisplayName>More Rotor</DisplayName>
+            <Description>Description_Rotor</Description>
+            <Blocks>
+		        <Block Type="MyObjectBuilder_MotorAdvancedStator" Subtype="SmallJunctionMotorStatorSmall" />
+		        <Block Type="MyObjectBuilder_MotorAdvancedStator" Subtype="SmallRightMotorStatorSmall" />
+		        <Block Type="MyObjectBuilder_MotorAdvancedStator" Subtype="SmallWideRightMotorStatorSmall" />
+		        <Block Type="MyObjectBuilder_MotorAdvancedStator" Subtype="SmallWideJunctionMotorStatorSmall" />
+		        <Block Type="MyObjectBuilder_MotorAdvancedStator" Subtype="SmallAxleMotorStatorSmall" />
+                <Block Type="MyObjectBuilder_MotorRotor" Subtype="SmallAxleMotorRotorSmall" />
+		        <Block Type="MyObjectBuilder_MotorAdvancedStator" Subtype="SmallWideAxleMotorStatorSmall" />
+                <Block Type="MyObjectBuilder_MotorRotor" Subtype="SmallWideAxleMotorRotorSmall" />
+            </Blocks>
+        </BlockVariantGroup>
+
+        <BlockVariantGroup Enabled="false">
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="ExtraLandingGearGroup" />
+            <Icon>..\2840113284\Textures\GUI\Icons\Cubes\LandingGearStatorLeft.dds</Icon>
+            <DisplayName>Landing Gear Undercarriage</DisplayName>
+            <Description>Description_Rotor</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_MotorStator" Subtype="LandingGearStatorLeft" />
+                <Block Type="MyObjectBuilder_MotorStator" Subtype="LandingGearStatorRight" />
+                <Block Type="MyObjectBuilder_MotorRotor" Subtype="RealLandingGearWheel" />
+                <Block Type="MyObjectBuilder_SpaceBall" Subtype="LandingGearWheel" />
+            </Blocks>
+        </BlockVariantGroup>
+
+        <BlockVariantGroup Enabled="false">
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="ExtraHingeGroup" />
+            <Icon>..\2840113284\Textures\GUI\Icons\Cubes\CenterHingeSmall.dds</Icon>
+            <DisplayName>More Hinge</DisplayName>
+            <Description>Description_Rotor</Description>
+            <Blocks>
+		        <Block Type="MyObjectBuilder_MotorAdvancedStator" Subtype="SmallCenterHinge" />
+		        <Block Type="MyObjectBuilder_MotorAdvancedStator" Subtype="SmallCornerHinge" />
+		        <Block Type="MyObjectBuilder_MotorAdvancedStator" Subtype="SmallWideHinge" />
+		        <Block Type="MyObjectBuilder_MotorAdvancedStator" Subtype="SmallLongHinge" />
+                <Block Type="MyObjectBuilder_MotorAdvancedRotor" Subtype="SmallSlimHingeHead" />
+            </Blocks>
+        </BlockVariantGroup>
+
+        <BlockVariantGroup Enabled="false">
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="TrackHingeGroup" />
+            <Icon>..\2840113284\Textures\GUI\Icons\Cubes\TrackRailHingeBase.dds</Icon>
+            <DisplayName>Track Hinge</DisplayName>
+            <Description>Description_Rotor</Description>
+            <Blocks>
+		        <Block Type="MyObjectBuilder_MotorStator" Subtype="TrackRailHingeBase" />
+                <Block Type="MyObjectBuilder_MotorRotor" Subtype="TrackRailHingeHead" />
+                <Block Type="MyObjectBuilder_SpaceBall" Subtype="TrackWheel1x1" />
+                <Block Type="MyObjectBuilder_SpaceBall" Subtype="TrackWheel2x1" />
+                <Block Type="MyObjectBuilder_SpaceBall" Subtype="TrackWheel3x1" />
+                <Block Type="MyObjectBuilder_SpaceBall" Subtype="TrackWheel4x1" />
+                <Block Type="MyObjectBuilder_SpaceBall" Subtype="TrackWheel5x1" />
+            </Blocks>
+        </BlockVariantGroup>
+
+        <BlockVariantGroup Enabled="false">
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="DamperGroup" />
+            <Icon>..\2840113284\Textures\GUI\Icons\Cubes\SuspensionDamperBase.dds</Icon>
+            <DisplayName>Suspension Damper</DisplayName>
+            <Description>Description_MotorSuspension</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_MotorSuspension" Subtype="SuspensionDamperBase" />
+                <Block Type="MyObjectBuilder_Wheel" Subtype="SuspensionDamperTop" />
+                <Block Type="MyObjectBuilder_MotorSuspension" Subtype="HeavyDutySuspensionDamperBase" />
+                <Block Type="MyObjectBuilder_Wheel" Subtype="HeavyDutySuspensionDamperTop" />
+            </Blocks>
+        </BlockVariantGroup>
+        
+    </BlockVariantGroups>
+</Definitions>

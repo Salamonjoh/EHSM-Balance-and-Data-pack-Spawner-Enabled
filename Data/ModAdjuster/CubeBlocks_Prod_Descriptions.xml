@@ -1,0 +1,196 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CubeBlocks>
+
+  <!--Vanilla-->
+    <Definition xsi:type="MyObjectBuilder_AssemblerDefinition">
+      <Id>
+        <TypeId>Assembler</TypeId>
+        <SubtypeId>LargeAssembler</SubtypeId> <!--Mod Compat Assembler-->
+      </Id>
+			<Description>Assembles components and items from other mods. Borderline useless in EHSM, unless you've added more mods on-top
+			Power Usage: 1.5MW</Description>
+    </Definition>
+
+    <Definition xsi:type="MyObjectBuilder_AssemblerDefinition">
+      <Id>
+        <TypeId>Assembler</TypeId>
+        <SubtypeId>BasicAssembler</SubtypeId> <!--IO Assembling Bench renamed to Basic Assembling Bench-->
+      </Id>
+      <DisplayName>Basic Assembling Bench</DisplayName>
+			<Description>Starter equipment for assembling basic components by hand. Manually loaded and operated.
+			Power Usage: 100kW</Description>
+    </Definition>
+
+  <!--Industrial Overhaul-->
+		<Definition xsi:type="MyObjectBuilder_AssemblerDefinition">
+			<Id>
+				<TypeId>Assembler</TypeId>
+				<SubtypeId>BasicAssemblerSG</SubtypeId><!--IO Assembling Bench renamed to Basic Assembling Bench-->
+			</Id>
+			<DisplayName>Basic Assembling Bench</DisplayName>
+		</Definition>
+
+    <Definition xsi:type="MyObjectBuilder_AssemblerDefinition">
+      <Id>
+        <TypeId>Assembler</TypeId>
+        <SubtypeId>PolymerFactory</SubtypeId>
+      </Id>
+      <DisplayName>Synthetics Factory</DisplayName>
+      <Description>Produces Synthetic Polymer, processes Polymers into useful forms, and mixes Asphalt.
+	    Power Usage: 5MW</Description>
+    </Definition>
+  
+    <Definition xsi:type="MyObjectBuilder_AssemblerDefinition">
+      <Id>
+        <TypeId>Assembler</TypeId>
+        <SubtypeId>LargeAssemblerNew</SubtypeId>
+      </Id>
+      <DisplayName>Assembler</DisplayName>
+      <Description>Assembles basic components together to produce more complex items.
+	    Produces Medical and Radiaion Kits, Comms and Medical Components, Acid Power Cells, Motors, Thrust Catalysts, Solar Cells, Capacitors, and Cryocoolers.
+	    Power Usage: 1.5MW</Description>
+    </Definition>
+  
+    <Definition xsi:type="MyObjectBuilder_AssemblerDefinition">
+      <Id>
+        <TypeId>Assembler</TypeId>
+        <SubtypeId>Fabricator</SubtypeId>
+      </Id>
+      <DisplayName>Fabricator</DisplayName>
+      <Description>Automated production of basic components.
+	    Produces Basic Computers, Construction Components, Metal Grids, Electromagnets, Heating Elements, Lightbulbs, Powerkits, and Alkaline Power Cells.
+	    Power Usage: 1MW</Description>
+    </Definition>
+  
+    <Definition xsi:type="MyObjectBuilder_AssemblerDefinition">
+      <Id>
+        <TypeId>Assembler</TypeId>
+        <SubtypeId>SiliconFuser</SubtypeId>
+      </Id>
+      <DisplayName>Ceramics Furnace</DisplayName>
+      <Description>Melts materials together to make Glass and Ceramics.
+	    Power Usage: 3.5MW</Description>
+    </Definition>
+  
+    <Definition xsi:type="MyObjectBuilder_AssemblerDefinition">
+      <Id>
+        <TypeId>Assembler</TypeId>
+        <SubtypeId>CementKiln</SubtypeId>
+      </Id>
+      <DisplayName>Cement Kiln</DisplayName>
+      <Description>Processes and mixes Concrete.
+	    Power Usage: 3MW</Description>
+    </Definition>
+  
+    <Definition xsi:type="MyObjectBuilder_AssemblerDefinition">
+      <Id>
+        <TypeId>Assembler</TypeId>
+        <SubtypeId>MicroelectronicsFactory</SubtypeId>
+      </Id>
+      <DisplayName>Microelectronics Factory</DisplayName>
+      <Description>Advanced production machinery for delicate electronic components.
+	    Produces Basic and Advanced Computers, Thermocouples, Sensor Clusters, Hacking Chips, and Displays.
+	    Power Usage: 2MW</Description>
+    </Definition>
+  
+    <Definition xsi:type="MyObjectBuilder_AssemblerDefinition">
+      <Id>
+        <TypeId>Assembler</TypeId>
+        <SubtypeId>WireDrawer</SubtypeId>
+      </Id>
+      <DisplayName>Wire Drawer</DisplayName>
+      <Description>Draws and insulates Wire of various types.
+	    Power Usage: 1.5MW</Description>
+    </Definition>
+  
+    <Definition xsi:type="MyObjectBuilder_AssemblerDefinition">
+      <Id>
+        <TypeId>Assembler</TypeId>
+        <SubtypeId>AutoLoom</SubtypeId>
+      </Id>
+      <DisplayName>Auto Loom</DisplayName>
+      <Description>Weaves Synthetic Fabrics and Carbon Fiber Sheets.
+	    Power Usage: 1.5MW</Description>
+    </Definition>
+  
+    <Definition xsi:type="MyObjectBuilder_AssemblerDefinition">
+      <Id>
+        <TypeId>Assembler</TypeId>
+        <SubtypeId>PlateStamp</SubtypeId>
+      </Id>
+      <DisplayName>Plate Stamp</DisplayName>
+      <Description>Presses materials into Plates.
+	    Power Usage: 1.5MW</Description>
+    </Definition>
+  
+    <Definition xsi:type="MyObjectBuilder_AssemblerDefinition">
+      <Id>
+        <TypeId>Assembler</TypeId>
+        <SubtypeId>Extruder</SubtypeId>
+      </Id>
+      <DisplayName>Extruder</DisplayName>
+      <Description>Forms Tubes and Girders.
+	    Power Usage: 1.5MW</Description>
+    </Definition>
+  
+    <Definition xsi:type="MyObjectBuilder_AssemblerDefinition">
+      <Id>
+        <TypeId>Assembler</TypeId>
+        <SubtypeId>NanoAssembler</SubtypeId>
+      </Id>
+      <DisplayName>Nano-Assembler</DisplayName>
+      <Description>Specialized equipment for producing highly advanced quantum-effect components, requiring nano-scale precision.
+	    Produces Quantum Computers, Thruster and Gravity Components, Encabulators, Ion Catalysts, Potassium Cores, Full-Spectrum Solar Cells, Zone Chips, Electron-Matrix Cells, Demon Cores, and AI Chips.
+	    Power Usage: 7.5MW</Description>
+    </Definition>
+  
+    <Definition xsi:type="MyObjectBuilder_AssemblerDefinition">
+      <Id>
+        <TypeId>Assembler</TypeId>
+        <SubtypeId>MunitionsFactory</SubtypeId>
+      </Id>
+      <DisplayName>Munitions Factory</DisplayName>
+      <Description>Mixes Gunpowder, and produces various types of basic Ammunition and Explosives.
+	    Power Usage: 1MW</Description>
+    </Definition>
+  
+    <Definition xsi:type="MyObjectBuilder_AssemblerDefinition">
+      <Id>
+        <TypeId>Assembler</TypeId>
+        <SubtypeId>AdvancedAssembler</SubtypeId>
+      </Id>
+      <DisplayName>Advanced Assembler</DisplayName>
+      <Description>Advanced assembling machinery, capable of producing more intricate and compact components.
+	    Produces Laser Emitters, Lithium Power Cells, Nucleators, Advanced Motors, Reactor Components, Superconducting Magnets, Tokamak Blanket Plates, and Vacuum Cells.
+	    Power Usage: 4MW</Description>
+    </Definition>
+	
+    <Definition xsi:type="MyObjectBuilder_RefineryDefinition">
+      <Id>
+        <TypeId>Refinery</TypeId>
+        <SubtypeId>ChemicalPlant</SubtypeId>
+      </Id>
+      <Description>Refines Lithium, Niter, Sulfur, Pollucite, Potash, and extracts pure Carbon from Coal.
+	    Power Usage: 3.5MW</Description>
+    </Definition>
+
+    <!--Processing Buffs-->
+    <Definition xsi:type="MyObjectBuilder_RefineryDefinition">
+      <Id>
+        <TypeId>Refinery</TypeId>
+        <SubtypeId>RockCrusher</SubtypeId>
+      </Id>
+      <RefineSpeed>0.275</RefineSpeed>    
+    </Definition>	
+
+    <Definition xsi:type="MyObjectBuilder_RefineryDefinition">
+      <Id>
+        <TypeId>Refinery</TypeId>
+        <SubtypeId>OrePurifier</SubtypeId>
+      </Id>
+      <RefineSpeed>0.275</RefineSpeed>     
+    </Definition>    
+
+  </CubeBlocks>
+</Definitions>

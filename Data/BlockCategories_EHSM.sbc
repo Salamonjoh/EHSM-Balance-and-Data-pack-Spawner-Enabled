@@ -1,0 +1,57 @@
+<?xml version="1.0"  encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CategoryClasses>
+    <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+      <Id>
+        <TypeId>GuiBlockCategoryDefinition</TypeId>
+        <SubtypeId/>
+      </Id>
+      <DisplayName>DisplayName_Category_LargeBlocks</DisplayName>
+      <Name>LargeBlocks</Name>
+      <ItemIds>
+        <string>Reactor/WoodFurnace</string>
+        <string>Reactor/CoalFurnace</string>
+        <string>Reactor/EHSMScriptlessGasGen</string>
+        <string>Reactor/EHSMScriptlessOxygenGeneratorLab</string>
+      </ItemIds>
+    </Category>
+
+    <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+      <Id>
+        <TypeId>GuiBlockCategoryDefinition</TypeId>
+        <SubtypeId/>
+      </Id>
+      <DisplayName>DisplayName_Category_SmallBlocks</DisplayName>
+      <Name>SmallBlocks</Name>
+      <ItemIds>
+        <string>Reactor/WoodFurnaceSmall</string>
+        <string>Reactor/CoalFurnaceSmall</string>
+        <string>Reactor/EHSMOxygenGeneratorSmall</string>
+        <string>Reactor/EHSMSmallBlockOxygenGeneratorLab</string>
+      </ItemIds>
+    </Category>
+
+    <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+      <Id>
+        <TypeId>GuiBlockCategoryDefinition</TypeId>
+        <SubtypeId/>
+      </Id>
+      <DisplayName>DisplayName_Category_Production</DisplayName>
+      <Name>Production</Name>
+      <ItemIds>
+        <string>Reactor/WoodFurnace</string>
+        <string>Reactor/WoodFurnaceSmall</string>
+
+        <string>Reactor/CoalFurnace</string>
+        <string>Reactor/CoalFurnaceSmall</string>
+
+        <string>Reactor/EHSMScriptlessGasGen</string>
+        <string>Reactor/EHSMOxygenGeneratorSmall</string>
+        
+        <string>Reactor/EHSMScriptlessOxygenGeneratorLab</string>
+        <string>Reactor/EHSMSmallBlockOxygenGeneratorLab</string>
+      </ItemIds>
+    </Category>
+
+  </CategoryClasses>
+</Definitions>

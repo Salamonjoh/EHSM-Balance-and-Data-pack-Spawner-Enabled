@@ -1,0 +1,187 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<CubeBlocks>
+
+		<Definition xsi:type="MyObjectBuilder_LargeTurretBaseDefinition">
+			<Id>
+				<TypeId>LargeGatlingTurret</TypeId>
+				<SubtypeId/>
+			</Id>
+			<Description>Fast-shooting turret that can be loaded through conveyors. Uses Gatling Ammo Boxes
+
+Maximum Range: 1000m</Description>
+			<MaxRangeMeters>1000</MaxRangeMeters>
+		</Definition>
+
+		<Definition xsi:type="MyObjectBuilder_LargeTurretBaseDefinition">
+			<Id>
+				<TypeId>LargeGatlingTurret</TypeId>
+				<SubtypeId>SmallGatlingTurret</SubtypeId>
+			</Id>
+			<Description>Fast-shooting turret that can be loaded through conveyors. Uses Gatling Ammo Boxes
+			
+Maximum Range: 1000m</Description>
+			<MaxRangeMeters>1000</MaxRangeMeters>
+		</Definition>
+
+		<Definition xsi:type="MyObjectBuilder_LargeTurretBaseDefinition">
+			<Id>
+				<TypeId>LargeMissileTurret</TypeId>
+				<SubtypeId />
+			</Id>
+            <Description>Slow-shooting explosive damage dealing, rocket launcher that can be loaded through conveyors. Uses Rockets
+			
+AI Range: 1500m
+Maximum Range: 2500m</Description>
+			<MaxRangeMeters>1500</MaxRangeMeters>
+		</Definition>
+
+		<Definition xsi:type="MyObjectBuilder_LargeTurretBaseDefinition">
+			<Id>
+				<TypeId>LargeMissileTurret</TypeId>
+				<SubtypeId>SmallMissileTurret</SubtypeId>
+			</Id>
+            <Description>Slow-shooting explosive damage dealing, rocket launcher that can be loaded through conveyors. Uses Rockets
+			
+AI Range: 1500m
+Maximum Range: 2500m</Description>
+			<MaxRangeMeters>1500</MaxRangeMeters>
+		</Definition>
+
+		<Definition xsi:type="MyObjectBuilder_LargeTurretBaseDefinition">
+			<Id>
+				<TypeId>InteriorTurret</TypeId>
+				<SubtypeId>LargeInteriorTurret</SubtypeId>
+			</Id>
+            <Description>Autonomous anti-personell turret. Must be manually loaded with Light Turret Magazines
+			
+Maximum Range: 800m</Description>
+		</Definition>
+
+    <Definition xsi:type="MyObjectBuilder_LargeTurretBaseDefinition">
+      <Id>
+        <TypeId>InteriorTurret</TypeId>
+        <SubtypeId>SmallInteriorTurret</SubtypeId>
+      </Id>
+      <Description>Autonomous anti-personell turret. Must be manually loaded with Light Turret Magazines
+			
+Maximum Range: 800m</Description>
+    </Definition>
+
+		<Definition xsi:type="MyObjectBuilder_LargeTurretBaseDefinition">
+			<Id>
+				<TypeId>LargeMissileTurret</TypeId>
+				<SubtypeId>LargeCalibreTurret</SubtypeId>
+			</Id>
+			<MaxRangeMeters>2000</MaxRangeMeters>
+		</Definition>
+
+		<Definition xsi:type="MyObjectBuilder_LargeTurretBaseDefinition">
+			<Id>
+				<TypeId>LargeMissileTurret</TypeId>
+				<SubtypeId>LargeBlockMediumCalibreTurret</SubtypeId>
+			</Id>
+			<MaxRangeMeters>1500</MaxRangeMeters>
+		</Definition>
+
+		<Definition xsi:type="MyObjectBuilder_LargeTurretBaseDefinition">
+			<Id>
+				<TypeId>LargeMissileTurret</TypeId>
+				<SubtypeId>SmallBlockMediumCalibreTurret</SubtypeId>
+			</Id>
+			<MaxRangeMeters>1500</MaxRangeMeters>
+		</Definition>
+
+		<Definition xsi:type="MyObjectBuilder_LargeTurretBaseDefinition">
+			<Id>
+				<TypeId>LargeGatlingTurret</TypeId>
+				<SubtypeId>AutoCannonTurret</SubtypeId>
+			</Id>
+            <Description>Low rate of fire, with a good punch in a small turret. Uses Autocannon Magazines
+			
+Maximum Range: 1000m</Description>
+			<MaxRangeMeters>1000</MaxRangeMeters>
+		</Definition>
+
+		<Definition xsi:type="MyObjectBuilder_WeaponBlockDefinition">
+			<Id>
+				<TypeId>SmallMissileLauncher</TypeId>
+				<SubtypeId />
+			</Id>
+			<Description>Slow-shooting, explosive damage dealing, rocket launcher that must be loaded manually. Uses Rockets
+			
+Maximum Range: 2500m</Description>
+		</Definition>
+
+		<Definition xsi:type="MyObjectBuilder_WeaponBlockDefinition">
+			<Id>
+				<TypeId>SmallMissileLauncher</TypeId>
+				<SubtypeId>LargeMissileLauncher</SubtypeId>
+			</Id>
+			<Description>A bigger version of the rocket launcher, capable of using the conveyor system to automatically reload. Uses Rockets
+			
+Maximum Range: 2500m</Description>
+		</Definition>
+
+		<Definition xsi:type="MyObjectBuilder_WeaponBlockDefinition">
+			<Id>
+				<TypeId>SmallMissileLauncherReload</TypeId>
+				<SubtypeId>SmallRocketLauncherReload</SubtypeId>
+			</Id>
+			<Description>An advanced version of the rocket launcher, capable of using the conveyor system to automatically reload. Uses Rockets
+			
+Maximum Range: 2500m</Description>
+		</Definition>
+
+		<Definition xsi:type="MyObjectBuilder_WeaponBlockDefinition">
+			<Id>
+				<TypeId>SmallGatlingGun</TypeId>
+				<SubtypeId />
+			</Id>
+			<Description>Fast-shooting gun that can be loaded through conveyors. Uses Gatling Ammo Boxes
+			
+Maximum Range: 1000m</Description>
+		</Definition>
+
+		<Definition xsi:type="MyObjectBuilder_WeaponBlockDefinition">
+			<Id>
+				<TypeId>SmallGatlingGun</TypeId>
+				<SubtypeId>SmallBlockAutocannon</SubtypeId>
+			</Id>
+			<Description>Low rate of fire, with a good punch. Uses Autocannon Magazines
+			
+Maximum Range: 1000m</Description>
+		</Definition>
+
+		<Definition xsi:type="MyObjectBuilder_WeaponBlockDefinition">
+			<Id>
+				<TypeId>SmallMissileLauncherReload</TypeId>
+				<SubtypeId>SmallBlockMediumCalibreGun</SubtypeId>
+			</Id>
+			<Description>Slower and bigger sibling of the Autocannon. Deals decent damage to armored targets. Uses Assault Cannon Shells
+			
+Maximum Range: 1500m</Description>
+		</Definition>
+
+        <Definition xsi:type="MyObjectBuilder_WeaponBlockDefinition">
+            <Id>
+                <TypeId>SmallMissileLauncher</TypeId>
+                <SubtypeId>SmallMissileLauncherWarfare2</SubtypeId>
+            </Id>
+			<Description>An advanced version of the rocket launcher, capable of using the conveyor system to automatically reload. Uses Rockets
+			
+Maximum Range: 2500m</Description>
+        </Definition>
+
+        <Definition xsi:type="MyObjectBuilder_WeaponBlockDefinition">
+            <Id>
+                <TypeId>SmallGatlingGun</TypeId>
+                <SubtypeId>SmallGatlingGunWarfare2</SubtypeId>
+            </Id>
+			<Description>Fast-shooting gun that can be loaded through conveyors. Uses Gatling Ammo Boxes
+			
+Maximum Range: 1000m</Description>
+        </Definition>
+
+	</CubeBlocks>
+</Definitions>

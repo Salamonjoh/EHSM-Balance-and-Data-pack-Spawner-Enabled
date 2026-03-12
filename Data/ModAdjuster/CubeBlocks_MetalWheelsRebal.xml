@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CubeBlocks>
+	
+    <Definition xsi:type="MyObjectBuilder_MotorSuspensionDefinition">
+      <Id>
+        <TypeId>MotorSuspension</TypeId>
+        <SubtypeId>MetalWheelSuspension3x3</SubtypeId>
+      </Id>
+      <RequiredPowerInput>0.2</RequiredPowerInput>
+      <PropulsionForce>2000</PropulsionForce>
+      <MinHeight>-0.15</MinHeight>
+      <MaxHeight>0.05</MaxHeight>    
+    </Definition>
+	
+  </CubeBlocks>
+</Definitions>

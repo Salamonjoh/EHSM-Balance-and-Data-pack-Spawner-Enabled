@@ -1,0 +1,296 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <EntityComponents>
+
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>AccessPoint</SubtypeId>
+            </Id>
+            <Size x="1" y="1" z="0.4" />
+        </EntityComponent>
+
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>Connector</SubtypeId>
+            </Id>
+            <Size x="1" y="1" z="1.6" />
+        </EntityComponent>
+
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>ConnectorMedium</SubtypeId>
+            </Id>
+            <Size x="1" y="1" z="0.32" />
+        </EntityComponent>        
+
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>ConnectorSmall</SubtypeId>
+            </Id>
+            <Size x="1" y="1" z="0.032" />
+        </EntityComponent>            
+
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>LargeBlockInsetConnector</SubtypeId>
+            </Id>
+            <Size x="1" y="1" z="1.6" />
+        </EntityComponent>
+
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>LargeBlockInsetConnectorSmall</SubtypeId>
+            </Id>
+            <Size x="1" y="1" z="1.6" />
+        </EntityComponent>
+
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>SmallBlockInsetConnectorMedium</SubtypeId>
+            </Id>
+            <Size x="1" y="1" z="0.32" />
+        </EntityComponent>     
+
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>SmallBlockInsetConnector</SubtypeId>
+            </Id>
+            <Size x="1" y="1" z="0.032" />
+        </EntityComponent>  
+
+    <!--Federal Storage-->
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>Industrial Storage</SubtypeId>
+            </Id>
+            <Size x="15" y="7.5" z="22.5" />
+            <InputConstraint Whitelist="false" Description="Industrial Storage"> 
+                <Entry Type="PhysicalObject" Subtype="SpaceCredit" />
+            </InputConstraint>
+        </EntityComponent>
+
+	    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>Industrial Storage SG</SubtypeId>
+            </Id>
+            <Size x="5.5" y="2.5" z="7.5" />
+            <InputConstraint Whitelist="false" Description="Industrial Storage"> 
+                <Entry Type="PhysicalObject" Subtype="SpaceCredit" />
+            </InputConstraint>
+        </EntityComponent>   
+
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>Stone Storage</SubtypeId>
+            </Id>
+            <Size x="15" y="7.5" z="22.5" />
+            <InputConstraint Whitelist="true" Description="Ores">
+      	        <Entry Type="Ore" /> 
+            </InputConstraint>
+        </EntityComponent>
+
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>Stone Storage SG</SubtypeId>
+            </Id>
+            <Size x="5.5" y="2.5" z="7.5" />
+            <InputConstraint Whitelist="true" Description="Ores">
+      	        <Entry Type="Ore" /> 
+            </InputConstraint>
+        </EntityComponent>
+
+    <!--Farm Plots-->
+        <EntityComponent xsi:type="MyObjectBuilder_FarmPlotLogicDefinition">
+            <Id>
+                <TypeId>FarmPlotLogic</TypeId>
+                <SubtypeId>VerticalPlot</SubtypeId>
+            </Id>
+            <PowerConsumption>0.015</PowerConsumption>
+            <SeedsRequired>1</SeedsRequired>
+            <WhitelistedSeeds>
+                <SeedId>
+                    <TypeId>SeedItem</TypeId>
+                    <SubtypeId>Fruit</SubtypeId>
+                </SeedId>
+                <SeedId>
+                    <TypeId>SeedItem</TypeId>
+                    <SubtypeId>Grain</SubtypeId>
+                </SeedId>
+                <SeedId>
+                    <TypeId>SeedItem</TypeId>
+                    <SubtypeId>Mushrooms</SubtypeId>
+                </SeedId>
+                <SeedId>
+                    <TypeId>SeedItem</TypeId>
+                    <SubtypeId>Vegetables</SubtypeId>
+                </SeedId>
+                <SeedId>
+                    <TypeId>SeedItem</TypeId>
+                    <SubtypeId>PotatoSeeds</SubtypeId>
+                </SeedId>
+                <SeedId>
+                    <TypeId>SeedItem</TypeId>
+                    <SubtypeId>CoffeeBean</SubtypeId>
+                </SeedId>
+            </WhitelistedSeeds>
+            <PlantGrowthMinutes>18</PlantGrowthMinutes>
+            <ItemGatherSound>PlayGatherBush</ItemGatherSound>
+            <ItemGatherParticleEffect>GatherPlant</ItemGatherParticleEffect>
+            <ResourceSinkGroup>Factory</ResourceSinkGroup>
+            <ConsumedResourceId>
+                <TypeId>GasProperties</TypeId>
+                <SubtypeId>Water</SubtypeId>
+            </ConsumedResourceId>
+            <DamagePerMinuteWithoutWater>10</DamagePerMinuteWithoutWater>
+            <HealthLossPerThreeSecondsInExtremeTemp>30</HealthLossPerThreeSecondsInExtremeTemp>
+        </EntityComponent>
+
+        <EntityComponent xsi:type="MyObjectBuilder_FarmPlotLogicDefinition">
+            <Id>
+                <TypeId>FarmPlotLogic</TypeId>
+                <SubtypeId>InsetPlot</SubtypeId>
+            </Id>
+            <PowerConsumption>0.015</PowerConsumption>
+            <SeedsRequired>1</SeedsRequired>
+            <WhitelistedSeeds>
+                <SeedId>
+                    <TypeId>SeedItem</TypeId>
+                    <SubtypeId>Fruit</SubtypeId>
+                </SeedId>
+                <SeedId>
+                    <TypeId>SeedItem</TypeId>
+                    <SubtypeId>Grain</SubtypeId>
+                </SeedId>
+                <SeedId>
+                    <TypeId>SeedItem</TypeId>
+                    <SubtypeId>Mushrooms</SubtypeId>
+                </SeedId>
+                <SeedId>
+                    <TypeId>SeedItem</TypeId>
+                    <SubtypeId>Vegetables</SubtypeId>
+                </SeedId>
+                <SeedId>
+                    <TypeId>SeedItem</TypeId>
+                    <SubtypeId>PotatoSeeds</SubtypeId>
+                </SeedId>
+                <SeedId>
+                    <TypeId>SeedItem</TypeId>
+                    <SubtypeId>CoffeeBean</SubtypeId>
+                </SeedId>
+            </WhitelistedSeeds>
+            <PlantGrowthMinutes>18</PlantGrowthMinutes>
+            <ItemGatherSound>PlayGatherBush</ItemGatherSound>
+            <ItemGatherParticleEffect>GatherPlant</ItemGatherParticleEffect>
+            <ResourceSinkGroup>Factory</ResourceSinkGroup>
+            <ConsumedResourceId>
+                <TypeId>GasProperties</TypeId>
+                <SubtypeId>Water</SubtypeId>
+            </ConsumedResourceId>
+            <DamagePerMinuteWithoutWater>10</DamagePerMinuteWithoutWater>
+            <HealthLossPerThreeSecondsInExtremeTemp>30</HealthLossPerThreeSecondsInExtremeTemp>
+        </EntityComponent>
+
+        <EntityComponent xsi:type="MyObjectBuilder_FarmPlotLogicDefinition">
+            <Id>
+                <TypeId>FarmPlotLogic</TypeId>
+                <SubtypeId>Flat_Farm</SubtypeId>
+            </Id>
+            <PowerConsumption>0.015</PowerConsumption>
+            <SeedsRequired>1</SeedsRequired>
+            <WhitelistedSeeds>
+                <SeedId>
+                    <TypeId>SeedItem</TypeId>
+                    <SubtypeId>Fruit</SubtypeId>
+                </SeedId>
+                <SeedId>
+                    <TypeId>SeedItem</TypeId>
+                    <SubtypeId>Grain</SubtypeId>
+                </SeedId>
+                <SeedId>
+                    <TypeId>SeedItem</TypeId>
+                    <SubtypeId>Mushrooms</SubtypeId>
+                </SeedId>
+                <SeedId>
+                    <TypeId>SeedItem</TypeId>
+                    <SubtypeId>Vegetables</SubtypeId>
+                </SeedId>
+                <SeedId>
+                    <TypeId>SeedItem</TypeId>
+                    <SubtypeId>PotatoSeeds</SubtypeId>
+                </SeedId>
+                <SeedId>
+                    <TypeId>SeedItem</TypeId>
+                    <SubtypeId>CoffeeBean</SubtypeId>
+                </SeedId>
+            </WhitelistedSeeds>
+            <PlantGrowthMinutes>18</PlantGrowthMinutes>
+            <ItemGatherSound>PlayGatherBush</ItemGatherSound>
+            <ItemGatherParticleEffect>GatherPlant</ItemGatherParticleEffect>
+            <ResourceSinkGroup>Factory</ResourceSinkGroup>
+            <ConsumedResourceId>
+                <TypeId>GasProperties</TypeId>
+                <SubtypeId>Water</SubtypeId>
+            </ConsumedResourceId>
+            <DamagePerMinuteWithoutWater>10</DamagePerMinuteWithoutWater>
+            <HealthLossPerThreeSecondsInExtremeTemp>30</HealthLossPerThreeSecondsInExtremeTemp>
+        </EntityComponent>
+
+        <EntityComponent xsi:type="MyObjectBuilder_FarmPlotLogicDefinition">
+            <Id>
+                <TypeId>FarmPlotLogic</TypeId>
+                <SubtypeId>farm_Block</SubtypeId>
+            </Id>
+            <PowerConsumption>0.015</PowerConsumption>
+            <SeedsRequired>1</SeedsRequired>
+            <WhitelistedSeeds>
+                <SeedId>
+                    <TypeId>SeedItem</TypeId>
+                    <SubtypeId>Fruit</SubtypeId>
+                </SeedId>
+                <SeedId>
+                    <TypeId>SeedItem</TypeId>
+                    <SubtypeId>Grain</SubtypeId>
+                </SeedId>
+                <SeedId>
+                    <TypeId>SeedItem</TypeId>
+                    <SubtypeId>Mushrooms</SubtypeId>
+                </SeedId>
+                <SeedId>
+                    <TypeId>SeedItem</TypeId>
+                    <SubtypeId>Vegetables</SubtypeId>
+                </SeedId>
+                <SeedId>
+                    <TypeId>SeedItem</TypeId>
+                    <SubtypeId>PotatoSeeds</SubtypeId>
+                </SeedId>
+                <SeedId>
+                    <TypeId>SeedItem</TypeId>
+                    <SubtypeId>CoffeeBean</SubtypeId>
+                </SeedId>
+            </WhitelistedSeeds>
+            <PlantGrowthMinutes>18</PlantGrowthMinutes>
+            <ItemGatherSound>PlayGatherBush</ItemGatherSound>
+            <ItemGatherParticleEffect>GatherPlant</ItemGatherParticleEffect>
+            <ResourceSinkGroup>Factory</ResourceSinkGroup>
+            <ConsumedResourceId>
+                <TypeId>GasProperties</TypeId>
+                <SubtypeId>Water</SubtypeId>
+            </ConsumedResourceId>
+            <DamagePerMinuteWithoutWater>10</DamagePerMinuteWithoutWater>
+            <HealthLossPerThreeSecondsInExtremeTemp>30</HealthLossPerThreeSecondsInExtremeTemp>
+        </EntityComponent>
+
+    </EntityComponents>
+</Definitions>

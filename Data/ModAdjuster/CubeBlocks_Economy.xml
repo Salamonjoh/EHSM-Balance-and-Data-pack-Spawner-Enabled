@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <CubeBlocks>
+
+        <Definition xsi:type="MyObjectBuilder_SafeZoneBlockDefinition">
+            <Id>
+                <TypeId>SafeZoneBlock</TypeId>
+                <SubtypeId>SafeZoneBlock</SubtypeId>
+            </Id>
+      <Components>            
+	  	  <Component Subtype="SteelPlate" Count="250">
+                 <DeconstructId>                
+                   <TypeId>Ore</TypeId>
+                   <SubtypeId>SteelPlateScrap</SubtypeId>
+                 </DeconstructId>
+               </Component>
+		    <Component Subtype="Construction" Count="180">
+                 <DeconstructId>                
+                   <TypeId>Ore</TypeId>
+                   <SubtypeId>ConstructionScrap</SubtypeId>
+                 </DeconstructId>
+               </Component>   
+		    <Component Subtype="GoldWire" Count="120">
+                 <DeconstructId>                
+                   <TypeId>Ore</TypeId>
+                   <SubtypeId>GoldWireScrap</SubtypeId>
+                 </DeconstructId>
+               </Component>                              
+		    <Component Subtype="MetalGrid" Count="100">
+                 <DeconstructId>                
+                   <TypeId>Ore</TypeId>
+                   <SubtypeId>MetalGridScrap</SubtypeId>
+                 </DeconstructId>
+               </Component>
+        <Component Subtype="Shield" Count="200">
+                 <DeconstructId>                
+                   <TypeId>Ore</TypeId>
+                   <SubtypeId>ShieldScrap</SubtypeId>
+                 </DeconstructId>
+               </Component>
+        <Component Subtype="ZoneChip" Count="20" />               
+		    <Component Subtype="Superconductor" Count="200">
+                 <DeconstructId>                
+                   <TypeId>Ore</TypeId>
+                   <SubtypeId>SuperconductorScrap</SubtypeId>
+                 </DeconstructId>
+               </Component>
+		    <Component Subtype="GravityGenerator" Count="20">
+                 <DeconstructId>                
+                   <TypeId>Ore</TypeId>
+                   <SubtypeId>GravityGeneratorScrap</SubtypeId>
+                 </DeconstructId>
+               </Component>    
+		    <Component Subtype="Computer" Count="200">
+                 <DeconstructId>                
+                   <TypeId>Ore</TypeId>
+                   <SubtypeId>ComputerScrap</SubtypeId>
+                 </DeconstructId>
+               </Component>
+		    <Component Subtype="QuantumComputer" Count="120">
+                 <DeconstructId>                
+                   <TypeId>Ore</TypeId>
+                   <SubtypeId>QuantumComputerScrap</SubtypeId>
+                 </DeconstructId>
+               </Component>
+		    <Component Subtype="SteelPlate" Count="50">
+                 <DeconstructId>                
+                   <TypeId>Ore</TypeId>
+                   <SubtypeId>SteelPlateScrap</SubtypeId>
+                 </DeconstructId>
+               </Component>
+      </Components>
+      <CriticalComponent Subtype="QuantumComputer" Index="0" />
+        </Definition>
+
+    </CubeBlocks>
+</Definitions>

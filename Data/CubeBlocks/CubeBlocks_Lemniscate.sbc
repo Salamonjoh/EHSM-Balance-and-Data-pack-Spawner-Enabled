@@ -1,0 +1,54 @@
+<?xml version="1.0" ?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<CubeBlocks>
+		<Definition xsi:type="MyObjectBuilder_CargoContainerDefinition">
+			<Id>
+				<TypeId>CargoContainer</TypeId>
+				<SubtypeId>Lemniscate_Cargo_Container_3x3x1</SubtypeId>
+			</Id>
+			<DisplayName>Medium Cargo Container</DisplayName>
+			<Description>A medium sized 3x3x1 container used to store items</Description>
+			<Icon>..\3212253883\Textures\GUI\Icons\Cubes\Lemniscate_Cargo_Container_3x3x1.png</Icon>
+			<CubeSize>Large</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="3" z="3"/>
+			<ModelOffset x="0" y="0" z="0"/>
+			<Model>..\3212253883\Models\Cubes\large\Lemniscate_Cargo_Container_3x3x1.mwm</Model>
+			<Components>
+				<Component Subtype="InteriorPlate" Count="80" />
+				<Component Subtype="Construction" Count="20" />
+				<Component Subtype="MetalGrid" Count="8" />
+				<Component Subtype="CopperWire" Count="10" />
+				<Component Subtype="Motor" Count="10" />
+				<Component Subtype="Display" Count="1" />
+				<Component Subtype="Computer" Count="4" />
+				<Component Subtype="Construction" Count="10" />
+				<Component Subtype="InteriorPlate" Count="20" />
+			</Components>
+			<CriticalComponent Subtype="Computer" Index="0" />
+			<MountPoints>
+				<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="3.00"/>
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="3.00"/>
+				<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="3.00" EndY="3.00"/>
+				<MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="3.00" EndY="3.00"/>
+				<MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="1.00" EndY="3.00"/>
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="3.00"/>
+			</MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.33" File="..\3212253883\Models\Cubes\Large\Lemniscate_Cargo_Container_3x3x1_BS1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="..\3212253883\Models\Cubes\Large\Lemniscate_Cargo_Container_3x3x1_BS2.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="..\3212253883\Models\Cubes\Large\Lemniscate_Cargo_Container_3x3x1_BS3.mwm" />
+            </BuildProgressModels>
+			<BlockPairName>MediumCargoContainer</BlockPairName>
+			<MirroringY>Z</MirroringY>
+			<MirroringZ>Y</MirroringZ>
+			<EdgeType>Light</EdgeType>
+			<BuildTimeSeconds>90</BuildTimeSeconds>
+			<DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+			<DamagedSound>ParticleHeavyMech</DamagedSound>
+			<DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+			<DestroySound>WepSmallWarheadExpl</DestroySound>
+			<PCU>10</PCU>			
+		</Definition>
+	</CubeBlocks>
+</Definitions>

@@ -1,0 +1,59 @@
+<?xml version="1.0" ?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<CubeBlocks>
+	
+		<Definition xsi:type="MyObjectBuilder_LightingBlockDefinition">
+			<Id>
+				<TypeId>InteriorLight</TypeId>
+				<SubtypeId>JS_CorridorStair</SubtypeId>
+			</Id>
+            <Components>
+                <Component Subtype="InteriorPlate" Count="160">
+                <DeconstructId>                
+                    <TypeId>Ore</TypeId>
+                    <SubtypeId>InteriorPlateScrap</SubtypeId>
+                </DeconstructId>
+                </Component>
+                <Component Subtype="Construction" Count="40">
+                <DeconstructId>                
+                    <TypeId>Ore</TypeId>
+                    <SubtypeId>ConstructionScrap</SubtypeId>
+                </DeconstructId>
+                </Component>
+                <Component Subtype="InteriorPlate" Count="40">
+                <DeconstructId>                
+                    <TypeId>Ore</TypeId>
+                    <SubtypeId>InteriorPlateScrap</SubtypeId>
+                </DeconstructId>
+                </Component>
+                <Component Subtype="CopperWire" Count="2">
+                <DeconstructId>                
+                    <TypeId>Ore</TypeId>
+                    <SubtypeId>CopperWireScrap</SubtypeId>
+                </DeconstructId>
+                </Component>
+                <Component Subtype="Lightbulb" Count="2">
+                <DeconstructId>                
+                    <TypeId>Ore</TypeId>
+                    <SubtypeId>LightbulbScrap</SubtypeId>
+                </DeconstructId>
+                </Component>
+                <Component Subtype="Construction" Count="20">
+                <DeconstructId>                
+                    <TypeId>Ore</TypeId>
+                    <SubtypeId>ConstructionScrap</SubtypeId>
+                </DeconstructId>
+                </Component>
+                <Component Subtype="InteriorPlate" Count="10">
+                <DeconstructId>                
+                    <TypeId>Ore</TypeId>
+                    <SubtypeId>InteriorPlateScrap</SubtypeId>
+                </DeconstructId>
+                </Component>
+            </Components>
+            <CriticalComponent Subtype="Lightbulb" Index="0" />
+		</Definition>
+
+	</CubeBlocks>
+</Definitions>

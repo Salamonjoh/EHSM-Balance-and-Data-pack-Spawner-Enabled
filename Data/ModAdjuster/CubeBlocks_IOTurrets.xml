@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+   <CubeBlocks>
+
+    <Definition xsi:type="MyObjectBuilder_LargeTurretBaseDefinition">
+      <Id>
+        <TypeId>LargeGatlingTurret</TypeId>
+        <SubtypeId>CLGGTurret</SubtypeId>
+      </Id>
+      <DisplayName>CLG Machine Gun Turret</DisplayName>
+	  <Description>A medium fire rate, low damage turret that fires hydrogen-based projectiles. Uses CLG Autocannon Magazines
+    
+Maximum Range: 1000m</Description>
+    </Definition>
+
+    <Definition xsi:type="MyObjectBuilder_LargeTurretBaseDefinition">
+      <Id>
+        <TypeId>LargeMissileTurret</TypeId>
+        <SubtypeId>305mmDoubleTurret</SubtypeId>
+      </Id>
+	  <Description>A huge twin-barrel turret capable of doing heavy damage against armored targets. Uses 305mm Shells
+    
+Maximum Range: 3500m</Description>
+    </Definition>
+
+    <Definition xsi:type="MyObjectBuilder_LargeTurretBaseDefinition">
+      <Id>
+        <TypeId>LargeMissileTurret</TypeId>
+        <SubtypeId>305mmSingleTurret</SubtypeId>
+      </Id>
+	  <Description>A large single-barrel turret capable of doing heavy damage against armored targets. Uses 305mm Shells
+    
+Maximum Range: 3500m</Description>
+    </Definition>
+
+    <Definition xsi:type="MyObjectBuilder_LargeTurretBaseDefinition">
+      <Id>
+        <TypeId>LargeMissileTurret</TypeId>
+        <SubtypeId>155mmSingleTurret</SubtypeId>
+      </Id>
+	  <Description>A small single-barrel turret capable of doing medium damage against armored targets. Uses 155mm Shells
+    
+Maximum Range: 2000m</Description>
+    </Definition>
+
+    <Definition xsi:type="MyObjectBuilder_LargeTurretBaseDefinition">
+      <Id>
+        <TypeId>LargeMissileTurret</TypeId>
+        <SubtypeId>155mmSingleTurretLarge</SubtypeId>
+      </Id>
+	  <Description>A small single-barrel turret capable of doing medium damage against armored targets. Uses 155mm Shells
+    
+Maximum Range: 2000m</Description>
+    </Definition>
+
+    <Definition xsi:type="MyObjectBuilder_WeaponBlockDefinition">
+      <Id>
+        <TypeId>SmallMissileLauncher</TypeId>
+        <SubtypeId>155mmFixedCannon</SubtypeId>
+      </Id>
+	  <Description>A small gun capable of doing medium damage against armored targets. Uses 155mm Shells
+    
+Range: 2000m</Description>
+    </Definition>
+	
+    <Definition xsi:type="MyObjectBuilder_WeaponBlockDefinition">
+      <Id>
+        <TypeId>SmallMissileLauncher</TypeId>
+        <SubtypeId>305mmFixedCannon</SubtypeId>
+      </Id>
+	  <Description>A large gun capable of doing heavy damage against armored targets. Uses 305mm Shells
+    
+Range: 3500m</Description>
+    </Definition>
+
+    <Definition xsi:type="MyObjectBuilder_LargeTurretBaseDefinition">
+      <Id>
+        <TypeId>LargeGatlingTurret</TypeId>
+        <SubtypeId>LightGravelTurret</SubtypeId>
+      </Id>
+      <Description>Uses an electrically-powered piston to fire chunks of gravel with compressed air. Low damage, high fire rate. Good for short-range defense.
+      
+Maximum Range: 800m</Description>
+      <MaxRangeMeters>800</MaxRangeMeters>
+    </Definition>
+
+    <Definition xsi:type="MyObjectBuilder_LargeTurretBaseDefinition">
+      <Id>
+        <TypeId>LargeGatlingTurret</TypeId>
+        <SubtypeId>SmallLightGravelTurret</SubtypeId>
+      </Id>
+      <Description>Uses an electrically-powered piston to fire chunks of gravel with compressed air. Low damage, high fire rate. Good for short-range defense.
+      
+Maximum Range: 800m</Description>
+      <MaxRangeMeters>800</MaxRangeMeters>
+    </Definition>
+
+    <Definition xsi:type="MyObjectBuilder_LargeTurretBaseDefinition">
+      <Id>
+        <TypeId>LargeMissileTurret</TypeId>
+        <SubtypeId>HeavyGravelTurret</SubtypeId>
+      </Id>
+      <Description>Uses compressed air to fire a large stone. Long-range, decent damage, low fire rate.
+      
+Maximum Range: 1200m</Description>
+      <MaxRangeMeters>1200</MaxRangeMeters>   
+    </Definition>
+	
+   </CubeBlocks>
+</Definitions>

@@ -1,0 +1,180 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <CubeBlocks>
+
+    <Definition xsi:type="MyObjectBuilder_AssemblerDefinition">
+      <Id>
+        <TypeId>Assembler</TypeId>
+        <SubtypeId>BioLabor</SubtypeId>
+      </Id>
+      <DisplayName>Bio Lab</DisplayName>
+      <Description>The Bio Lab is used to study the behaviors of Algae for further growth in the LT Algae Farm. 
+
+Algae Cultures are used in new oxygen and hydrogen generation technology, as well as some low-level foods</Description>
+      <Components>
+        <Component Subtype="SteelPlate" Count="15">
+          <DeconstructId>                
+            <TypeId>Ore</TypeId>
+            <SubtypeId>SteelPlateScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Construction" Count="20">
+          <DeconstructId>                
+            <TypeId>Ore</TypeId>
+            <SubtypeId>ConstructionScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="CopperWire" Count="15">
+          <DeconstructId>                
+            <TypeId>Ore</TypeId>
+            <SubtypeId>CopperWireScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="SmallTube" Count="6">
+          <DeconstructId>                
+            <TypeId>Ore</TypeId>
+            <SubtypeId>SmallTubeScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Motor" Count="4">
+          <DeconstructId>                
+            <TypeId>Ore</TypeId>
+            <SubtypeId>MotorScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="BulletproofGlass" Count="10">
+          <DeconstructId>                
+            <TypeId>Ore</TypeId>
+            <SubtypeId>BulletproofGlassScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="HeatingElement" Count="6">
+          <DeconstructId>                
+            <TypeId>Ore</TypeId>
+            <SubtypeId>HeatingElementScrap</SubtypeId>
+          </DeconstructId>
+        </Component>     
+        <Component Subtype="Computer" Count="10">
+          <DeconstructId>                
+            <TypeId>Ore</TypeId>
+            <SubtypeId>ComputerScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="SteelPlate" Count="5">
+          <DeconstructId>                
+            <TypeId>Ore</TypeId>
+            <SubtypeId>SteelPlateScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+    </Definition>
+
+    <Definition xsi:type="MyObjectBuilder_OxygenFarmDefinition">
+        <Id>
+            <TypeId>OxygenFarm</TypeId>
+            <SubtypeId>AlgaeHydrogenFarm</SubtypeId>
+        </Id>
+        <ProducedGas>
+            <Id>
+                <TypeId>GasProperties</TypeId>
+                <SubtypeId>Hydrogen</SubtypeId>
+            </Id>
+            <MaxOutputPerSecond>16</MaxOutputPerSecond>
+        </ProducedGas>
+        <OperationalPowerConsumption>0.2</OperationalPowerConsumption>
+    </Definition>
+
+    <Definition xsi:type="MyObjectBuilder_OxygenFarmDefinition">
+        <Id>
+            <TypeId>OxygenFarm</TypeId>
+            <SubtypeId>SG_HydrodenAlgaeFarm</SubtypeId>
+         </Id>
+        <ProducedGas>
+            <Id>
+                <TypeId>GasProperties</TypeId>
+                <SubtypeId>Hydrogen</SubtypeId>
+            </Id>
+            <MaxOutputPerSecond>1.6</MaxOutputPerSecond>
+        </ProducedGas>
+        <OperationalPowerConsumption>0.1</OperationalPowerConsumption>
+    </Definition>
+
+    <Definition xsi:type="MyObjectBuilder_AssemblerDefinition">
+      <Id>
+        <TypeId>Assembler</TypeId>
+        <SubtypeId>AlgaeFarm</SubtypeId>
+      </Id>
+      <DisplayName>LT Algae Farm</DisplayName>
+    </Definition>
+
+    <Definition xsi:type="MyObjectBuilder_AssemblerDefinition">
+      <Id>
+        <TypeId>Assembler</TypeId>
+        <SubtypeId>SG_AlgaeFarm</SubtypeId>
+      </Id>
+      <DisplayName>LT Algae Farm</DisplayName>
+    </Definition>
+
+    <Definition xsi:type="MyObjectBuilder_RefineryDefinition">
+        <Id>
+            <TypeId>Refinery</TypeId>
+            <SubtypeId>Waterfilter</SubtypeId>
+        </Id>
+        <DisplayName>Algae Biofilter</DisplayName>
+        <Description>The Algae Biofilter breaks down Alien and Lake Ice and separates out any Algae contents while leaving behind purified Ice</Description>
+        <Components>
+            <Component Subtype="SteelPlate" Count="50">
+                 <DeconstructId>                
+                   <TypeId>Ore</TypeId>
+                   <SubtypeId>SteelPlateScrap</SubtypeId>
+                 </DeconstructId>
+               </Component>
+            <Component Subtype="Construction" Count="15">
+                 <DeconstructId>                
+                   <TypeId>Ore</TypeId>
+                   <SubtypeId>ConstructionScrap</SubtypeId>
+                 </DeconstructId>
+               </Component>
+            <Component Subtype="CopperWire" Count="20">
+                 <DeconstructId>                
+                   <TypeId>Ore</TypeId>
+                   <SubtypeId>CopperWireScrap</SubtypeId>
+                 </DeconstructId>
+               </Component>               
+            <Component Subtype="LargeTube" Count="10">
+                 <DeconstructId>                
+                   <TypeId>Ore</TypeId>
+                   <SubtypeId>LargeTubeScrap</SubtypeId>
+                 </DeconstructId>
+               </Component>
+            <Component Subtype="Motor" Count="30">
+                 <DeconstructId>                
+                   <TypeId>Ore</TypeId>
+                   <SubtypeId>MotorScrap</SubtypeId>
+                 </DeconstructId>
+               </Component>
+            <Component Subtype="Ceramic" Count="20">
+                 <DeconstructId>                
+                   <TypeId>Ore</TypeId>
+                   <SubtypeId>CeramicScrap</SubtypeId>
+                 </DeconstructId>
+               </Component>
+            <Component Subtype="Computer" Count="20">
+                 <DeconstructId>                
+                   <TypeId>Ore</TypeId>
+                   <SubtypeId>ComputerScrap</SubtypeId>
+                 </DeconstructId>
+               </Component>
+            <Component Subtype="SteelPlate" Count="20">
+                 <DeconstructId>                
+                   <TypeId>Ore</TypeId>
+                   <SubtypeId>SteelPlateScrap</SubtypeId>
+                 </DeconstructId>
+               </Component>
+        </Components>
+        <CriticalComponent Subtype="Computer" Index="0" />
+    </Definition>
+ 
+    </CubeBlocks>
+</Definitions>

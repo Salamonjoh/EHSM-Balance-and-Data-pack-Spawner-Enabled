@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <CubeBlocks>
+
+        <Definition xsi:type="MyObjectBuilder_TurretControlBlockDefinition">
+            <Id>
+                <TypeId>TurretControlBlock</TypeId>
+                <SubtypeId>LargeTurretControlBlock</SubtypeId>
+            </Id>
+            <Description>Controls custom rotor &amp; hinge structures. Can be used for solar arrays or weapons. Remember to double check the range of your munitions!
+AI Range: 2000m</Description>
+            <MaxRangeMeters>2000</MaxRangeMeters>
+        </Definition>
+        
+        <Definition xsi:type="MyObjectBuilder_TurretControlBlockDefinition">
+            <Id>
+                <TypeId>TurretControlBlock</TypeId>
+                <SubtypeId>SmallTurretControlBlock</SubtypeId>
+            </Id>
+            <Description>Controls custom rotor &amp; hinge structures. Can be used for solar arrays or weapons. Remember to double check the range of your munitions!
+AI Range: 2000m</Description>
+            <MaxRangeMeters>2000</MaxRangeMeters>
+        </Definition>
+
+    </CubeBlocks>
+</Definitions>
